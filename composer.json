@@ -1,0 +1,22 @@
+{
+    "name": "webmedya/form-builder",
+    "description": "Custom form builder",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Web Medya",
+            "email": "info@webmedya.com.tr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master",
+        "jasongrimes/paginator": "~1.0",
+        "mailgun/mailgun-php": "^3.0@dev",
+        "kriswallsmith/buzz": "dev-master",
+        "nyholm/psr7": "^1.0@dev",
+        "stripe/stripe-php": "^7.0",
+        "chriskonnertz/string-calc": "dev-master",
+        "paypal/paypal-checkout-sdk": "dev-master"
+    }
+}

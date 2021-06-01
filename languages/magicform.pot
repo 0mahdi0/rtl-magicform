@@ -1,0 +1,2854 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Magic Form\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 15:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#: admin/class-magicform-dashboard.php:88
+msgid "Unread Submissions"
+msgstr ""
+
+#: admin/class-magicform-dashboard.php:170
+msgid "License is free"
+msgstr ""
+
+#: admin/class-magicform-dashboard.php:196
+#: admin/class-magicform-dashboard.php:240
+#: admin/class-magicform-dashboard.php:274
+msgid "An error occurred when reach license server!"
+msgstr ""
+
+#: admin/class-magicform-dashboard.php:210
+msgid "License code is required"
+msgstr ""
+
+#: admin/class-magicform-dashboard.php:214
+msgid "Domain is required"
+msgstr ""
+
+#: admin/class-magicform-dashboard.php:287
+msgid "Message is required"
+msgstr ""
+
+#: admin/class-magicform-dashboard.php:306
+msgid "Thank you for your feedback."
+msgstr ""
+
+#: admin/class-magicform-dashboard.php:311
+msgid "An error occurred when reach feedback server!"
+msgstr ""
+
+#: admin/class-magicform-forms.php:91
+msgid "You have to purchase for create limitless forms"
+msgstr ""
+
+#: admin/class-magicform-forms.php:98 admin/class-magicform-templates.php:75
+msgid "Form name is required"
+msgstr ""
+
+#: admin/class-magicform-importexport.php:128
+#: admin/views/forms/client-language.php:481
+msgid "This file type is not allowed"
+msgstr ""
+
+#: admin/class-magicform-importexport.php:133
+#: admin/views/forms/client-language.php:479
+msgid "You have to add form name"
+msgstr ""
+
+#: admin/class-magicform-importexport.php:139
+#: admin/views/forms/client-language.php:482
+msgid "Your data is not valid"
+msgstr ""
+
+#: admin/class-magicform-settings.php:92
+msgid "Smtp host is required"
+msgstr ""
+
+#: admin/class-magicform-settings.php:96
+msgid "Email is required"
+msgstr ""
+
+#: admin/class-magicform-settings.php:100
+msgid "Password is required"
+msgstr ""
+
+#: admin/class-magicform-settings.php:104
+msgid "Smtp port is required"
+msgstr ""
+
+#: admin/class-magicform-settings.php:123
+#: admin/class-magicform-settings.php:143
+#: admin/class-magicform-settings.php:165
+#: admin/class-magicform-settings.php:196
+#: admin/class-magicform-settings.php:217
+#: admin/class-magicform-settings.php:237
+#: admin/class-magicform-settings.php:257
+msgid "Settings Saved."
+msgstr ""
+
+#: admin/class-magicform-settings.php:134
+msgid "Google api key is required"
+msgstr ""
+
+#: admin/class-magicform-settings.php:177
+msgid "SendGrid api key is required"
+msgstr ""
+
+#: admin/class-magicform-settings.php:181
+msgid "SendGrid verify from mail address is required"
+msgstr ""
+
+#: admin/class-magicform-settings.php:206
+msgid "Sengrid api key is required"
+msgstr ""
+
+#: admin/class-magicform-settings.php:228
+msgid "MailChimp api key is required"
+msgstr ""
+
+#: admin/class-magicform-settings.php:248
+msgid "GetResponse api key is required"
+msgstr ""
+
+#: admin/class-magicform-submissions.php:421
+msgid "Something is wrong with CSRF token"
+msgstr ""
+
+#: admin/class-magicform-submissions.php:516
+msgid "Please select a submission at least"
+msgstr ""
+
+#: admin/views/components/404.php:5
+msgid "MagicForm Submissions"
+msgstr ""
+
+#: admin/views/components/404.php:8
+msgid "Page not found"
+msgstr ""
+
+#: admin/views/components/404.php:11
+msgid "Sorry, but the page you were looking for could not be found."
+msgstr ""
+
+#: admin/views/components/404.php:14
+msgid "Go Back"
+msgstr ""
+
+#: admin/views/components/header-right.php:5
+#: admin/views/dashboard/dashboard.php:24
+msgid "Documentation"
+msgstr ""
+
+#: admin/views/components/header-right.php:10
+msgid "Support"
+msgstr ""
+
+#: admin/views/components/header-right.php:15
+#: admin/views/dashboard/feedback.php:8
+msgid "Feedback"
+msgstr ""
+
+#: admin/views/components/license-check.php:6
+#: admin/views/dashboard/license.php:28
+msgid "You do not have license for this plugin."
+msgstr ""
+
+#: admin/views/components/license-check.php:9
+#, php-format
+msgid "Go to <a href='%s'>dashboard</a> and activate your plugin!"
+msgstr ""
+
+#: admin/views/dashboard/dashboard.php:25
+msgid "Read documentation to learn how to use Magic Form."
+msgstr ""
+
+#: admin/views/dashboard/dashboard.php:28
+msgid "Read Documentation"
+msgstr ""
+
+#: admin/views/dashboard/dashboard.php:34
+msgid "Support & Help"
+msgstr ""
+
+#: admin/views/dashboard/dashboard.php:36
+msgid "Have a question? We've got answers!"
+msgstr ""
+
+#: admin/views/dashboard/dashboard.php:38
+#, php-format
+msgid "You can ask every question on email %s"
+msgstr ""
+
+#: admin/views/dashboard/dashboard.php:44
+msgid "Get Support"
+msgstr ""
+
+#: admin/views/dashboard/feedback.php:10
+msgid "Hi, we are thrilled you chose to purchase the magicform from us. "
+msgstr ""
+
+#: admin/views/dashboard/feedback.php:11
+msgid ""
+"We are working hard to build a higher quality product for our customers. We "
+"would love to learn more about your opinion."
+msgstr ""
+
+#: admin/views/dashboard/feedback.php:12
+msgid "Please give us your feedback. Thank you."
+msgstr ""
+
+#: admin/views/dashboard/feedback.php:15
+msgid "E-Mail (Optional)"
+msgstr ""
+
+#: admin/views/dashboard/feedback.php:16 admin/views/settings/settings.php:29
+msgid "Email"
+msgstr ""
+
+#: admin/views/dashboard/feedback.php:19 admin/views/dashboard/feedback.php:20
+msgid "Message"
+msgstr ""
+
+#: admin/views/dashboard/feedback.php:23
+msgid "Rating"
+msgstr ""
+
+#: admin/views/dashboard/feedback.php:42
+#: admin/views/forms/client-language.php:330
+msgid "Submit"
+msgstr ""
+
+#: admin/views/dashboard/latest-submissions.php:6
+msgid "Latest 10 Submissions"
+msgstr ""
+
+#: admin/views/dashboard/latest-submissions.php:10
+#: admin/views/submissions/submissions-print.php:25
+#: admin/views/submissions/submissions-print.php:75
+#: admin/views/submissions/submissions.php:51
+#: admin/views/submissions/submissions.php:122
+msgid "ID"
+msgstr ""
+
+#: admin/views/dashboard/latest-submissions.php:11
+#: admin/views/forms/client-language.php:104 admin/views/forms/modals.php:19
+#: admin/views/forms/modals.php:131
+#: admin/views/submissions/submission-print.php:151
+#: admin/views/submissions/submissions-print.php:26
+#: admin/views/submissions/submissions-print.php:76
+#: admin/views/submissions/submissions.php:52
+#: admin/views/submissions/submissions.php:123
+msgid "Form Name"
+msgstr ""
+
+#: admin/views/dashboard/latest-submissions.php:12
+#: admin/views/submissions/submissions-print.php:77
+#: admin/views/submissions/submissions.php:124
+msgid "Form Data"
+msgstr ""
+
+#: admin/views/dashboard/latest-submissions.php:13
+#: admin/views/submissions/submissions-print.php:27
+#: admin/views/submissions/submissions-print.php:78
+#: admin/views/submissions/submissions.php:53
+#: admin/views/submissions/submissions.php:125
+msgid "Create Date"
+msgstr ""
+
+#: admin/views/dashboard/latest-submissions.php:49
+#: admin/views/dashboard/stats.php:26
+msgid "See all submissions"
+msgstr ""
+
+#: admin/views/dashboard/latest-submissions.php:57
+msgid "There is no submission right now."
+msgstr ""
+
+#: admin/views/dashboard/license.php:3 admin/views/settings/settings.php:23
+msgid "License"
+msgstr ""
+
+#: admin/views/dashboard/license.php:7
+msgid "You have license for this plugin."
+msgstr ""
+
+#: admin/views/dashboard/license.php:10 admin/views/dashboard/license.php:32
+msgid "License Code"
+msgstr ""
+
+#: admin/views/dashboard/license.php:14
+msgid "Domain"
+msgstr ""
+
+#: admin/views/dashboard/license.php:21
+msgid "Deactivate Licence"
+msgstr ""
+
+#: admin/views/dashboard/license.php:30
+msgid "If you have a license code please activate plugin"
+msgstr ""
+
+#: admin/views/dashboard/license.php:37
+msgid "Activate Plugin"
+msgstr ""
+
+#: admin/views/dashboard/license.php:40
+msgid ""
+"Do not have license code. Please purchase license from codecanyon to use "
+"this plugin."
+msgstr ""
+
+#: admin/views/dashboard/license.php:43
+msgid "Purchase Plugin"
+msgstr ""
+
+#: admin/views/dashboard/stats.php:11
+msgid "Total Forms"
+msgstr ""
+
+#: admin/views/dashboard/stats.php:14 admin/views/forms/client-language.php:112
+msgid "Active"
+msgstr ""
+
+#: admin/views/dashboard/stats.php:15
+msgid "Inactive"
+msgstr ""
+
+#: admin/views/dashboard/stats.php:23
+msgid "Total Submissions"
+msgstr ""
+
+#: admin/views/dashboard/stats.php:34
+msgid "New Submissions"
+msgstr ""
+
+#: admin/views/dashboard/stats.php:37
+msgid "Read Submissions"
+msgstr ""
+
+#: admin/views/forms/client-language.php:3
+msgid "Build"
+msgstr ""
+
+#: admin/views/forms/client-language.php:4 admin/views/settings/settings.php:7
+msgid "Settings"
+msgstr ""
+
+#: admin/views/forms/client-language.php:5
+msgid "Actions"
+msgstr ""
+
+#: admin/views/forms/client-language.php:6
+msgid "Publish"
+msgstr ""
+
+#: admin/views/forms/client-language.php:7
+msgid "Preview"
+msgstr ""
+
+#: admin/views/forms/client-language.php:8 admin/views/forms/modals.php:123
+#: admin/views/forms/modals.php:146
+#: admin/views/importexport/importexport.php:30
+msgid "Import Form"
+msgstr ""
+
+#: admin/views/forms/client-language.php:9
+#: admin/views/importexport/form-list.php:11
+msgid "Export Form"
+msgstr ""
+
+#: admin/views/forms/client-language.php:10
+msgid "Save Form"
+msgstr ""
+
+#: admin/views/forms/client-language.php:11
+msgid "Last page can not be removed!"
+msgstr ""
+
+#: admin/views/forms/client-language.php:12
+msgid "THEME & COLORS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:13
+msgid "INPUT"
+msgstr ""
+
+#: admin/views/forms/client-language.php:14
+msgid "BUTTON"
+msgstr ""
+
+#: admin/views/forms/client-language.php:15
+msgid "FORM ID"
+msgstr ""
+
+#: admin/views/forms/client-language.php:16
+msgid "PAGE"
+msgstr ""
+
+#: admin/views/forms/client-language.php:17
+msgid "About Publish"
+msgstr ""
+
+#: admin/views/forms/client-language.php:18
+msgid "Magic form uses shortcode to add form to website"
+msgstr ""
+
+#: admin/views/forms/client-language.php:19
+#, php-format
+msgid "Learn how to use shortcode from <a href='%s' target='_blank'>here</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:20
+#, php-format
+msgid "<a href='%s' target='_blank'>Setup GetResponse Settings</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:21
+#, php-format
+msgid "<a href='%s' target='_blank'>Setup Email Settings</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:22
+#, php-format
+msgid "<a href='%s' target='_blank'>Setup MailChimp Settings</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:23
+#, php-format
+msgid "<a href='%s' target='_blank'>Setup SendGrid Settings</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:24
+#, php-format
+msgid "<a href='%s' target='_blank'>Purchase Plugin</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:25
+msgid "INLINE FORM"
+msgstr ""
+
+#: admin/views/forms/client-language.php:26
+msgid "here"
+msgstr ""
+
+#: admin/views/forms/client-language.php:27 admin/views/forms/modals.php:79
+msgid "Insert this shortcode to display inline (Recommended)"
+msgstr ""
+
+#: admin/views/forms/client-language.php:28
+msgid "Don't know how to use shortcodes"
+msgstr ""
+
+#: admin/views/forms/client-language.php:29
+msgid "Learn"
+msgstr ""
+
+#: admin/views/forms/client-language.php:30 admin/views/forms/modals.php:95
+msgid "Php usage to display form inline (Advanced Usage)"
+msgstr ""
+
+#: admin/views/forms/client-language.php:31 admin/views/forms/modals.php:87
+#: admin/views/forms/modals.php:103
+msgid "Copy"
+msgstr ""
+
+#: admin/views/forms/client-language.php:32
+msgid "Copied"
+msgstr ""
+
+#: admin/views/forms/client-language.php:33
+msgid "All Actions"
+msgstr ""
+
+#: admin/views/forms/client-language.php:34
+msgid "Integrations"
+msgstr ""
+
+#: admin/views/forms/client-language.php:35
+msgid "About Actions"
+msgstr ""
+
+#: admin/views/forms/client-language.php:36
+msgid "Actions triggered after form submit. You can add multiple actions"
+msgstr ""
+
+#: admin/views/forms/client-language.php:37
+msgid "Want to change action settings"
+msgstr ""
+
+#: admin/views/forms/client-language.php:38
+msgid "Just click on action 😊"
+msgstr ""
+
+#: admin/views/forms/client-language.php:39
+msgid "Click the switch on the right to activate action"
+msgstr ""
+
+#: admin/views/forms/client-language.php:40
+msgid "Add Action"
+msgstr ""
+
+#: admin/views/forms/client-language.php:41
+msgid "Save to Database"
+msgstr ""
+
+#: admin/views/forms/client-language.php:42
+msgid "test"
+msgstr ""
+
+#: admin/views/forms/client-language.php:43
+msgid "No action"
+msgstr ""
+
+#: admin/views/forms/client-language.php:44
+msgid "All submissions will be saved to database"
+msgstr ""
+
+#: admin/views/forms/client-language.php:45
+msgid "Table Name"
+msgstr ""
+
+#: admin/views/forms/client-language.php:46
+msgid "Table name can not change"
+msgstr ""
+
+#: admin/views/forms/client-language.php:47
+msgid "Save IP"
+msgstr ""
+
+#: admin/views/forms/client-language.php:48
+msgid "Visitor IP will be saved to database, and shown in submission detail"
+msgstr ""
+
+#: admin/views/forms/client-language.php:49
+msgid "Save User-Agent Info"
+msgstr ""
+
+#: admin/views/forms/client-language.php:50
+msgid ""
+"Visitor User-Agent info like Browser, Operating System... will be saved to "
+"database, and shown in submission detail"
+msgstr ""
+
+#: admin/views/forms/client-language.php:51
+msgid "Save Registered User Info"
+msgstr ""
+
+#: admin/views/forms/client-language.php:52
+msgid "Save WordPress logged in user name and email address to database"
+msgstr ""
+
+#: admin/views/forms/client-language.php:53
+msgid "Save"
+msgstr ""
+
+#: admin/views/forms/client-language.php:54
+msgid "Delete Action"
+msgstr ""
+
+#: admin/views/forms/client-language.php:55
+msgid "Send Email"
+msgstr ""
+
+#: admin/views/forms/client-language.php:56
+msgid "All submissions will be emailed to email address"
+msgstr ""
+
+#: admin/views/forms/client-language.php:57
+msgid "Auto Responder"
+msgstr ""
+
+#: admin/views/forms/client-language.php:58
+msgid "An auto responder email will sent to user"
+msgstr ""
+
+#: admin/views/forms/client-language.php:59
+msgid "See All Integrations"
+msgstr ""
+
+#: admin/views/forms/client-language.php:60
+#: admin/views/forms/client-language.php:61
+#: admin/views/forms/client-language.php:62
+msgid "You can add contacts to MailChimp lists"
+msgstr ""
+
+#: admin/views/forms/client-language.php:63
+msgid "You can add contacts to MailChimp audience list"
+msgstr ""
+
+#: admin/views/forms/client-language.php:64
+msgid "You can add contacts to SendGrid marketing campaign contact"
+msgstr ""
+
+#: admin/views/forms/client-language.php:65
+msgid "You can add contacts to Get Response lists"
+msgstr ""
+
+#: admin/views/forms/client-language.php:66
+msgid "You can protect your form from spam"
+msgstr ""
+
+#: admin/views/forms/client-language.php:67
+msgid "Add recaptcha to your form in build section by choosing \"Add Element\""
+msgstr ""
+
+#: admin/views/forms/client-language.php:68
+msgid "You can add google maps share location"
+msgstr ""
+
+#: admin/views/forms/client-language.php:69
+msgid ""
+"Add google maps to your form in build section by choosing \"Add Element\""
+msgstr ""
+
+#: admin/views/forms/client-language.php:70
+msgid "Please input sender email"
+msgstr ""
+
+#: admin/views/forms/client-language.php:71
+msgid "API Key Invalid"
+msgstr ""
+
+#: admin/views/forms/client-language.php:72
+msgid "Loading GetResponse"
+msgstr ""
+
+#: admin/views/forms/client-language.php:73
+msgid "Your API key may be invalid"
+msgstr ""
+
+#: admin/views/forms/client-language.php:74
+msgid "Setup Settings"
+msgstr ""
+
+#: admin/views/forms/client-language.php:75
+msgid "Sender"
+msgstr ""
+
+#: admin/views/forms/client-language.php:76
+msgid "GetResponse Settings Required"
+msgstr ""
+
+#: admin/views/forms/client-language.php:77
+msgid "Reply-To Email"
+msgstr ""
+
+#: admin/views/forms/client-language.php:78
+msgid "Please input send to"
+msgstr ""
+
+#: admin/views/forms/client-language.php:79
+msgid "Please input email"
+msgstr ""
+
+#: admin/views/forms/client-language.php:80
+msgid "Email Settings Required"
+msgstr ""
+
+#: admin/views/forms/client-language.php:81
+msgid "Please setup smtp settings in Settings"
+msgstr ""
+
+#: admin/views/forms/client-language.php:82
+msgid "Please setup sendgrid settings in Settings"
+msgstr ""
+
+#: admin/views/forms/client-language.php:83
+msgid "Please input email subject"
+msgstr ""
+
+#: admin/views/forms/client-language.php:84
+msgid "Replies to the submission email will go here"
+msgstr ""
+
+#: admin/views/forms/client-language.php:85
+msgid "Email Subject"
+msgstr ""
+
+#: admin/views/forms/client-language.php:86
+msgid "Send To"
+msgstr ""
+
+#: admin/views/forms/client-language.php:87
+#: public/views/components/countryList.php:14
+#: public/views/components/sub-components/countries.php:6
+#: public/views/components/sub-components/countryCodes.php:2
+msgid "Please Select"
+msgstr ""
+
+#: admin/views/forms/client-language.php:88
+msgid "Loading"
+msgstr ""
+
+#: admin/views/forms/client-language.php:89
+msgid "Loading MailChimp"
+msgstr ""
+
+#: admin/views/forms/client-language.php:90
+msgid "Mail List"
+msgstr ""
+
+#: admin/views/forms/client-language.php:91
+msgid "Email Field"
+msgstr ""
+
+#: admin/views/forms/client-language.php:92
+msgid "You have to select mail list"
+msgstr ""
+
+#: admin/views/forms/client-language.php:93
+msgid "You have to email field"
+msgstr ""
+
+#: admin/views/forms/client-language.php:94
+msgid "Getresponse Setting Required"
+msgstr ""
+
+#: admin/views/forms/client-language.php:95
+msgid "Please setup GetResponse settings in Settings"
+msgstr ""
+
+#: admin/views/forms/client-language.php:96
+msgid "First Name"
+msgstr ""
+
+#: admin/views/forms/client-language.php:97
+#: admin/views/forms/client-language.php:245
+msgid "Last Name"
+msgstr ""
+
+#: admin/views/forms/client-language.php:98
+msgid "Form Elements"
+msgstr ""
+
+#: admin/views/forms/client-language.php:99
+msgid "To"
+msgstr ""
+
+#: admin/views/forms/client-language.php:100
+msgid "Attach Uploaded Files"
+msgstr ""
+
+#: admin/views/forms/client-language.php:101
+msgid "You can add multiple email address by splitting with comma (,)"
+msgstr ""
+
+#: admin/views/forms/client-language.php:102
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/views/forms/client-language.php:103
+msgid "Form Settings"
+msgstr ""
+
+#: admin/views/forms/client-language.php:105
+msgid "Max 50 characters"
+msgstr ""
+
+#: admin/views/forms/client-language.php:106
+msgid "Form Title"
+msgstr ""
+
+#: admin/views/forms/client-language.php:107
+msgid "Visible"
+msgstr ""
+
+#: admin/views/forms/client-language.php:108
+msgid "Hidden"
+msgstr ""
+
+#: admin/views/forms/client-language.php:109
+msgid "Title"
+msgstr ""
+
+#: admin/views/forms/client-language.php:110
+msgid "Form Description"
+msgstr ""
+
+#: admin/views/forms/client-language.php:111
+msgid "Select Language"
+msgstr ""
+
+#: admin/views/forms/client-language.php:113
+msgid "In the active state, the form appears on the interface"
+msgstr ""
+
+#: admin/views/forms/client-language.php:114
+msgid "Conditional Logic"
+msgstr ""
+
+#: admin/views/forms/client-language.php:115
+msgid "Add Rule"
+msgstr ""
+
+#: admin/views/forms/client-language.php:116
+msgid "No rule in this form"
+msgstr ""
+
+#: admin/views/forms/client-language.php:117
+msgid "Advanced Mode"
+msgstr ""
+
+#: admin/views/forms/client-language.php:118
+msgid "Rule"
+msgstr ""
+
+#: admin/views/forms/client-language.php:119
+msgid "Delete Rule"
+msgstr ""
+
+#: admin/views/forms/client-language.php:120
+msgid "Conditions"
+msgstr ""
+
+#: admin/views/forms/client-language.php:121
+msgid "CONDITIONS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:122
+msgid "ACTIONS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:123
+msgid "Any"
+msgstr ""
+
+#: admin/views/forms/client-language.php:124
+#: admin/views/submissions/filter.php:31
+msgid "All"
+msgstr ""
+
+#: admin/views/forms/client-language.php:125
+msgid "of the following conditions"
+msgstr ""
+
+#: admin/views/forms/client-language.php:126
+msgid "Delete Condition"
+msgstr ""
+
+#: admin/views/forms/client-language.php:127
+msgid "when form onload"
+msgstr ""
+
+#: admin/views/forms/client-language.php:128
+msgid "Add Condition"
+msgstr ""
+
+#: admin/views/forms/client-language.php:129
+msgid "Show"
+msgstr ""
+
+#: admin/views/forms/client-language.php:130
+msgid "Hide"
+msgstr ""
+
+#: admin/views/forms/client-language.php:131
+msgid "Equals"
+msgstr ""
+
+#: admin/views/forms/client-language.php:132
+msgid "Not Equals"
+msgstr ""
+
+#: admin/views/forms/client-language.php:133
+msgid "Greater Than"
+msgstr ""
+
+#: admin/views/forms/client-language.php:134
+msgid "Less Than"
+msgstr ""
+
+#: admin/views/forms/client-language.php:135
+#: admin/views/forms/client-language.php:365
+msgid "Contains"
+msgstr ""
+
+#: admin/views/forms/client-language.php:136
+msgid "In List"
+msgstr ""
+
+#: admin/views/forms/client-language.php:137
+msgid "Not in List"
+msgstr ""
+
+#: admin/views/forms/client-language.php:138 admin/views/forms/form-list.php:63
+#: admin/views/submissions/submissions.php:16
+msgid "Submissions"
+msgstr ""
+
+#: admin/views/forms/client-language.php:139
+msgid "Submission Limit"
+msgstr ""
+
+#: admin/views/forms/client-language.php:140
+msgid "The form is displayed until the reach submission limit"
+msgstr ""
+
+#: admin/views/forms/client-language.php:141
+msgid "Zero means you can get unlimited submissions"
+msgstr ""
+
+#: admin/views/forms/client-language.php:142
+msgid "Submission end of date"
+msgstr ""
+
+#: admin/views/forms/client-language.php:143
+msgid "The form is displayed until the selected date"
+msgstr ""
+
+#: admin/views/forms/client-language.php:144
+msgid "Select Date"
+msgstr ""
+
+#: admin/views/forms/client-language.php:145
+msgid "Privacy"
+msgstr ""
+
+#: admin/views/forms/client-language.php:146
+msgid "Enable GDPR compliance checkbox"
+msgstr ""
+
+#: admin/views/forms/client-language.php:147
+msgid "Yes"
+msgstr ""
+
+#: admin/views/forms/client-language.php:148
+msgid "No"
+msgstr ""
+
+#: admin/views/forms/client-language.php:149
+msgid "GDPR compliance message"
+msgstr ""
+
+#: admin/views/forms/client-language.php:150
+msgid "This text will be used for GDPR compliance checkbox"
+msgstr ""
+
+#: admin/views/forms/client-language.php:151
+msgid "Enable CSRF Token"
+msgstr ""
+
+#: admin/views/forms/client-language.php:152
+msgid "Privacy policy is provided by WordPress"
+msgstr ""
+
+#: admin/views/forms/client-language.php:153
+msgid "You can change it"
+msgstr ""
+
+#: admin/views/forms/client-language.php:154
+#: public/views/components/sub-components/gdpr.php:8
+msgid "Privacy Policy"
+msgstr ""
+
+#: admin/views/forms/client-language.php:155
+msgid ""
+"Cross-site request forgery (also known as CSRF) is a web security "
+"vulnerability that allows an attacker to induce users to perform actions "
+"that they do not intend to perform"
+msgstr ""
+
+#: admin/views/forms/client-language.php:156
+msgid "Required Error"
+msgstr ""
+
+#: admin/views/forms/client-language.php:157
+msgid "Confirm Error"
+msgstr ""
+
+#: admin/views/forms/client-language.php:158
+msgid "Next Button"
+msgstr ""
+
+#: admin/views/forms/client-language.php:159
+msgid "Previous Button"
+msgstr ""
+
+#: admin/views/forms/client-language.php:160
+msgid "Max File Size"
+msgstr ""
+
+#: admin/views/forms/client-language.php:161
+msgid "Allowed File Types"
+msgstr ""
+
+#: admin/views/forms/client-language.php:162
+msgid "File Extension Error"
+msgstr ""
+
+#: admin/views/forms/client-language.php:163
+msgid "File size Error"
+msgstr ""
+
+#: admin/views/forms/client-language.php:164
+msgid "Gdpr validation message"
+msgstr ""
+
+#: admin/views/forms/client-language.php:165
+msgid "Do you want to delete this action"
+msgstr ""
+
+#: admin/views/forms/client-language.php:166
+msgid "When clicked the OK button, system will delete this action"
+msgstr ""
+
+#: admin/views/forms/client-language.php:167
+msgid "Selected action deleted"
+msgstr ""
+
+#: admin/views/forms/client-language.php:168
+msgid "General"
+msgstr ""
+
+#: admin/views/forms/client-language.php:169
+msgid "Translations"
+msgstr ""
+
+#: admin/views/forms/client-language.php:170
+msgid "Width"
+msgstr ""
+
+#: admin/views/forms/client-language.php:171
+msgid "Enter pixel. want to 100px, enter 100"
+msgstr ""
+
+#: admin/views/forms/client-language.php:172
+msgid "View Hide Icon"
+msgstr ""
+
+#: admin/views/forms/client-language.php:173
+msgid "Checkbox Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:174
+msgid "CLOCK SETTINGS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:175
+msgid "hour"
+msgstr ""
+
+#: admin/views/forms/client-language.php:176
+msgid "Default Value"
+msgstr ""
+
+#: admin/views/forms/client-language.php:177
+msgid "Quater"
+msgstr ""
+
+#: admin/views/forms/client-language.php:178
+msgid "Thirty Percent"
+msgstr ""
+
+#: admin/views/forms/client-language.php:179
+msgid "Half"
+msgstr ""
+
+#: admin/views/forms/client-language.php:180
+msgid "Time Increment"
+msgstr ""
+
+#: admin/views/forms/client-language.php:181
+msgid "Text Area"
+msgstr ""
+
+#: admin/views/forms/client-language.php:182
+msgid "Description"
+msgstr ""
+
+#: admin/views/forms/client-language.php:183
+msgid "This theme was customized"
+msgstr ""
+
+#: admin/views/forms/client-language.php:184
+msgid "You will lose changes if change theme"
+msgstr ""
+
+#: admin/views/forms/client-language.php:185
+msgid "Are you sure"
+msgstr ""
+
+#: admin/views/forms/client-language.php:186
+msgid "Customize"
+msgstr ""
+
+#: admin/views/forms/client-language.php:187
+msgid "Add Option"
+msgstr ""
+
+#: admin/views/forms/client-language.php:188
+msgid "Enable Values"
+msgstr ""
+
+#: admin/views/forms/client-language.php:189
+msgid "Move"
+msgstr ""
+
+#: admin/views/forms/client-language.php:190
+#: admin/views/submissions/submissions.php:217
+msgid "Delete"
+msgstr ""
+
+#: admin/views/forms/client-language.php:191
+msgid "Duplicate"
+msgstr ""
+
+#: admin/views/forms/client-language.php:192
+msgid "Name"
+msgstr ""
+
+#: admin/views/forms/client-language.php:193
+msgid "Value"
+msgstr ""
+
+#: admin/views/forms/client-language.php:194
+msgid "First Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:195
+msgid "Last Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:196
+msgid "Required"
+msgstr ""
+
+#: admin/views/forms/client-language.php:197
+msgid "Size"
+msgstr ""
+
+#: admin/views/forms/client-language.php:198
+msgid "Normal"
+msgstr ""
+
+#: admin/views/forms/client-language.php:199
+msgid "Compact"
+msgstr ""
+
+#: admin/views/forms/client-language.php:200
+msgid "Theme"
+msgstr ""
+
+#: admin/views/forms/client-language.php:201
+msgid "Light"
+msgstr ""
+
+#: admin/views/forms/client-language.php:202
+msgid "Dark"
+msgstr ""
+
+#: admin/views/forms/client-language.php:203
+msgid "ReadOnly"
+msgstr ""
+
+#: admin/views/forms/client-language.php:204
+msgid "Star Count"
+msgstr ""
+
+#: admin/views/forms/client-language.php:205
+msgid "Min"
+msgstr ""
+
+#: admin/views/forms/client-language.php:206
+msgid "Max"
+msgstr ""
+
+#: admin/views/forms/client-language.php:207
+msgid "Step"
+msgstr ""
+
+#: admin/views/forms/client-language.php:208
+msgid "Value Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:209
+msgid "Value Position"
+msgstr ""
+
+#: admin/views/forms/client-language.php:210
+msgid "Inherit"
+msgstr ""
+
+#: admin/views/forms/client-language.php:211
+msgid "Inline"
+msgstr ""
+
+#: admin/views/forms/client-language.php:212
+msgid "Inline Left"
+msgstr ""
+
+#: admin/views/forms/client-language.php:213
+msgid "Left"
+msgstr ""
+
+#: admin/views/forms/client-language.php:214
+msgid "Center"
+msgstr ""
+
+#: admin/views/forms/client-language.php:215
+msgid "Right"
+msgstr ""
+
+#: admin/views/forms/client-language.php:216
+msgid "PROGRESS BAR"
+msgstr ""
+
+#: admin/views/forms/client-language.php:217
+msgid "Show Progress Bar"
+msgstr ""
+
+#: admin/views/forms/client-language.php:218
+msgid "Appearance"
+msgstr ""
+
+#: admin/views/forms/client-language.php:219
+msgid "Striped"
+msgstr ""
+
+#: admin/views/forms/client-language.php:220
+msgid "Animate"
+msgstr ""
+
+#: admin/views/forms/client-language.php:221
+msgid "Position"
+msgstr ""
+
+#: admin/views/forms/client-language.php:222
+msgid "Top"
+msgstr ""
+
+#: admin/views/forms/client-language.php:223
+msgid "Bottom"
+msgstr ""
+
+#: admin/views/forms/client-language.php:224
+msgid "Bar Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:225
+msgid "Bar Background Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:226
+msgid "Show Percent"
+msgstr ""
+
+#: admin/views/forms/client-language.php:227
+msgid "Bar Height"
+msgstr ""
+
+#: admin/views/forms/client-language.php:228
+msgid "Placeholder"
+msgstr ""
+
+#: admin/views/forms/client-language.php:229
+msgid "Control"
+msgstr ""
+
+#: admin/views/forms/client-language.php:230
+msgid "Check"
+msgstr ""
+
+#: admin/views/forms/client-language.php:231
+msgid "Uncheck"
+msgstr ""
+
+#: admin/views/forms/client-language.php:232
+msgid "Search Country"
+msgstr ""
+
+#: admin/views/forms/client-language.php:233
+msgid "Show Page Title"
+msgstr ""
+
+#: admin/views/forms/client-language.php:234
+msgid "Page Title"
+msgstr ""
+
+#: admin/views/forms/client-language.php:235
+msgid "Page Subtitle"
+msgstr ""
+
+#: admin/views/forms/client-language.php:236
+msgid "Other"
+msgstr ""
+
+#: admin/views/forms/client-language.php:237
+msgid "Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:238
+msgid "Options Display"
+msgstr ""
+
+#: admin/views/forms/client-language.php:239
+msgid "One Item per row"
+msgstr ""
+
+#: admin/views/forms/client-language.php:240
+msgid "Columns"
+msgstr ""
+
+#: admin/views/forms/client-language.php:241
+msgid "Fields"
+msgstr ""
+
+#: admin/views/forms/client-language.php:242
+msgid "PLACEHOLDERS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:243
+msgid "Middle Name"
+msgstr ""
+
+#: admin/views/forms/client-language.php:244
+msgid "Middle"
+msgstr ""
+
+#: admin/views/forms/client-language.php:246
+msgid "Surname"
+msgstr ""
+
+#: admin/views/forms/client-language.php:247
+msgid "Header Theme"
+msgstr ""
+
+#: admin/views/forms/client-language.php:248
+msgid "Style"
+msgstr ""
+
+#: admin/views/forms/client-language.php:249
+msgid "Show Multi-Step Header"
+msgstr ""
+
+#: admin/views/forms/client-language.php:250
+msgid "Header Type"
+msgstr ""
+
+#: admin/views/forms/client-language.php:251
+msgid "Numbers"
+msgstr ""
+
+#: admin/views/forms/client-language.php:252
+msgid "Icons"
+msgstr ""
+
+#: admin/views/forms/client-language.php:253
+msgid "Buttons Placement"
+msgstr ""
+
+#: admin/views/forms/client-language.php:254
+msgid "Both"
+msgstr ""
+
+#: admin/views/forms/client-language.php:255
+msgid "and"
+msgstr ""
+
+#: admin/views/forms/client-language.php:256
+#: admin/views/submissions/submission-detail.php:33
+msgid "Back"
+msgstr ""
+
+#: admin/views/forms/client-language.php:257
+msgid "Multi Step Settings"
+msgstr ""
+
+#: admin/views/forms/client-language.php:258
+msgid "STEP SETTINGS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:259
+msgid "Limit Character Length"
+msgstr ""
+
+#: admin/views/forms/client-language.php:260
+msgid "Longitude"
+msgstr ""
+
+#: admin/views/forms/client-language.php:261
+msgid "Latitude"
+msgstr ""
+
+#: admin/views/forms/client-language.php:262
+msgid "Zoom"
+msgstr ""
+
+#: admin/views/forms/client-language.php:263
+msgid "Marker Text"
+msgstr ""
+
+#: admin/views/forms/client-language.php:264
+#: admin/views/forms/client-language.php:489
+msgid "Select"
+msgstr ""
+
+#: admin/views/forms/client-language.php:265
+msgid "FIELD ID"
+msgstr ""
+
+#: admin/views/forms/client-language.php:266
+msgid "Also used for input names"
+msgstr ""
+
+#: admin/views/forms/client-language.php:267
+msgid "Remove"
+msgstr ""
+
+#: admin/views/forms/client-language.php:268
+msgid "Search Icon"
+msgstr ""
+
+#: admin/views/forms/client-language.php:269
+msgid "Icon List"
+msgstr ""
+
+#: admin/views/forms/client-language.php:270
+msgid "Content"
+msgstr ""
+
+#: admin/views/forms/client-language.php:271
+msgid "Height"
+msgstr ""
+
+#: admin/views/forms/client-language.php:272
+msgid "Form Horizontal Padding"
+msgstr ""
+
+#: admin/views/forms/client-language.php:273
+msgid "This value will be change padding left and right"
+msgstr ""
+
+#: admin/views/forms/client-language.php:274
+msgid "Vertical Element Spacing"
+msgstr ""
+
+#: admin/views/forms/client-language.php:275
+msgid "LOADING SETTINGS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:276
+msgid "Inside Button"
+msgstr ""
+
+#: admin/views/forms/client-language.php:277
+msgid "Whole Form"
+msgstr ""
+
+#: admin/views/forms/client-language.php:278
+msgid "Loading Bar"
+msgstr ""
+
+#: admin/views/forms/client-language.php:279
+msgid "Icon Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:280
+msgid "Loading Text"
+msgstr ""
+
+#: admin/views/forms/client-language.php:281
+msgid "Loading Icon"
+msgstr ""
+
+#: admin/views/forms/client-language.php:282
+msgid "Font Family"
+msgstr ""
+
+#: admin/views/forms/client-language.php:283
+msgid "System Font"
+msgstr ""
+
+#: admin/views/forms/client-language.php:284
+msgid "File Size Limit"
+msgstr ""
+
+#: admin/views/forms/client-language.php:285
+msgid "Kilobyte"
+msgstr ""
+
+#: admin/views/forms/client-language.php:286
+msgid "Megabyte"
+msgstr ""
+
+#: admin/views/forms/client-language.php:287
+msgid "Gigabyte"
+msgstr ""
+
+#: admin/views/forms/client-language.php:288
+msgid "Field Width"
+msgstr ""
+
+#: admin/views/forms/client-language.php:289
+msgid "Tiny"
+msgstr ""
+
+#: admin/views/forms/client-language.php:290
+msgid "Small"
+msgstr ""
+
+#: admin/views/forms/client-language.php:291
+msgid "Medium"
+msgstr ""
+
+#: admin/views/forms/client-language.php:292
+msgid "Large"
+msgstr ""
+
+#: admin/views/forms/client-language.php:293
+msgid "Default"
+msgstr ""
+
+#: admin/views/forms/client-language.php:294
+msgid "Field Size"
+msgstr ""
+
+#: admin/views/forms/client-language.php:295
+msgid "Disabled"
+msgstr ""
+
+#: admin/views/forms/client-language.php:296
+msgid "DESCRIPTION"
+msgstr ""
+
+#: admin/views/forms/client-language.php:297
+msgid "Use get variables or post variables. Ex. {name} or {description}"
+msgstr ""
+
+#: admin/views/forms/client-language.php:298
+msgid "Default Rating"
+msgstr ""
+
+#: admin/views/forms/client-language.php:299
+msgid "Min-Max Date"
+msgstr ""
+
+#: admin/views/forms/client-language.php:300
+msgid "Date Format"
+msgstr ""
+
+#: admin/views/forms/client-language.php:301
+msgid "Time Picker"
+msgstr ""
+
+#: admin/views/forms/client-language.php:302
+msgid "Minute"
+msgstr ""
+
+#: admin/views/forms/client-language.php:303
+msgid "Minutes"
+msgstr ""
+
+#: admin/views/forms/client-language.php:304
+msgid "Time Interval"
+msgstr ""
+
+#: admin/views/forms/client-language.php:305
+msgid "COLORS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:306
+msgid "Customize Theme"
+msgstr ""
+
+#: admin/views/forms/client-language.php:307
+msgid "Primary Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:308
+msgid "Hover"
+msgstr ""
+
+#: admin/views/forms/client-language.php:309
+msgid "Focus"
+msgstr ""
+
+#: admin/views/forms/client-language.php:310
+msgid "Background Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:311
+#: admin/views/forms/client-language.php:328
+msgid "Text Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:312
+msgid "Border Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:313
+msgid "Border Width"
+msgstr ""
+
+#: admin/views/forms/client-language.php:314
+msgid "Box Shadow"
+msgstr ""
+
+#: admin/views/forms/client-language.php:315
+msgid "Placeholder Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:316
+msgid "Border Style"
+msgstr ""
+
+#: admin/views/forms/client-language.php:317
+#: admin/views/settings/sub-pages/email-settings.php:52
+msgid "None"
+msgstr ""
+
+#: admin/views/forms/client-language.php:318
+msgid "Solid"
+msgstr ""
+
+#: admin/views/forms/client-language.php:319
+msgid "Dotted"
+msgstr ""
+
+#: admin/views/forms/client-language.php:320
+msgid "Dashed"
+msgstr ""
+
+#: admin/views/forms/client-language.php:321
+msgid "Font Size"
+msgstr ""
+
+#: admin/views/forms/client-language.php:322
+msgid "Font Weight"
+msgstr ""
+
+#: admin/views/forms/client-language.php:323
+msgid "Regular"
+msgstr ""
+
+#: admin/views/forms/client-language.php:324
+msgid "Bold"
+msgstr ""
+
+#: admin/views/forms/client-language.php:325
+msgid "Border Radius"
+msgstr ""
+
+#: admin/views/forms/client-language.php:326
+msgid "Padding"
+msgstr ""
+
+#: admin/views/forms/client-language.php:327
+msgid "Margin"
+msgstr ""
+
+#: admin/views/forms/client-language.php:329
+msgid "BUTTON STYLES"
+msgstr ""
+
+#: admin/views/forms/client-language.php:331
+msgid "CUSTOM CSS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:332
+msgid "Additional Css Classes"
+msgstr ""
+
+#: admin/views/forms/client-language.php:333
+msgid "Add Class"
+msgstr ""
+
+#: admin/views/forms/client-language.php:334
+msgid "Show Confirm Input"
+msgstr ""
+
+#: admin/views/forms/client-language.php:335
+msgid "Color Scheme"
+msgstr ""
+
+#: admin/views/forms/client-language.php:336
+msgid "Mark Color Plattte"
+msgstr ""
+
+#: admin/views/forms/client-language.php:337
+msgid "CheckBox Position"
+msgstr ""
+
+#: admin/views/forms/client-language.php:338
+msgid "CheckBox Label Position"
+msgstr ""
+
+#: admin/views/forms/client-language.php:339
+msgid "Button Width"
+msgstr ""
+
+#: admin/views/forms/client-language.php:340
+msgid "Auto (Default)"
+msgstr ""
+
+#: admin/views/forms/client-language.php:341
+msgid "Button Type"
+msgstr ""
+
+#: admin/views/forms/client-language.php:342
+msgid "Theme Default"
+msgstr ""
+
+#: admin/views/forms/client-language.php:343
+msgid "Secondary"
+msgstr ""
+
+#: admin/views/forms/client-language.php:344
+msgid "Success"
+msgstr ""
+
+#: admin/views/forms/client-language.php:345
+msgid "Danger"
+msgstr ""
+
+#: admin/views/forms/client-language.php:346
+msgid "Warning"
+msgstr ""
+
+#: admin/views/forms/client-language.php:347
+msgid "Info"
+msgstr ""
+
+#: admin/views/forms/client-language.php:348
+msgid "Outline"
+msgstr ""
+
+#: admin/views/forms/client-language.php:349
+msgid "Button Size"
+msgstr ""
+
+#: admin/views/forms/client-language.php:350
+msgid "Button Position"
+msgstr ""
+
+#: admin/views/forms/client-language.php:351
+msgid "Button Onclick or Href"
+msgstr ""
+
+#: admin/views/forms/client-language.php:352
+msgid "Link"
+msgstr ""
+
+#: admin/views/forms/client-language.php:353
+msgid "Link Forwarding"
+msgstr ""
+
+#: admin/views/forms/client-language.php:354
+msgid "This Tab"
+msgstr ""
+
+#: admin/views/forms/client-language.php:355
+msgid "New Tab"
+msgstr ""
+
+#: admin/views/forms/client-language.php:356
+msgid "Button Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:357
+msgid "Form Background Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:358
+msgid "Address"
+msgstr ""
+
+#: admin/views/forms/client-language.php:359
+msgid "City"
+msgstr ""
+
+#: admin/views/forms/client-language.php:360
+msgid "Country"
+msgstr ""
+
+#: admin/views/forms/client-language.php:361
+msgid "State"
+msgstr ""
+
+#: admin/views/forms/client-language.php:362
+msgid "Zip"
+msgstr ""
+
+#: admin/views/forms/client-language.php:363
+msgid "Allow Whitespace"
+msgstr ""
+
+#: admin/views/forms/client-language.php:364
+msgid "Contain Items"
+msgstr ""
+
+#: admin/views/forms/client-language.php:366
+msgid "Not Contains"
+msgstr ""
+
+#: admin/views/forms/client-language.php:367
+msgid "Error Message"
+msgstr ""
+
+#: admin/views/forms/client-language.php:368
+msgid "You can use variable like {value}"
+msgstr ""
+
+#: admin/views/forms/client-language.php:369
+msgid "Value that user entered"
+msgstr ""
+
+#: admin/views/forms/client-language.php:370
+msgid "Input Value"
+msgstr ""
+
+#: admin/views/forms/client-language.php:371
+msgid "Equal"
+msgstr ""
+
+#: admin/views/forms/client-language.php:372
+msgid "VALIDATIONS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:373
+msgid "Add Validation"
+msgstr ""
+
+#: admin/views/forms/client-language.php:374
+msgid "No Validation"
+msgstr ""
+
+#: admin/views/forms/client-language.php:375
+msgid "Validation Deleted"
+msgstr ""
+
+#: admin/views/forms/client-language.php:376
+msgid "List Items"
+msgstr ""
+
+#: admin/views/forms/client-language.php:377
+msgid "White List"
+msgstr ""
+
+#: admin/views/forms/client-language.php:378
+msgid "Black List"
+msgstr ""
+
+#: admin/views/forms/client-language.php:379
+msgid "Select Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:380
+msgid "All Form Data"
+msgstr ""
+
+#: admin/views/forms/client-language.php:381
+msgid "Page"
+msgstr ""
+
+#: admin/views/forms/client-language.php:382
+msgid "Page Url"
+msgstr ""
+
+#: admin/views/forms/client-language.php:383
+msgid "User"
+msgstr ""
+
+#: admin/views/forms/client-language.php:384
+#: admin/views/submissions/submission-print.php:157
+msgid "User Name"
+msgstr ""
+
+#: admin/views/forms/client-language.php:385
+#: admin/views/submissions/submission-print.php:156
+msgid "User Id"
+msgstr ""
+
+#: admin/views/forms/client-language.php:386
+#: admin/views/submissions/submission-print.php:158
+msgid "User Email"
+msgstr ""
+
+#: admin/views/forms/client-language.php:387
+#: admin/views/submissions/submission-print.php:169
+msgid "User Agent"
+msgstr ""
+
+#: admin/views/forms/client-language.php:388
+msgid "Address Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:389
+msgid "City Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:390
+msgid "Country Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:391
+msgid "State Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:392
+msgid "Zip Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:393
+msgid "OTHER OPTION"
+msgstr ""
+
+#: admin/views/forms/client-language.php:394
+msgid "OPTIONS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:395
+msgid "Input Icon"
+msgstr ""
+
+#: admin/views/forms/client-language.php:396
+msgid "COUNTRY LIST"
+msgstr ""
+
+#: admin/views/forms/client-language.php:397
+msgid "CONFIGURATIONS"
+msgstr ""
+
+#: admin/views/forms/client-language.php:398
+msgid "Validations"
+msgstr ""
+
+#: admin/views/forms/client-language.php:399
+msgid "You have to set the api key"
+msgstr ""
+
+#: admin/views/forms/client-language.php:400
+msgid "Settings Page"
+msgstr ""
+
+#: admin/views/forms/client-language.php:401
+msgid "MAP CONFIGURATION"
+msgstr ""
+
+#: admin/views/forms/client-language.php:402
+msgid "You can add maximum 4 columns"
+msgstr ""
+
+#: admin/views/forms/client-language.php:403
+msgid "You can not delete last column"
+msgstr ""
+
+#: admin/views/forms/client-language.php:404
+msgid "Grid"
+msgstr ""
+
+#: admin/views/forms/client-language.php:405
+msgid "Group"
+msgstr ""
+
+#: admin/views/forms/client-language.php:406
+msgid "Hidden Input"
+msgstr ""
+
+#: admin/views/forms/client-language.php:407
+msgid "Please add some elements"
+msgstr ""
+
+#: admin/views/forms/client-language.php:408
+msgid "Mr"
+msgstr ""
+
+#: admin/views/forms/client-language.php:409
+msgid "Ms"
+msgstr ""
+
+#: admin/views/forms/client-language.php:410
+msgid "Mrs"
+msgstr ""
+
+#: admin/views/forms/client-language.php:411
+msgid "Miss"
+msgstr ""
+
+#: admin/views/forms/client-language.php:412
+msgid "CONFIRM"
+msgstr ""
+
+#: admin/views/forms/client-language.php:413
+msgid "PHONE CODES"
+msgstr ""
+
+#: admin/views/forms/client-language.php:414
+msgid "You have to set V2 api key"
+msgstr ""
+
+#: admin/views/forms/client-language.php:415
+msgid "ReCaptcha V3 Active"
+msgstr ""
+
+#: admin/views/forms/client-language.php:416
+msgid "You have to set V3 api key"
+msgstr ""
+
+#: admin/views/forms/client-language.php:417
+msgid "Pen Color"
+msgstr ""
+
+#: admin/views/forms/client-language.php:418
+msgid "Button Icon"
+msgstr ""
+
+#: admin/views/forms/client-language.php:419
+msgid "Collapse"
+msgstr ""
+
+#: admin/views/forms/client-language.php:420
+msgid "Are you sure delete this element"
+msgstr ""
+
+#: admin/views/forms/client-language.php:421
+msgid "Form Styles"
+msgstr ""
+
+#: admin/views/forms/client-language.php:422
+msgid "INPUT STYLES"
+msgstr ""
+
+#: admin/views/forms/client-language.php:423
+msgid "LABEL STYLES"
+msgstr ""
+
+#: admin/views/forms/client-language.php:424
+msgid "Next"
+msgstr ""
+
+#: admin/views/forms/client-language.php:425
+msgid "Page Settings"
+msgstr ""
+
+#: admin/views/forms/client-language.php:426
+msgid "Are you sure duplicate this page"
+msgstr ""
+
+#: admin/views/forms/client-language.php:427
+msgid "Duplicate Page"
+msgstr ""
+
+#: admin/views/forms/client-language.php:428
+msgid "Delete Page"
+msgstr ""
+
+#: admin/views/forms/client-language.php:429
+msgid "Add New Page"
+msgstr ""
+
+#: admin/views/forms/client-language.php:430
+msgid "Single Line Text"
+msgstr ""
+
+#: admin/views/forms/client-language.php:431
+msgid "Paragraph Text"
+msgstr ""
+
+#: admin/views/forms/client-language.php:432
+msgid "E-Mail"
+msgstr ""
+
+#: admin/views/forms/client-language.php:433
+msgid "Select list"
+msgstr ""
+
+#: admin/views/forms/client-language.php:434
+msgid "Radio"
+msgstr ""
+
+#: admin/views/forms/client-language.php:435
+msgid "Check Box"
+msgstr ""
+
+#: admin/views/forms/client-language.php:436
+msgid "Phone"
+msgstr ""
+
+#: admin/views/forms/client-language.php:437
+msgid "Date Picker"
+msgstr ""
+
+#: admin/views/forms/client-language.php:438
+msgid "File Upload"
+msgstr ""
+
+#: admin/views/forms/client-language.php:439
+msgid "Number Input"
+msgstr ""
+
+#: admin/views/forms/client-language.php:440
+#: admin/views/settings/sub-pages/email-settings.php:35
+#: admin/views/settings/sub-pages/email-settings.php:37
+msgid "Password"
+msgstr ""
+
+#: admin/views/forms/client-language.php:441
+msgid "Country List"
+msgstr ""
+
+#: admin/views/forms/client-language.php:442
+msgid "Range Slider"
+msgstr ""
+
+#: admin/views/forms/client-language.php:443
+msgid "Custom Html"
+msgstr ""
+
+#: admin/views/forms/client-language.php:444
+msgid "Terms Of Use"
+msgstr ""
+
+#: admin/views/forms/client-language.php:445
+msgid "Button"
+msgstr ""
+
+#: admin/views/forms/client-language.php:446
+msgid "Submit Button"
+msgstr ""
+
+#: admin/views/forms/client-language.php:447
+msgid "Star Rating"
+msgstr ""
+
+#: admin/views/forms/client-language.php:448
+msgid "Scale Rating"
+msgstr ""
+
+#: admin/views/forms/client-language.php:449
+msgid "Signature"
+msgstr ""
+
+#: admin/views/forms/client-language.php:450
+msgid "Add Element"
+msgstr ""
+
+#: admin/views/forms/client-language.php:451
+msgid "Add Page"
+msgstr ""
+
+#: admin/views/forms/client-language.php:452
+msgid "Hidden Page Title and Sub Title"
+msgstr ""
+
+#: admin/views/forms/client-language.php:453
+msgid "Page Name"
+msgstr ""
+
+#: admin/views/forms/client-language.php:454
+msgid "Page Sub Title"
+msgstr ""
+
+#: admin/views/forms/client-language.php:455
+msgid "No form element in this page"
+msgstr ""
+
+#: admin/views/forms/client-language.php:456
+msgid "Action after submit form"
+msgstr ""
+
+#: admin/views/forms/client-language.php:457
+msgid "Show Thank You Page"
+msgstr ""
+
+#: admin/views/forms/client-language.php:458
+msgid "Redirect Page to a spesific url"
+msgstr ""
+
+#: admin/views/forms/client-language.php:459
+msgid "Stay on form and show only success message"
+msgstr ""
+
+#: admin/views/forms/client-language.php:460
+msgid "You can use variables below"
+msgstr ""
+
+#: admin/views/forms/client-language.php:461
+msgid "Redirect Url"
+msgstr ""
+
+#: admin/views/forms/client-language.php:462
+msgid "Success Message"
+msgstr ""
+
+#: admin/views/forms/client-language.php:463
+msgid "Redirect Url like"
+msgstr ""
+
+#: admin/views/forms/client-language.php:464
+msgid "Step Title"
+msgstr ""
+
+#: admin/views/forms/client-language.php:465
+msgid "Step Description"
+msgstr ""
+
+#: admin/views/forms/client-language.php:466
+msgid "Hidden Multi-Step Header"
+msgstr ""
+
+#: admin/views/forms/client-language.php:467
+msgid "reCaptcha"
+msgstr ""
+
+#: admin/views/forms/client-language.php:468
+#: admin/views/settings/settings.php:53
+msgid "Google Maps"
+msgstr ""
+
+#: admin/views/forms/client-language.php:469
+msgid "Next Button Icon"
+msgstr ""
+
+#: admin/views/forms/client-language.php:470
+msgid "Back Button Icon"
+msgstr ""
+
+#: admin/views/forms/client-language.php:471
+msgid "Next / Preview Buttons Placement"
+msgstr ""
+
+#: admin/views/forms/client-language.php:472
+msgid "Both Right"
+msgstr ""
+
+#: admin/views/forms/client-language.php:473
+msgid "Both Left"
+msgstr ""
+
+#: admin/views/forms/client-language.php:474
+msgid "Left and Right"
+msgstr ""
+
+#: admin/views/forms/client-language.php:475
+msgid "Label Icon"
+msgstr ""
+
+#: admin/views/forms/client-language.php:476
+msgid "Uncheck All"
+msgstr ""
+
+#: admin/views/forms/client-language.php:477
+msgid "Form Limit Message"
+msgstr ""
+
+#: admin/views/forms/client-language.php:478
+msgid "Show / Hide"
+msgstr ""
+
+#: admin/views/forms/client-language.php:480
+msgid "You have to select file"
+msgstr ""
+
+#: admin/views/forms/client-language.php:483
+msgid "You must enter purchase code if you want use this feature"
+msgstr ""
+
+#: admin/views/forms/client-language.php:484
+msgid "Generate Pdf"
+msgstr ""
+
+#: admin/views/forms/client-language.php:485
+msgid "Generates pdf file with submission data"
+msgstr ""
+
+#: admin/views/forms/client-language.php:486
+msgid "Limit of Select Count"
+msgstr ""
+
+#: admin/views/forms/client-language.php:487
+msgid "Condition Type"
+msgstr ""
+
+#: admin/views/forms/client-language.php:488
+msgid "Browsing Media"
+msgstr ""
+
+#: admin/views/forms/client-language.php:490
+msgid "Upload Image"
+msgstr ""
+
+#: admin/views/forms/client-language.php:491
+msgid "Header"
+msgstr ""
+
+#: admin/views/forms/client-language.php:492
+msgid "Footer"
+msgstr ""
+
+#: admin/views/forms/client-language.php:493
+msgid "Logo"
+msgstr ""
+
+#: admin/views/forms/client-language.php:494
+msgid "This section is located above the pdf"
+msgstr ""
+
+#: admin/views/forms/client-language.php:495
+msgid "This section is located below the pdf"
+msgstr ""
+
+#: admin/views/forms/client-language.php:496
+msgid "Attach Submission PDF"
+msgstr ""
+
+#: admin/views/forms/client-language.php:497
+msgid "Image"
+msgstr ""
+
+#: admin/views/forms/client-language.php:498
+msgid "ATTRIBUTES"
+msgstr ""
+
+#: admin/views/forms/client-language.php:499
+msgid "Pdf Error"
+msgstr ""
+
+#: admin/views/forms/client-language.php:500
+msgid "You have to add Generate Pdf action"
+msgstr ""
+
+#: admin/views/forms/client-language.php:501
+msgid "Purchase code is not valid"
+msgstr ""
+
+#: admin/views/forms/client-language.php:502
+msgid "License Error"
+msgstr ""
+
+#: admin/views/forms/client-language.php:503
+msgid "theme is pro feature"
+msgstr ""
+
+#: admin/views/forms/client-language.php:504
+msgid "Theme customize is pro feature"
+msgstr ""
+
+#: admin/views/forms/client-language.php:505
+msgid "Trigger events on Google Analytics with custom events"
+msgstr ""
+
+#: admin/views/forms/client-language.php:506
+msgid "Type"
+msgstr ""
+
+#: admin/views/forms/client-language.php:507
+msgid "Event"
+msgstr ""
+
+#: admin/views/forms/client-language.php:508
+msgid "Event Action"
+msgstr ""
+
+#: admin/views/forms/client-language.php:509
+msgid "Event Label"
+msgstr ""
+
+#: admin/views/forms/client-language.php:510
+msgid "Event Value"
+msgstr ""
+
+#: admin/views/forms/client-language.php:511
+msgid "PROPERTIES"
+msgstr ""
+
+#: admin/views/forms/client-language.php:512
+msgid "You can add variable like {Email|email_1_1}"
+msgstr ""
+
+#: admin/views/forms/form-list.php:2 admin/views/forms/left-nav.php:2
+msgid "My Forms"
+msgstr ""
+
+#: admin/views/forms/form-list.php:6
+msgid "Search Forms"
+msgstr ""
+
+#: admin/views/forms/form-list.php:15 admin/views/forms/modals.php:11
+#: admin/views/forms/modals.php:28
+msgid "Create Form"
+msgstr ""
+
+#: admin/views/forms/form-list.php:20 admin/views/importexport/form-list.php:3
+msgid "There is no form"
+msgstr ""
+
+#: admin/views/forms/form-list.php:35
+msgid "Edit Form"
+msgstr ""
+
+#: admin/views/forms/form-list.php:39
+msgid "View Submissions"
+msgstr ""
+
+#: admin/views/forms/form-list.php:43
+msgid "Copy ShortCode"
+msgstr ""
+
+#: admin/views/forms/form-list.php:47
+msgid "Clone Form"
+msgstr ""
+
+#: admin/views/forms/form-list.php:52 admin/views/forms/modals.php:44
+msgid "Archive Form"
+msgstr ""
+
+#: admin/views/forms/form-list.php:67
+msgid "Views"
+msgstr ""
+
+#: admin/views/forms/form-list.php:72
+msgid "Conversion"
+msgstr ""
+
+#: admin/views/forms/left-nav.php:7
+msgid "Active Forms"
+msgstr ""
+
+#: admin/views/forms/left-nav.php:12
+msgid "Inactive Forms"
+msgstr ""
+
+#: admin/views/forms/left-nav.php:17
+msgid "Archived Forms"
+msgstr ""
+
+#: admin/views/forms/modals.php:12 admin/views/forms/modals.php:73
+#: admin/views/forms/modals.php:124
+msgid "Close"
+msgstr ""
+
+#: admin/views/forms/modals.php:20 admin/views/forms/modals.php:132
+msgid "e.g Contact Form"
+msgstr ""
+
+#: admin/views/forms/modals.php:21 admin/views/forms/modals.php:133
+msgid "Max 50 chars"
+msgstr ""
+
+#: admin/views/forms/modals.php:47
+#, php-format
+msgid "Are you sure to archive %s"
+msgstr ""
+
+#: admin/views/forms/modals.php:52 admin/views/submissions/submissions.php:214
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/forms/modals.php:56
+msgid "Archive"
+msgstr ""
+
+#: admin/views/forms/modals.php:72
+msgid "Short Code"
+msgstr ""
+
+#: admin/views/forms/modals.php:92
+msgid ""
+"Don't know how to use shortcodes? Learn <a target='_blank' href='https://www."
+"wpbeginner.com/wp-tutorials/how-to-add-a-shortcode-in-wordpress/'>here</a>"
+msgstr ""
+
+#: admin/views/forms/modals.php:138
+msgid "Choose File"
+msgstr ""
+
+#: admin/views/importexport/left-nav.php:4
+msgid "Import"
+msgstr ""
+
+#: admin/views/importexport/left-nav.php:9
+msgid "Export"
+msgstr ""
+
+#: admin/views/settings/settings.php:35
+#: admin/views/settings/sub-pages/email-settings.php:13
+msgid "SendGrid"
+msgstr ""
+
+#: admin/views/settings/settings.php:41
+msgid "MailChimp"
+msgstr ""
+
+#: admin/views/settings/settings.php:47
+msgid "GetResponse"
+msgstr ""
+
+#: admin/views/settings/settings.php:59
+msgid "Recaptcha"
+msgstr ""
+
+#: admin/views/submissions/filter.php:4
+msgid "Filter Submissions"
+msgstr ""
+
+#: admin/views/submissions/filter.php:17
+msgid "Form"
+msgstr ""
+
+#: admin/views/submissions/filter.php:20
+msgid "All Forms"
+msgstr ""
+
+#: admin/views/submissions/filter.php:29
+msgid "Status"
+msgstr ""
+
+#: admin/views/submissions/filter.php:32
+msgid "Read"
+msgstr ""
+
+#: admin/views/submissions/filter.php:33
+msgid "Unread"
+msgstr ""
+
+#: admin/views/submissions/filter.php:37
+msgid "Search"
+msgstr ""
+
+#: admin/views/submissions/filter.php:38
+msgid "Query"
+msgstr ""
+
+#: admin/views/submissions/filter.php:42
+msgid "Filter"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:23
+msgid "Submission Detail"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:37
+msgid "FORM"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:41
+msgid "DATE"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:45
+#: admin/views/submissions/submission-print.php:153
+msgid "IP"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:49
+msgid "USER ID"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:53
+msgid "USER NAME"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:57
+msgid "USER EMAIL"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:61
+msgid "BROWSER"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:65
+msgid "DEVICE"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:69
+#: admin/views/submissions/submission-print.php:165
+msgid "OS"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:73
+#: admin/views/submissions/submission-print.php:168
+msgid "GDPR"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:77
+msgid "USER AGENT"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:87
+#: admin/views/submissions/submission-print.php:94
+msgid "Submission Data"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:88
+#: admin/views/submissions/submission-print.php:95
+msgid "Submission Id"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:92
+#: admin/views/submissions/submissions.php:31
+msgid "Print"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:96
+#: admin/views/submissions/submissions.php:35
+msgid "Export to Excel"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:109
+#: admin/views/submissions/submission-print.php:108
+msgid "Csrf Token"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:112
+#: admin/views/submissions/submission-print.php:111
+msgid "Referer"
+msgstr ""
+
+#: admin/views/submissions/submission-detail.php:141
+#: admin/views/submissions/submission-print.php:141
+msgid "Coordinates"
+msgstr ""
+
+#: admin/views/submissions/submission-print.php:152
+msgid "Date"
+msgstr ""
+
+#: admin/views/submissions/submission-print.php:163
+msgid "Browser"
+msgstr ""
+
+#: admin/views/submissions/submission-print.php:164
+msgid "Device"
+msgstr ""
+
+#: admin/views/submissions/submissions-print.php:115
+#: admin/views/submissions/submissions.php:186
+#, php-format
+msgid "Total %d Submissions"
+msgstr ""
+
+#: admin/views/submissions/submissions-print.php:117
+#: admin/views/submissions/submissions.php:191
+msgid "There is no submission now."
+msgstr ""
+
+#: admin/views/submissions/submissions.php:183
+msgid "Select Action"
+msgstr ""
+
+#: admin/views/submissions/submissions.php:184
+msgid "Delete Selected"
+msgstr ""
+
+#: admin/views/submissions/submissions.php:208
+msgid "Delete Submissions"
+msgstr ""
+
+#: admin/views/submissions/submissions.php:211
+#, php-format
+msgid "Are you sure to delete %s submission(s)?"
+msgstr ""
+
+#: admin/views/templates/left-nav.php:4
+#: admin/views/templates/template-list.php:2
+msgid "Templates"
+msgstr ""
+
+#: admin/views/templates/template-list.php:6
+msgid "There is no template"
+msgstr ""
+
+#: admin/views/templates/template-list.php:18
+msgid "Import Template"
+msgstr ""
+
+#: public/views/components/reCaptcha.php:30
+msgid "You have to set recaptcha api keys"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:1
+msgid "Email Settings"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:6
+msgid "Select E-Mail System"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:9
+msgid "SMTP"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:19
+msgid "Smtp Settings"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:23
+msgid "Server Address"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:29
+msgid "Email Address"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:41
+#: admin/views/settings/sub-pages/email-settings.php:43
+msgid "Port"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:44
+msgid "usually 587 (alternatives: 465 and 25)"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:48
+msgid "Encryption"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:56
+msgid "SSL"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:60
+msgid "TLS"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:67
+#: admin/views/settings/sub-pages/email-settings.php:94
+#: admin/views/settings/sub-pages/getresponse-settings.php:23
+#: admin/views/settings/sub-pages/google-settings.php:24
+#: admin/views/settings/sub-pages/mailchimp-settings.php:23
+#: admin/views/settings/sub-pages/recaptcha-settings.php:42
+#: admin/views/settings/sub-pages/sendgrid-settings.php:15
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:73
+#: admin/views/settings/sub-pages/sendgrid-settings.php:2
+msgid "SendGrid Settings"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:77
+#: admin/views/settings/sub-pages/sendgrid-settings.php:6
+msgid "SendGrid Api Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:79
+msgid "SenGrid Api Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:83
+#: admin/views/settings/sub-pages/email-settings.php:85
+msgid "Verify From Mail Address"
+msgstr ""
+
+#: admin/views/settings/sub-pages/email-settings.php:87
+msgid ""
+"Your submission emails are sent via this email address. This mail address is "
+"your sendgrid verified address."
+msgstr ""
+
+#: admin/views/settings/sub-pages/getresponse-settings.php:2
+msgid "GetResponse Settings"
+msgstr ""
+
+#: admin/views/settings/sub-pages/getresponse-settings.php:6
+msgid "GetResponse Api Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/getresponse-settings.php:8
+#: admin/views/settings/sub-pages/google-settings.php:8
+#: admin/views/settings/sub-pages/mailchimp-settings.php:8
+#: admin/views/settings/sub-pages/sendgrid-settings.php:7
+msgid "Api Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/getresponse-settings.php:12
+#: admin/views/settings/sub-pages/mailchimp-settings.php:12
+#: admin/views/settings/sub-pages/recaptcha-settings.php:11
+#: admin/views/settings/sub-pages/recaptcha-settings.php:28
+#: admin/views/settings/sub-pages/sendgrid-settings.php:9
+#, php-format
+msgid "You can get api key from <a href='%s' target='_blank'>here</a>"
+msgstr ""
+
+#: admin/views/settings/sub-pages/google-settings.php:2
+msgid "Google Map"
+msgstr ""
+
+#: admin/views/settings/sub-pages/google-settings.php:6
+msgid "Google Api Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/google-settings.php:12
+#, php-format
+msgid "You can get api key from <a href='%s' target='_blank'>Google Map</a>"
+msgstr ""
+
+#: admin/views/settings/sub-pages/license.php:1
+msgid "License Activation"
+msgstr ""
+
+#: admin/views/settings/sub-pages/mailchimp-settings.php:2
+msgid "MailChimp Settings"
+msgstr ""
+
+#: admin/views/settings/sub-pages/mailchimp-settings.php:6
+msgid "MailChimp Api Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:2
+msgid "Recaptcha Settings"
+msgstr ""
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:6
+msgid "v2 Site Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:7
+msgid "Recapthca V2 Site Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:19
+msgid "v2 Secret Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:20
+msgid "Recapthca V2 Secret Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:23
+msgid "v3 Site Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:24
+msgid "Recapthca V3 Site Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:36
+msgid "v3 Secret Key"
+msgstr ""
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:37
+msgid "Recapthca V3 Secret Key"
+msgstr ""
+
+#. Name of the plugin
+msgid "Magic Form"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"With the Magic Form Form Builder that has lots of features, you can create "
+"forms in a fast and easy way."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://magicform3.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "MagicLabs"
+msgstr ""

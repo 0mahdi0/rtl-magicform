@@ -1,0 +1,1037 @@
+{
+    "id":"t4",
+    "category":"booking",
+    "description":" Fast car rental and contract form.",
+    "content":{
+      "settings": {
+        "name": "Car Rental",
+        "title": "",
+        "titleVisible": true,
+        "description": "",
+        "active": true,
+        "labelPosition": "inline",
+        "verticalElementSpacing": 16,
+        "selectLanguage": "EN",
+        "formPadding": 30,
+        "subLimit": 0,
+        "endSubDate": "",
+        "conditionalLogic": {
+          "advanceMode": false
+        },
+        "multiStep": {
+          "theme": "1",
+          "type": "number",
+          "visible": true,
+          "buttonPlacement": "leftright",
+          "backButtonIcon": null,
+          "nextButtonIcon": null
+        },
+        "progressBar": {
+          "show": false,
+          "striped": false,
+          "animated": false,
+          "position": "top",
+          "height": 20,
+          "showPercent": true,
+          "bgColor": {
+            "r": 233,
+            "g": 236,
+            "b": 239,
+            "a": 1
+          },
+          "color": {
+            "r": 33,
+            "g": 116,
+            "b": 200,
+            "a": 1
+          }
+        },
+        "loading": {
+          "type": "button",
+          "icon": "Loading 1",
+          "iconColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          },
+          "text": "Saving..."
+        },
+        "labelWidth": 150,
+        "labelDisplay": "show",
+        "fieldWidth": "full",
+        "fieldSize": "default",
+        "buttonSize": "default",
+        "buttonWidth": "default",
+        "theme": {
+          "name": "hubspot",
+          "themeLabel": "Hubspot",
+          "bgColor": null,
+          "labelDisplay": "show",
+          "fontFamily": "Nunito",
+          "primaryColor": {
+            "r": 255,
+            "g": 122,
+            "b": 89,
+            "a": 1
+          },
+          "secondaryColor": {
+            "r": 0,
+            "g": 208,
+            "b": 228,
+            "a": 1
+          },
+          "input": {
+            "backgroundColor": {
+              "r": 245,
+              "g": 248,
+              "b": 250,
+              "a": 1
+            },
+            "backgroundColorFocus": null,
+            "backgroundColorHover": null,
+            "color": {
+              "r": 51,
+              "g": 71,
+              "b": 91,
+              "a": 1
+            },
+            "colorHover": null,
+            "colorFocus": null,
+            "borderColor": {
+              "r": 203,
+              "g": 214,
+              "b": 226,
+              "a": 1
+            },
+            "borderColorHover": null,
+            "borderColorFocus": {
+              "r": 0,
+              "g": 208,
+              "b": 228,
+              "a": 0.5
+            },
+            "borderWidth": 1,
+            "borderWidthFocus": null,
+            "borderWidthHover": null,
+            "boxShadow": "none",
+            "boxShadowHover": "none",
+            "boxShadowFocus": "0 0 4px 1px rgba(0,208,228,.3), 0 0 0 1px #00d0e4",
+            "placeholderColor": null,
+            "borderStyle": "solid",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "borderRadius": 3,
+            "padding": "6px 12px",
+            "margin": null
+          },
+          "label": {
+            "color": {
+              "r": 51,
+              "g": 71,
+              "b": 91,
+              "a": 1
+            },
+            "fontSize": 14,
+            "fontWeight": 700
+          },
+          "button": {
+            "backgroundColor": {
+              "r": 66,
+              "g": 91,
+              "b": 118,
+              "a": 1
+            },
+            "backgroundColorFocus": null,
+            "backgroundColorHover": {
+              "r": 81,
+              "g": 111,
+              "b": 144,
+              "a": 1
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            },
+            "colorHover": null,
+            "colorFocus": null,
+            "borderColor": {
+              "r": 66,
+              "g": 91,
+              "b": 118,
+              "a": 1
+            },
+            "borderColorHover": {
+              "r": 81,
+              "g": 111,
+              "b": 144,
+              "a": 1
+            },
+            "borderColorFocus": null,
+            "borderWidth": null,
+            "borderWidthFocus": null,
+            "borderWidthHover": null,
+            "boxShadow": null,
+            "boxShadowHover": null,
+            "boxShadowFocus": null,
+            "borderStyle": "solid",
+            "fontSize": 14,
+            "fontWeight": 700,
+            "borderRadius": 3,
+            "padding": "6px 20px",
+            "margin": ""
+          },
+          "submitButton": {
+            "backgroundColor": {
+              "r": 255,
+              "g": 122,
+              "b": 89,
+              "a": 1
+            },
+            "backgroundColorFocus": null,
+            "backgroundColorHover": {
+              "r": 255,
+              "g": 143,
+              "b": 115,
+              "a": 1
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            },
+            "colorHover": null,
+            "colorFocus": null,
+            "borderColor": {
+              "r": 255,
+              "g": 122,
+              "b": 89,
+              "a": 1
+            },
+            "borderColorHover": {
+              "r": 255,
+              "g": 143,
+              "b": 115,
+              "a": 1
+            },
+            "borderColorFocus": null,
+            "borderWidth": 1,
+            "borderWidthFocus": 1,
+            "borderWidthHover": 1,
+            "boxShadow": "none",
+            "boxShadowHover": "none",
+            "boxShadowFocus": "none",
+            "borderStyle": "solid",
+            "fontSize": 16,
+            "fontWeight": 700,
+            "borderRadius": 3,
+            "padding": "6px 20px",
+            "margin": ""
+          },
+          "backButton": {
+            "backgroundColor": {
+              "r": 66,
+              "g": 91,
+              "b": 118,
+              "a": 1
+            },
+            "backgroundColorFocus": null,
+            "backgroundColorHover": {
+              "r": 81,
+              "g": 111,
+              "b": 144,
+              "a": 1
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            },
+            "colorHover": null,
+            "colorFocus": null,
+            "borderColor": {
+              "r": 66,
+              "g": 91,
+              "b": 118,
+              "a": 1
+            },
+            "borderColorHover": {
+              "r": 81,
+              "g": 111,
+              "b": 144,
+              "a": 1
+            },
+            "borderColorFocus": null,
+            "borderWidth": null,
+            "borderWidthFocus": null,
+            "borderWidthHover": null,
+            "boxShadow": null,
+            "boxShadowHover": null,
+            "boxShadowFocus": null,
+            "borderStyle": "solid",
+            "fontSize": 14,
+            "fontWeight": 700,
+            "borderRadius": 3,
+            "padding": "6px 20px",
+            "margin": ""
+          },
+          "nextButton": {
+            "backgroundColor": {
+              "r": 66,
+              "g": 91,
+              "b": 118,
+              "a": 1
+            },
+            "backgroundColorFocus": null,
+            "backgroundColorHover": {
+              "r": 81,
+              "g": 111,
+              "b": 144,
+              "a": 1
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            },
+            "colorHover": null,
+            "colorFocus": null,
+            "borderColor": {
+              "r": 66,
+              "g": 91,
+              "b": 118,
+              "a": 1
+            },
+            "borderColorHover": {
+              "r": 81,
+              "g": 111,
+              "b": 144,
+              "a": 1
+            },
+            "borderColorFocus": null,
+            "borderWidth": null,
+            "borderWidthFocus": null,
+            "borderWidthHover": null,
+            "boxShadow": null,
+            "boxShadowHover": null,
+            "boxShadowFocus": null,
+            "borderStyle": "solid",
+            "fontSize": 14,
+            "fontWeight": 700,
+            "borderRadius": 3,
+            "padding": "6px 20px",
+            "margin": ""
+          }
+        },
+        "bgColor": null,
+        "colorScheme": {
+          "name": "default",
+          "label": "Default"
+        },
+        "fontFamily": "Nunito",
+        "customCss": "",
+        "translate": {
+          "requiredErr": "This field is required",
+          "confirmErr": "The confirmation input does not match",
+          "nextButton": "Next",
+          "previousButton": "Previous",
+          "maxFileSize": "Max File Size",
+          "extensionErr": "This extension not allowed",
+          "fileSizeErr": "Increase file size",
+          "allowedFileTypes": "Allowed File Types",
+          "formLimitMessage": "Form limit is over",
+          "gdprValidationMessage": "You have to accept terms & conditions"
+        },
+        "gdpr": false,
+        "csrfToken": true,
+        "gdprText": "{privacy_policy}",
+        "saveIp": true,
+        "saveUserAgent": true,
+        "saveRegisteredUser": true,
+        "advancedMode": true,
+        "emailSettings": {
+          "smtpAddress": "",
+          "smtpPort": 0,
+          "smtpSsl": false,
+          "smtpMail": "",
+          "smtpPassword": "",
+          "autoName": ""
+        },
+        "rules": [
+          {
+            "andor": "form",
+            "conditions": [
+              {
+                "field": "form",
+                "operator": "equals",
+                "value": "onLoad"
+              }
+            ],
+            "actions": [
+              {
+                "field": "grid_20_10",
+                "type": "hide"
+              }
+            ]
+          },
+          {
+            "andor": "or",
+            "conditions": [
+              {
+                "field": "radioButton_20_8",
+                "value": "Yes",
+                "operator": "equals"
+              }
+            ],
+            "actions": [
+              {
+                "type": "show",
+                "field": "grid_20_10"
+              }
+            ]
+          }
+        ],
+        "conditinalLogic": {
+          "advanceMode": false
+        }
+      },
+      "pages": [
+        {
+          "name": "Car Rental",
+          "type": "page",
+          "index": 1,
+          "step": {
+            "title": "Step 1",
+            "icon": null,
+            "description": ""
+          },
+          "settings": {
+            "titleVisible": true,
+            "pageIcon": "",
+            "subTitle": "",
+            "labelPosition": "inherit",
+            "labelDisplay": "inherit",
+            "labelWidth": "inherit",
+            "fieldWidth": "inherit",
+            "fieldSize": "inherit",
+            "buttonSize": "default",
+            "buttonWidth": "default"
+          },
+          "elements": [
+            {
+              "type": "name",
+              "payload": {
+                "labelText": "Name",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "placeholder": "Name",
+                "description": "",
+                "descriptionPosition": "bottom",
+                "fieldSize": "inherit",
+                "namePlaceholder": "First Name",
+                "middlePlaceholder": "Middle",
+                "surnamePlaceholder": "Last Name",
+                "required": false,
+                "title": false,
+                "middle": false,
+                "surname": true,
+                "disabled": false,
+                "readOnly": false,
+                "cssClasses": [],
+                "options": [],
+                "validations": []
+              },
+              "id": "name_20_1",
+              "index": 1,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "email",
+              "payload": {
+                "labelText": "Email",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "placeholder": "Ex: john@doe.com",
+                "description": "",
+                "inputIcon": null,
+                "confirmLabelText": "Confirm Email",
+                "confirmPlaceholder": "Ex:john@doe.com",
+                "defaultValue": "",
+                "descriptionPosition": "bottom",
+                "fieldWidth": "inherit",
+                "fieldSize": "inherit",
+                "confirmInput": false,
+                "required": false,
+                "disabled": false,
+                "readOnly": false,
+                "cssClasses": [],
+                "validations": []
+              },
+              "id": "email_20_2",
+              "index": 2,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "phone",
+              "payload": {
+                "labelText": "Phone",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "placeholder": "Phone",
+                "description": "",
+                "defaultValue": "",
+                "descriptionPosition": "bottom",
+                "fieldWidth": "inherit",
+                "fieldSize": "inherit",
+                "inputIcon": null,
+                "required": false,
+                "countryCodeGetJson": false,
+                "phoneCodeControl": true,
+                "disabled": false,
+                "readOnly": false,
+                "cssClasses": [],
+                "maxLength": "",
+                "phoneCodes": [],
+                "validations": []
+              },
+              "id": "phone_20_3",
+              "index": 3,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "datePicker",
+              "payload": {
+                "labelText": "Start",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "fieldWidth": "small",
+                "fieldSize": "inherit",
+                "disabled": false,
+                "readOnly": false,
+                "dateFormat": "yyyy/MM/dd",
+                "timeInterval": 15,
+                "showTime": true,
+                "datePlaceholder": "Date Picker",
+                "descriptionPosition": "bottom",
+                "description": "",
+                "minDate": "",
+                "maxDate": "",
+                "defaultValue": "",
+                "cssClasses": [],
+                "validations": []
+              },
+              "id": "datePicker_20_4",
+              "index": 4,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "datePicker",
+              "payload": {
+                "labelText": "Date Picker",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "fieldWidth": "small",
+                "fieldSize": "inherit",
+                "disabled": false,
+                "readOnly": false,
+                "dateFormat": "yyyy/MM/dd",
+                "timeInterval": 15,
+                "showTime": true,
+                "datePlaceholder": "Date Picker",
+                "descriptionPosition": "bottom",
+                "description": "",
+                "minDate": "",
+                "maxDate": "",
+                "defaultValue": "",
+                "cssClasses": [],
+                "validations": []
+              },
+              "id": "datePicker_20_5",
+              "index": 5,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "checkBox",
+              "payload": {
+                "labelText": "Type of car",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "description": "",
+                "descriptionPosition": "bottom",
+                "required": false,
+                "disabled": false,
+                "cssClasses": [],
+                "otherDefaultValue": "",
+                "otherLabel": "Other",
+                "otherPlaceholder": "",
+                "otherCheck": false,
+                "enableValues": false,
+                "optionsDisplay": "4",
+                "options": [
+                  {
+                    "value": "Brand A Model 1",
+                    "name": "Brand A Model 1",
+                    "chosen": false,
+                    "selected": false
+                  },
+                  {
+                    "value": "Brand A Model 2",
+                    "name": "Brand A Model 2",
+                    "chosen": false,
+                    "selected": false
+                  },
+                  {
+                    "value": "Brand B Model 1",
+                    "name": "Brand B Model 1",
+                    "chosen": false,
+                    "selected": false
+                  },
+                  {
+                    "value": "Brand B Model 2",
+                    "name": "Brand B Model 2",
+                    "chosen": false,
+                    "selected": false
+                  }
+                ],
+                "validations": []
+              },
+              "id": "checkBox_20_6",
+              "index": 6,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "html",
+              "payload": {
+                "cssClasses": [],
+                "htmlContent": "<h4>Car Delivery</h4>"
+              },
+              "id": "html_20_7",
+              "index": 7,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "radioButton",
+              "payload": {
+                "labelText": "Car Delivery",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "description": "",
+                "descriptionPosition": "bottom",
+                "required": false,
+                "otherPlaceholder": "",
+                "otherDefaultValue": "",
+                "otherLabel": "Other",
+                "otherCheck": false,
+                "disabled": false,
+                "cssClasses": [],
+                "enableValues": false,
+                "optionsDisplay": "inline",
+                "options": [
+                  {
+                    "value": "Yes",
+                    "name": "Yes",
+                    "chosen": false,
+                    "selected": false
+                  },
+                  {
+                    "value": "No",
+                    "name": "No",
+                    "chosen": false,
+                    "selected": false
+                  }
+                ],
+                "validations": []
+              },
+              "id": "radioButton_20_8",
+              "index": 8,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "grid",
+              "payload": {
+                "columns": [
+                  {
+                    "span": 6,
+                    "elements": [
+                      {
+                        "type": "time",
+                        "payload": {
+                          "labelText": "Time Picker",
+                          "labelIcon": null,
+                          "labelPosition": "inherit",
+                          "labelDisplay": "inherit",
+                          "fieldWidth": "full",
+                          "fieldSize": "default",
+                          "description": "",
+                          "descriptionPosition": "bottom",
+                          "labelWidth": 100,
+                          "defaultValue": "Please Select",
+                          "defaultValueCheck": false,
+                          "clockFormat": "24",
+                          "inputIcon": null,
+                          "clocks": [
+                            "1:30",
+                            "2:00",
+                            "2:30",
+                            "3:00",
+                            "3:30",
+                            "4:00",
+                            "4:30",
+                            "5:00",
+                            "5:30",
+                            "6:00",
+                            "6:30",
+                            "7:00",
+                            "7:30",
+                            "8:00",
+                            "8:30",
+                            "9:00",
+                            "9:30",
+                            "10:00",
+                            "10:30",
+                            "11:00",
+                            "11:30",
+                            "12:00",
+                            "12:30",
+                            "13:00",
+                            "13:30",
+                            "14:00",
+                            "14:30",
+                            "15:00",
+                            "15:30",
+                            "16:00",
+                            "16:30",
+                            "17:00",
+                            "17:30",
+                            "18:00",
+                            "18:30",
+                            "19:00",
+                            "19:30",
+                            "20:00",
+                            "20:30",
+                            "21:00",
+                            "21:30",
+                            "22:00",
+                            "22:30",
+                            "23:00",
+                            "23:30",
+                            "24:00"
+                          ],
+                          "maxValue": 24,
+                          "minValue": 1,
+                          "timeIncrement": 30,
+                          "disabled": false,
+                          "readOnly": false,
+                          "cssClasses": [],
+                          "validations": []
+                        },
+                        "id": "time_20_12",
+                        "index": 12,
+                        "theme": "default",
+                        "chosen": false
+                      }
+                    ]
+                  },
+                  {
+                    "span": 6,
+                    "elements": [
+                      {
+                        "type": "text",
+                        "payload": {
+                          "labelText": "Place",
+                          "labelIcon": null,
+                          "labelPosition": "inherit",
+                          "labelDisplay": "inherit",
+                          "labelWidth": "inherit",
+                          "placeholder": "Please enter your place",
+                          "description": "",
+                          "inputIcon": null,
+                          "descriptionPosition": "bottom",
+                          "defaultValue": "",
+                          "fieldWidth": "full",
+                          "fieldSize": "inherit",
+                          "maxLength": 100,
+                          "required": false,
+                          "readOnly": false,
+                          "disabled": false,
+                          "cssClasses": [],
+                          "validations": []
+                        },
+                        "id": "text_20_11",
+                        "index": 11,
+                        "chosen": false,
+                        "selected": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              "id": "grid_20_10",
+              "index": 10,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "html",
+              "payload": {
+                "cssClasses": [],
+                "htmlContent": "<h4>Baby Seat (9 Months - 5 Years)</h4>"
+              },
+              "id": "html_20_14",
+              "index": 14,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "radioButton",
+              "payload": {
+                "labelText": "Baby Seat",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "description": "",
+                "descriptionPosition": "bottom",
+                "required": false,
+                "otherPlaceholder": "",
+                "otherDefaultValue": "",
+                "otherLabel": "Other",
+                "otherCheck": false,
+                "disabled": false,
+                "cssClasses": [],
+                "enableValues": false,
+                "optionsDisplay": "inline",
+                "options": [
+                  {
+                    "value": "Yes",
+                    "name": "Yes",
+                    "chosen": false,
+                    "selected": false
+                  },
+                  {
+                    "value": "No",
+                    "name": "No",
+                    "chosen": false,
+                    "selected": false
+                  }
+                ],
+                "validations": []
+              },
+              "id": "radioButton_20_16",
+              "index": 16,
+              "chosen": false,
+              "selected": false
+            },
+            {
+              "type": "html",
+              "payload": {
+                "cssClasses": [],
+                "htmlContent": "<h4>GPS</h4>"
+              },
+              "id": "html_20_15",
+              "index": 15,
+              "selected": false,
+              "chosen": false
+            },
+            {
+              "type": "radioButton",
+              "payload": {
+                "labelText": "GPS",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "description": "",
+                "descriptionPosition": "bottom",
+                "required": false,
+                "otherPlaceholder": "",
+                "otherDefaultValue": "",
+                "otherLabel": "Other",
+                "otherCheck": false,
+                "disabled": false,
+                "cssClasses": [],
+                "enableValues": false,
+                "optionsDisplay": "inline",
+                "options": [
+                  {
+                    "value": "Yes",
+                    "name": "Yes",
+                    "chosen": false,
+                    "selected": false
+                  },
+                  {
+                    "value": "No",
+                    "name": "No",
+                    "chosen": false,
+                    "selected": false
+                  }
+                ],
+                "validations": []
+              },
+              "id": "radioButton_20_17",
+              "index": 17,
+              "chosen": false,
+              "selected": false
+            },
+            {
+              "type": "paragraphText",
+              "payload": {
+                "labelText": "Note",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "placeholder": "Please enter your description",
+                "description": "",
+                "defaultValue": "",
+                "descriptionPosition": "bottom",
+                "fieldWidth": "inherit",
+                "fieldSize": "inherit",
+                "heightValue": 100,
+                "maxLength": "",
+                "required": false,
+                "readOnly": false,
+                "disabled": false,
+                "cssClasses": [],
+                "validations": []
+              },
+              "id": "paragraphText_20_19",
+              "index": 19,
+              "chosen": false,
+              "selected": false
+            },
+            {
+              "type": "termsOfUse",
+              "payload": {
+                "labelText": "Terms Of Use",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "checkBoxPos": "left",
+                "labelDisplay": "inherit",
+                "textAreaValue": "",
+                "titleChange": "I have read and agree to the Terms and Conditions",
+                "heightValue": 150,
+                "description": "",
+                "descriptionPosition": "bottom",
+                "labelWidth": "inherit",
+                "disabled": false,
+                "cssClasses": [],
+                "validations": []
+              },
+              "id": "termsOfUse_20_21",
+              "index": 21,
+              "chosen": false
+            },
+            {
+              "type": "signature",
+              "payload": {
+                "labelText": "Signature",
+                "labelIcon": null,
+                "labelPosition": "inherit",
+                "labelDisplay": "inherit",
+                "labelWidth": "inherit",
+                "fieldWidth": "small",
+                "heightValue": 100,
+                "widthValue": 300,
+                "backgroundColor": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1
+                },
+                "borderColor": {
+                  "r": 204,
+                  "g": 204,
+                  "b": 204,
+                  "a": 1
+                },
+                "penColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                },
+                "description": "",
+                "descriptionPosition": "bottom",
+                "cssClasses": [],
+                "validations": []
+              },
+              "id": "signature_20_20",
+              "index": 20,
+              "chosen": false,
+              "selected": false
+            },
+            {
+              "type": "submitButton",
+              "payload": {
+                "buttonName": "Submit",
+                "buttonType": "default",
+                "buttonPosition": "left",
+                "buttonIcon": "",
+                "buttonSize": "inherit",
+                "buttonWidth": "default",
+                "disabled": false,
+                "fieldWidth": "tiny",
+                "cssClasses": []
+              },
+              "id": "submitButton_20_18",
+              "index": 18,
+              "chosen": false,
+              "selected": false
+            }
+          ]
+        },
+        {
+          "name": "Thank You",
+          "type": "thankyou",
+          "index": 0,
+          "settings": {
+            "message": "<h1 class=\"ql-align-center\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACHFBMVEUAAAAA/4AdzKAa0Z8Zz58Zz54bzp4az58az54az58az54az54azp4X0p4A//8Zzpwazp4a0J4az54az54az54azp8azKIgv58az58az54az50azp4bz5wr1aoZ0J8a0J0az54az54az54az58Yzp4az54az54Zzp0ZzZsazp4az54az54az50bz58azp4Zzp0az54cz58Zz54a0J0czZsazJkazp4az54az54V1ZUZ0J4az54az58az58az54bz54az54Y0KAaz54bz50Aqqobz54X0aIazp4a0J0U2J0W05sazp4az54X0aIfzJkaz54b0ZsYz58bz54c0KEaz54Yzp4az54Vyp8az54az58Zzp8bz54cxqobz58az58bzp0az54Yzp0az54b0J0Z0J0a0J0az54az54az54zzJkbzp0Zz54azp4azp0az58az58k25Ib0J8bzp0a0J0bz54a0J0az54az58az54a0Z4az54a0J4c0Jwaz54a0J4a0J4b0J8az54az50azJ8X0Zsbzp0Zz54az54azp0az54a0J4az54c0Z4b0J4ZzaAazp0az50az54Yzp4az54az54b0J4azp4Z0Z8b0J0az58b0J4az54az54az54azp4X0Zwa0J4a0J8az54bzqAaz50Zz58az54dzp0a0J4azJkaz54a0Z0az54az54a0J4Av4Abz54az54az54AAABuBx9xAAAAsnRSTlMAAiNNb46twdTm7vVuIgEfWZHI9PNYHgiU29mTSwZSp/LxpVAq6+mNKUSz/sRV0lPQSrW8LgqI/PsMR+DeRf2Z1iv2YAOQC7K3DRfNyxYZ2Bwg3RvhFdUYsLRd0wmPii+6Sc5WUUa7i+oFc3m9TqS5B3JokqM8+lr4Mu1XNvDHbKyqayghXr/kY+/3djd8M3jRvj/G2kx+PaJ/canoibgsjIffQ6/J3BrXFK4nz0/nBMDlFQzb4QAAAAFiS0dEAIgFHUgAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkAx4LJyBbmdQEAAAFT0lEQVR42sWb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\"></h1><h3 class=\"ql-align-center\">Form Submitted Successfully!</h3><p class=\"ql-align-center\">We will contact you as soon as possible.</p>",
+            "action": "showThankYou",
+            "redirectUrl": "",
+            "successMessage": "Form Submitted Successfully!"
+          },
+          "elements": []
+        }
+      ],
+      "actions": [
+        {
+          "type": "saveDatabase",
+          "icon": "database",
+          "label": "Save to Database",
+          "active": true,
+          "payload": {
+            "logIp": true,
+            "logUserAgent": true
+          }
+        }
+      ]
+    }
+}
