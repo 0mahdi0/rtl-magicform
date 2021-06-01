@@ -44,8 +44,8 @@
                 <h5 class="modal-title"><?php esc_html_e("Archive Form", "magicform"); ?></h5>
             </div>
             <div class="modal-body">
-                <?php printf(esc_html__("Are you sure to %s", "magicform"), "<b class='formName'></b>"); ?>
-                <div class="mf-delete-message"><?php echo esc_html("If you delete the form, the submissions of the form will also be deleted.","magicform")?></div>
+            <?php printf(esc_html__("Are you sure to archive %s", "magicform"), "<b class='formName'></b>"); ?>
+                <div class="mf-delete-message"><?php echo esc_html_e("If you delete the form, the submissions of the form will also be deleted.","magicform")?></div>
                 <input name="formId" type="hidden" />
                 <input name="action" type="hidden" />
             </div>
@@ -204,7 +204,7 @@
                 </a>
                 <a id="mf-delete-form-btn" href="javascript:void(0)" class="mf-admin-btn mf-admin-btn-red">
                     <i class="fas fa-trash-alt"></i>
-                    <?php esc_html_e("Archive", "magicform"); ?>
+                    <?php esc_html_e("Delete", "magicform"); ?>
                 </a>
             </div>
         </div>

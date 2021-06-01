@@ -44,6 +44,7 @@ class MagicForm_Admin
 			wp_dequeue_style('bootstrap');
 			wp_enqueue_style('bootstrap', 		MAGICFORM_URL . 'admin/css/bootstrap.min.css', array(), "4.4.1");
 			wp_enqueue_style('magicform-general', 	MAGICFORM_URL . 'assets/css/general.css', array(), $this->version);
+			wp_enqueue_style('magicform-rtl', 	MAGICFORM_URL . 'assets/css/assets-rtl.css', array(), $this->version);
 			wp_enqueue_style('magicform-theme', 	MAGICFORM_URL . 'assets/css/theme.css', array(), $this->version);
 			wp_enqueue_style('magicform-admin-css', 		MAGICFORM_URL . 'client/src/App.css', array(), $this->version);
 		}

@@ -1,0 +1,112 @@
+/*
+tagirat mahdi hosseini
+*/
+
+body{
+    overflow-x: hidden ;
+}
+h1,h2,h4,h3,h5,h6,p,label,form,select,ul,li,a,button,input,.mf-p-20,div,small,textarea{
+    font-family: Yekan , Arial, Helvetica, sans-serif !important;
+}
+.modal-body,.mf-settingsSection,.ant-alert-warning,.ant-alert-banner,.ant-dropdown-menu-vertical,.mf-addElementList,.mf-add-form-stats,.ant-col,.mf-part-item,.mf-formElementsContainer,.card,.mf-forms-left,.dropdown-item,.mf-admin-form-control,.mf-settings-left,.mf-settings-right,.wp-submenu,.wp-menu-name,.mf-forms-left,.ant-radio-group,.ant-radio-group-outline,.mf-formElementsContainerInner h6{
+    text-align: right ;
+}
+.ql-toolbar,.ql-snow,.mf-card-body,.mf-p-20,.mf-forms-right{
+    text-align: center ;
+}
+.mf-add-form-stats{
+    direction: ltr;
+}
+#wpbody-content{
+    margin-right: -10px ;
+}
+.mf-mainContainer{
+    display: contents ;
+    margin-left: 0px ;
+}
+.mf-card-actions{
+    right: 5px ;
+}
+.mf-forms-right-header{
+    display:flow-root ;
+}
+.mf-forms-right-header h1{
+    float: right ;
+}
+.mf-forms-search{
+    float: left ;
+}
+.mf-forms-left-nav>li>ul{
+    padding-right:25px ; 
+    padding-left:0px ; 
+}
+.ant-radio-group,.ant-radio-group-outline{
+    display: block;
+}
+.fa,.fa-search,.form-control-feedback{
+    left: 40px;
+    margin: 2px;
+}
+.mf-form-name{
+    width: 100px ;
+}
+.mf-header-right button{
+    margin: 0px 5px;
+}
+.mf-admin-btn,.mf-admin-btn-ghostblue,.mf-admin-btn,.mf-submission-back-btn,.mf-input-group{
+    direction:ltr;
+}
+select.mf-form-control,select.mf-phone-element{
+    direction:rtl;
+}
+.custom-file-label,.mf-custom-file{
+    text-align: left;
+    direction: ltr;
+}
+.ant-input-suffix,.anticon,.anticon-search,.ant-input-search-icon{
+    right: auto !important;
+    left: 10px !important;
+}
+.mf-settingSectionClose,.mf-formElementOptions{
+    right: auto;
+    left: 10px;
+}
+.ant-btn,.ant-btn-primary{
+    margin-left: 50px;
+}
+.dropdown-menu-right a{
+    padding: 0.25em 0px;
+}
+.mf-settings-part>div>h6{
+    margin: 0px 5px;
+}
+.mf-card-add-form{
+    margin-left:20px;
+}
+.ant-radio-group,.ant-radio-group-outline{
+    margin-top: 20px;
+}
+input[type=text],input[type=textarea]{
+    direction: rtl;
+}
+.anticon-left-circle,.mf-admin-form-control,.mf-multi-action{
+    margin-left: 10px;
+}
+.mf-admin-btn>i{
+    margin-right: 3px;
+}
+.ant-col,.ant-col-8{
+    float: right;
+}
+.ant-select-selection.ant-select-selection--single{
+    width: 60%;
+}
+.mf-label>svg,.mf-submit-btn>svg{
+    margin-left:6px;
+}
+.ant-row.ant-form-item{
+    display: grid;
+}
+.ant-col>.mf-gridTitle>ul{
+    flex: 1 0 70px;
+}

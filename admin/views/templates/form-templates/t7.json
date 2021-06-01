@@ -1,11 +1,11 @@
 {
     "id":"t7",
-    "category":"multistep",
-    "description":"Multi-page, stylish and dynamic personal information form.",
+    "category":"چند مرحله ای",
+    "description":"فرم اطلاعات شخصی چند صفحه ای ، شیک و پویا.",
     "content":
     {
         "settings": {
-          "name": "Multi Step 1",
+          "name": "چند مرحله ای 1",
           "title": "",
           "titleVisible": false,
           "description": "",
@@ -56,7 +56,7 @@
               "b": 255,
               "a": 1
             },
-            "text": "Saving..."
+            "text": "ذخیره..."
           },
           "labelWidth": 150,
           "labelDisplay": "show",
@@ -342,20 +342,20 @@
           "fontFamily": "Nunito",
           "customCss": "",
           "translate": {
-            "requiredErr": "This field is required",
-            "confirmErr": "The confirmation input does not match",
-            "nextButton": "Next",
-            "previousButton": "Previous",
-            "maxFileSize": "Max File Size",
-            "extensionErr": "This extension not allowed",
-            "fileSizeErr": "Increase file size",
-            "allowedFileTypes": "Allowed File Types",
-            "formLimitMessage": "Form limit is over",
-            "gdprValidationMessage": "You have to accept terms & conditions"
+            "requiredErr": "این فیلد الزامی است",
+            "confirmErr": "ورودی تأیید مطابقت ندارد",
+            "nextButton": "بعدی",
+            "previousButton": "قبلی",
+            "maxFileSize": "بیشترین حجم فایل",
+            "extensionErr": "این برنامه افزودنی مجاز نیست",
+            "fileSizeErr": "اندازه پرونده بیش از اندازه مجاز است",
+            "allowedFileTypes": "نوع فایل های مجاز",
+            "formLimitMessage": "محدودیت فرم تمام شد",
+            "gdprValidationMessage": "شما باید شرایط و ضوابط را بپذیرید"
           },
           "gdpr": false,
           "csrfToken": true,
-          "gdprText": "I agree to the {privacy_policy}",
+          "gdprText": "من با {privacy_policy} موافقم",
           "saveIp": true,
           "saveUserAgent": true,
           "saveRegisteredUser": true,
@@ -384,11 +384,11 @@
         },
         "pages": [
           {
-            "name": "Contact",
+            "name": "نام",
             "type": "page",
             "index": 1,
             "step": {
-              "title": "Name",
+              "title": "نام",
               "icon": null,
               "description": ""
             },
@@ -408,18 +408,18 @@
               {
                 "type": "name",
                 "payload": {
-                  "labelText": "Name",
+                  "labelText": "نام",
                   "labelIcon": null,
                   "labelPosition": "inherit",
                   "labelDisplay": "inherit",
                   "labelWidth": "inherit",
-                  "placeholder": "Name",
+                  "placeholder": "نام",
                   "description": "",
                   "descriptionPosition": "bottom",
                   "fieldSize": "inherit",
-                  "namePlaceholder": "First Name",
-                  "middlePlaceholder": "Middle",
-                  "surnamePlaceholder": "Last Name",
+                  "namePlaceholder": "نام کوچک",
+                  "middlePlaceholder": "نام وسط",
+                  "surnamePlaceholder": "نام خانوادگی",
                   "required": true,
                   "title": false,
                   "middle": false,
@@ -438,11 +438,11 @@
             ]
           },
           {
-            "name": "Email",
+            "name": "ایمیل",
             "type": "page",
             "index": 2,
             "step": {
-              "title": "Email",
+              "title": "ایمیل",
               "description": "",
               "icon": null
             },
@@ -462,7 +462,7 @@
               {
                 "type": "email",
                 "payload": {
-                  "labelText": "Email",
+                  "labelText": "ایمیل",
                   "labelIcon": null,
                   "labelPosition": "inherit",
                   "labelDisplay": "inherit",
@@ -470,7 +470,7 @@
                   "placeholder": "Ex: john@doe.com",
                   "description": "",
                   "inputIcon": null,
-                  "confirmLabelText": "Confirm Email",
+                  "confirmLabelText": "تایید ایمیل",
                   "confirmPlaceholder": "Ex:john@doe.com",
                   "defaultValue": "",
                   "descriptionPosition": "bottom",
@@ -489,11 +489,11 @@
             ]
           },
           {
-            "name": "Phone",
+            "name": "تلفن",
             "type": "page",
             "index": 3,
             "step": {
-              "title": "Phone",
+              "title": "تلفن",
               "description": "",
               "icon": null
             },
@@ -513,12 +513,12 @@
               {
                 "type": "phone",
                 "payload": {
-                  "labelText": "Phone",
+                  "labelText": "تلفن",
                   "labelIcon": null,
                   "labelPosition": "inherit",
                   "labelDisplay": "inherit",
                   "labelWidth": "inherit",
-                  "placeholder": "Phone",
+                  "placeholder": "تلفن",
                   "description": "",
                   "defaultValue": "",
                   "descriptionPosition": "bottom",
@@ -543,7 +543,7 @@
               {
                 "type": "submitButton",
                 "payload": {
-                  "buttonName": "Submit",
+                  "buttonName": "ثبت",
                   "buttonType": "default",
                   "buttonPosition": "left",
                   "buttonIcon": "",
@@ -559,14 +559,14 @@
             ]
           },
           {
-            "name": "Thank You",
+            "name": "ثبت",
             "type": "thankyou",
             "index": 0,
             "settings": {
-              "message": "<h1 class=\"ql-align-center\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACHFBMVEUAAAAA/4AdzKAa0Z8Zz58Zz54bzp4az58az54az58az54az54azp4X0p4A//8Zzpwazp4a0J4az54az54az54azp8azKIgv58az58az54az50azp4bz5wr1aoZ0J8a0J0az54az54az54az58Yzp4az54az54Zzp0ZzZsazp4az54az54az50bz58azp4Zzp0az54cz58Zz54a0J0czZsazJkazp4az54az54V1ZUZ0J4az54az58az58az54bz54az54Y0KAaz54bz50Aqqobz54X0aIazp4a0J0U2J0W05sazp4az54X0aIfzJkaz54b0ZsYz58bz54c0KEaz54Yzp4az54Vyp8az54az58Zzp8bz54cxqobz58az58bzp0az54Yzp0az54b0J0Z0J0a0J0az54az54az54zzJkbzp0Zz54azp4azp0az58az58k25Ib0J8bzp0a0J0bz54a0J0az54az58az54a0Z4az54a0J4c0Jwaz54a0J4a0J4b0J8az54az50azJ8X0Zsbzp0Zz54az54azp0az54a0J4az54c0Z4b0J4ZzaAazp0az50az54Yzp4az54az54b0J4azp4Z0Z8b0J0az58b0J4az54az54az54azp4X0Zwa0J4a0J8az54bzqAaz50Zz58az54dzp0a0J4azJkaz54a0Z0az54az54a0J4Av4Abz54az54az54AAABuBx9xAAAAsnRSTlMAAiNNb46twdTm7vVuIgEfWZHI9PNYHgiU29mTSwZSp/LxpVAq6+mNKUSz/sRV0lPQSrW8LgqI/PsMR+DeRf2Z1iv2YAOQC7K3DRfNyxYZ2Bwg3RvhFdUYsLRd0wmPii+6Sc5WUUa7i+oFc3m9TqS5B3JokqM8+lr4Mu1XNvDHbKyqayghXr/kY+/3djd8M3jRvj/G2kx+PaJ/canoibgsjIffQ6/J3BrXFK4nz0/nBMDlFQzb4QAAAAFiS0dEAIgFHUgAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkAx4LJyBbmdQEAAAFT0lEQVR42sWb+0NURRTHZ10Xlt1aWVzFclEQA2R1ZQ0QV/EVkPGIV2qmYohJVtgWSQ8SUiizInpRlhaUafa28xc2dx/s3d27M3ee9/vzmfmcOXPv3DMz5yLEIdca91pPSam3zOcH8PvKvKUlnkfcjwZ4+mLWuvJgxXqwVKgiuGGjUnile9NjQNHjm8OVauhVW7ZW0+gp1WyrrZKO3+55wh49pbr6Bpn0wI7GCAs+qZ1uWQ+la5eXmZ5UdLcUF9xRPryhppgwvmEPP97Qk81C+JbWvWJ8gLbgPn5+fL8o3tCBdk58ZetBGXyAyKEWHn7zYTl4Q94j7Pzy9eLcrI4+xYjv6JSJN1TfwcLvelo2H+DYM/b53T3y+QC9fXb5z3IuvTT1D9jjDw6p4QMMDdrhDyvjAzxnI2E6fkIdH+dLJ2n8fUqev6x6u8h81/Nq+QCnyOuB9PWnUPUkfrl6PsALxfnNfh0OhIp+mSpP6+ADnDhTxIFNevgAQWt+nD315lTEMkdqGdLFB9hvlSee1ccHGCnknxPOf1nUVvgmvKiTj/cL+Xy3Xj7AaC4/0KTbgfO5+8Yx3XyACzkBUJSEkdRkDkFMPx/gJZMDF51w4FiWv13bImxWJHuK43GCDzCe4Ve97IwDdZfSDmxR0v3BkldefY1sMpF2YKsK/tGw0fVaos3ldCJk8/yRjZ/+5L9OMqpJKPsMZPjoDaJZWFUmtspHbxLtJpM21PNnAT56i2jYb5isU8m/MkU2HcA2b8vmvxNe5b/7HsV2GhtNOsiHTmxVIZdviv/7V6nWM3g/LPU4jm38eJsWQGuc5AMMogmZfLb4GwpTVmvF4weYlZkLcPBxTvCBND57/LGuoVKaie/63PyHNi4OuPjwEaIl5P5zRpfd1MM7Pj5EURnF4lCq026Ko5x8uIFo1h8jOx7w8uEm+oRi8Wmm4z7CCRLP85+SH9GOBUpXuy4eA9P4P2MaP8BeqgOwQPVAgI8doE2B2QPrWeCPPxhTUEM3Intg4n/OzAcf9TU0tEiYBZH4g/Ea2joZyMbgeN5Vtnn8PnY+fEFfiokeiPLhS7sfo+ws9JliJhh/MD5Gdj/HVjEQHr9xYmk7ISn0QAIfrjPsDPNnQTz+WDGWpDQ3BjLGbySlrhCfB3L4OC1HMwz2pln4SkL8Ab7G7YMsDbIxkDF+AA/uYANTiwWpfNiFe9jI1mQxly8Sf6xho49v2NosyBs/HE52spmx1YI0fnJ3jtASa7NFSfHP3FokbOQkljEQHT/cTKQ62sbc8lvjrP870fHDrXQka9mbznz/w+02UT4spR2oqhPuikt3MofVqN4ZB35cfZsanLmwmMu+zz854cAe04IWd8KBHSYHAgJ1o7zKvbncrd+BCTPfgavbnryS37BuB+L5iYXmF+FUQWa1LL6yMmjKovR8RacDPxfytRax/GJZ0taur4znLrKU7LuTovJY81FC03roLVbKhZbl3p4UUTXh54tpDfzIGCJIQ2oyQuIj16+q+Y2UEu+uXrX8e9RKf8Vlvd00vtrC5vu/0fnOl3YjdFJRbemDAXt8hPqUPIn3frfLx++CggLrP5j+dOmQvSJFRlwsfKxa4b2vWaExRjzWEYklflGun/+c/tEJq/2ADP79u5x4rJZx4Vx5qvUMPx/rz0Yx/sVlIbyh0b/48T1xYTxW4ALnxvH839J+hb7i6E+vSTWs3GGh/zM+J87M06WJyzZPNK/eWvpXOj6pRGyyn0Z/EBxNqKGnNTDdOVOkBLN65uzYsFJ4RoH58OzKtYfR/3wh/J3x3Yg+vD0+G5vneuj+B3kSBXOWWmzmAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTAzLTMwVDExOjM5OjMyKzAwOjAwwC7YLQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0wMy0zMFQxMTozOTozMiswMDowMLFzYJEAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC\"></h1><h3 class=\"ql-align-center\">Form Submitted Successfully!</h3><p class=\"ql-align-center\">We will contact you as soon as possible.</p>",
+              "message": "<h1 class=\"ql-align-center\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACHFBMVEUAAAAA/4AdzKAa0Z8Zz58Zz54bzp4az58az54az58az54az54azp4X0p4A//8Zzpwazp4a0J4az54az54az54azp8azKIgv58az58az54az50azp4bz5wr1aoZ0J8a0J0az54az54az54az58Yzp4az54az54Zzp0ZzZsazp4az54az54az50bz58azp4Zzp0az54cz58Zz54a0J0czZsazJkazp4az54az54V1ZUZ0J4az54az58az58az54bz54az54Y0KAaz54bz50Aqqobz54X0aIazp4a0J0U2J0W05sazp4az54X0aIfzJkaz54b0ZsYz58bz54c0KEaz54Yzp4az54Vyp8az54az58Zzp8bz54cxqobz58az58bzp0az54Yzp0az54b0J0Z0J0a0J0az54az54az54zzJkbzp0Zz54azp4azp0az58az58k25Ib0J8bzp0a0J0bz54a0J0az54az58az54a0Z4az54a0J4c0Jwaz54a0J4a0J4b0J8az54az50azJ8X0Zsbzp0Zz54az54azp0az54a0J4az54c0Z4b0J4ZzaAazp0az50az54Yzp4az54az54b0J4azp4Z0Z8b0J0az58b0J4az54az54az54azp4X0Zwa0J4a0J8az54bzqAaz50Zz58az54dzp0a0J4azJkaz54a0Z0az54az54a0J4Av4Abz54az54az54AAABuBx9xAAAAsnRSTlMAAiNNb46twdTm7vVuIgEfWZHI9PNYHgiU29mTSwZSp/LxpVAq6+mNKUSz/sRV0lPQSrW8LgqI/PsMR+DeRf2Z1iv2YAOQC7K3DRfNyxYZ2Bwg3RvhFdUYsLRd0wmPii+6Sc5WUUa7i+oFc3m9TqS5B3JokqM8+lr4Mu1XNvDHbKyqayghXr/kY+/3djd8M3jRvj/G2kx+PaJ/canoibgsjIffQ6/J3BrXFK4nz0/nBMDlFQzb4QAAAAFiS0dEAIgFHUgAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkAx4LJyBbmdQEAAAFT0lEQVR42sWb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\"></h1><h3 class=\"ql-align-center\"> فرم با موفقیت ثبت شد !</h3><p class=\"ql-align-center\">در اولین فرصت با شما تماس می گیریم.</p>",
               "action": "showThankYou",
               "redirectUrl": "",
-              "successMessage": "Form Submitted Successfully!"
+              "successMessage": "فرم با موفقیت ثبت شد!"
             },
             "elements": []
           }
@@ -575,7 +575,7 @@
           {
             "type": "saveDatabase",
             "icon": "database",
-            "label": "Save to Database",
+            "label": "ذخیره در دیتابیس",
             "active": true,
             "payload": {
               "logIp": true,

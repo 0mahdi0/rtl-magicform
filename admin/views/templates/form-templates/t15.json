@@ -1,11 +1,11 @@
 {
     "id":"t15",
-    "category":"quickquestion",
-    "description":"Multi-page, fast, single choice market research ",
+    "category":"پرسش سریع",
+    "description":"تحقیقات بازار چند صفحه ای ، سریع ، تک گزینه ای ",
     "content":
     {
         "settings": {
-          "name": "Market Research Survey",
+          "name": "نظرسنجی تحقیقات بازار",
           "title": "",
           "titleVisible": true,
           "description": "",
@@ -56,7 +56,7 @@
               "b": 255,
               "a": 1
             },
-            "text": "Saving..."
+            "text": "ذخیره..."
           },
           "labelWidth": 150,
           "labelDisplay": "show",
@@ -306,20 +306,20 @@
           "fontFamily": "Roboto Condensed",
           "customCss": "",
           "translate": {
-            "requiredErr": "This field is required",
-            "confirmErr": "The confirmation input does not match",
-            "nextButton": "Next",
-            "previousButton": "Previous",
-            "maxFileSize": "Max File Size",
-            "extensionErr": "This extension not allowed",
-            "fileSizeErr": "Increase file size",
-            "allowedFileTypes": "Allowed File Types",
-            "formLimitMessage": "Form limit is over",
-            "gdprValidationMessage": "You have to accept terms & conditions"
+            "requiredErr": "این فیلد الزامی است",
+            "confirmErr": "ورودی تأیید مطابقت ندارد",
+            "nextButton": "بعدی",
+            "previousButton": "قبلی",
+            "maxFileSize": "بیشترین حجم فایل",
+            "extensionErr": "این برنامه افزودنی مجاز نیست",
+            "fileSizeErr": "اندازه پرونده بیش از اندازه مجاز است",
+            "allowedFileTypes": "نوع فایل های مجاز",
+            "formLimitMessage": "محدودیت فرم تمام شد",
+            "gdprValidationMessage": "شما باید شرایط و ضوابط را بپذیرید"
           },
           "gdpr": false,
           "csrfToken": true,
-          "gdprText": "I agree to the {privacy_policy}",
+          "gdprText": "من با {privacy_policy} موافقم",
           "saveIp": true,
           "saveUserAgent": true,
           "saveRegisteredUser": true,
@@ -348,11 +348,11 @@
         },
         "pages": [
           {
-            "name": "Gender / Age",
+            "name": "جنسیت / سن",
             "type": "page",
             "index": 1,
             "step": {
-              "title": "Gender / Age",
+              "title": "جنسیت / سن",
               "icon": "venus-mars",
               "description": ""
             },
@@ -372,7 +372,7 @@
               {
                 "type": "radioButton",
                 "payload": {
-                  "labelText": "Gender",
+                  "labelText": "جنسیت",
                   "labelIcon": null,
                   "labelPosition": "inherit",
                   "labelDisplay": "inherit",
@@ -382,7 +382,7 @@
                   "required": true,
                   "otherPlaceholder": "",
                   "otherDefaultValue": "",
-                  "otherLabel": "Other",
+                  "otherLabel": "دیگر",
                   "otherCheck": false,
                   "disabled": false,
                   "cssClasses": [],
@@ -391,13 +391,13 @@
                   "options": [
                     {
                       "value": "Male",
-                      "name": "Male",
+                      "name": "مرد",
                       "chosen": false,
                       "selected": false
                     },
                     {
                       "value": "Female",
-                      "name": "Female",
+                      "name": "زن",
                       "chosen": false,
                       "selected": false
                     },
@@ -418,7 +418,7 @@
               {
                 "type": "radioButton",
                 "payload": {
-                  "labelText": "Age",
+                  "labelText": "سن",
                   "labelIcon": null,
                   "labelPosition": "inherit",
                   "labelDisplay": "inherit",
@@ -428,7 +428,7 @@
                   "required": true,
                   "otherPlaceholder": "",
                   "otherDefaultValue": "",
-                  "otherLabel": "Other",
+                  "otherLabel": "دیگر",
                   "otherCheck": false,
                   "disabled": false,
                   "cssClasses": [],
@@ -467,7 +467,7 @@
                     },
                     {
                       "value": "65 or more",
-                      "name": "65 or more"
+                      "name": "بیش از 65"
                     }
                   ],
                   "validations": []
@@ -480,11 +480,11 @@
             ]
           },
           {
-            "name": "Education",
+            "name": "تحصیلات",
             "type": "page",
             "index": 2,
             "step": {
-              "title": "Education",
+              "title": "تحصیلات",
               "description": "",
               "icon": "university"
             },
@@ -504,7 +504,7 @@
               {
                 "type": "radioButton",
                 "payload": {
-                  "labelText": "Education",
+                  "labelText": "تحصیلات",
                   "labelIcon": null,
                   "labelPosition": "inherit",
                   "labelDisplay": "inherit",
@@ -514,7 +514,7 @@
                   "required": true,
                   "otherPlaceholder": "",
                   "otherDefaultValue": "",
-                  "otherLabel": "Other",
+                  "otherLabel": "دیگر",
                   "otherCheck": false,
                   "disabled": false,
                   "cssClasses": [],
@@ -523,31 +523,31 @@
                   "options": [
                     {
                       "value": "Less than HS diploma",
-                      "name": "Less than HS diploma",
+                      "name": "کمتر از دیپلم",
                       "chosen": false,
                       "selected": false
                     },
                     {
                       "value": "High school",
-                      "name": "High school",
+                      "name": "دیپلم",
                       "chosen": false,
                       "selected": false
                     },
                     {
                       "value": "Some college",
-                      "name": "Some college",
+                      "name": "بعضی از کالج ها",
                       "chosen": false,
                       "selected": false
                     },
                     {
                       "value": "Bachelors degree",
-                      "name": "Bachelors degree",
+                      "name": "مدرک کارشناسی",
                       "chosen": false,
                       "selected": false
                     },
                     {
                       "value": "Graduate degree",
-                      "name": "Graduate degree",
+                      "name": "مدرک فوق لیسانس",
                       "chosen": false,
                       "selected": false
                     }
@@ -560,11 +560,11 @@
             ]
           },
           {
-            "name": "Income",
+            "name": "درآمد",
             "type": "page",
             "index": 3,
             "step": {
-              "title": "Income",
+              "title": "درآمد",
               "description": "",
               "icon": "dollar-sign"
             },
@@ -584,7 +584,7 @@
               {
                 "type": "radioButton",
                 "payload": {
-                  "labelText": "Household income",
+                  "labelText": "درآمد خانوار",
                   "labelIcon": null,
                   "labelPosition": "inherit",
                   "labelDisplay": "inherit",
@@ -594,7 +594,7 @@
                   "required": true,
                   "otherPlaceholder": "",
                   "otherDefaultValue": "",
-                  "otherLabel": "Other",
+                  "otherLabel": "دیگر",
                   "otherCheck": false,
                   "disabled": false,
                   "cssClasses": [],
@@ -602,32 +602,32 @@
                   "optionsDisplay": "1",
                   "options": [
                     {
-                      "value": "$0 - $9,999",
-                      "name": "$0 - $9,999",
+                      "value": "0 - 9,999",
+                      "name": "0 - 9,999",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "$10,000 - $19,999",
-                      "name": "$10,000 - $19,999",
+                      "value": "10,000 - 19,999",
+                      "name": "10,000 - 19,999",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "$20,000 - $29,999",
-                      "name": "$20,000 - $29,999",
+                      "value": "20,000 - 29,999",
+                      "name": "20,000 - 29,999",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "$30,000 - $49,999",
-                      "name": "$30,000 - $49,999",
+                      "value": "30,000 - 49,999",
+                      "name": "30,000 - 49,999",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "$50,000 or more",
-                      "name": "$50,000 or more",
+                      "value": "50,000 بیش از",
+                      "name": "50,000 بیش از",
                       "chosen": false,
                       "selected": false
                     }
@@ -640,11 +640,11 @@
             ]
           },
           {
-            "name": "Interests",
+            "name": "منافع",
             "type": "page",
             "index": 4,
             "step": {
-              "title": "Interests",
+              "title": "منافع",
               "description": "",
               "icon": "question"
             },
@@ -664,7 +664,7 @@
               {
                 "type": "radioButton",
                 "payload": {
-                  "labelText": "Check any interests that you like",
+                  "labelText": "هر علاقه ای را که دوست دارید بررسی کنید",
                   "labelIcon": null,
                   "labelPosition": "inline",
                   "labelDisplay": "inherit",
@@ -674,7 +674,7 @@
                   "required": true,
                   "otherPlaceholder": "",
                   "otherDefaultValue": "",
-                  "otherLabel": "Other",
+                  "otherLabel": "دیگر",
                   "otherCheck": false,
                   "disabled": false,
                   "cssClasses": [],
@@ -682,140 +682,140 @@
                   "optionsDisplay": "1",
                   "options": [
                     {
-                      "value": "Arts & Entertainment",
-                      "name": "Arts & Entertainment",
+                      "value": "هنر و سرگرمی",
+                      "name": "هنر و سرگرمی",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Autos & Vehicles",
-                      "name": "Autos & Vehicles",
+                      "value": "خودرو و وسایل نقلیه",
+                      "name": "خودرو و وسایل نقلیه",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Beauty & Fitness",
-                      "name": "Beauty & Fitness",
+                      "value": "زیبایی و تناسب اندام",
+                      "name": "زیبایی و تناسب اندام",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Books & Literature",
-                      "name": "Books & Literature",
+                      "value": "کتاب و ادبیات",
+                      "name": "کتاب و ادبیات",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Business & Industrial",
-                      "name": "Business & Industrial",
+                      "value": "بازرگانی و صنعتی",
+                      "name": "بازرگانی و صنعتی",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Computers & Electronics",
-                      "name": "Computers & Electronics",
+                      "value": "رایانه و الکترونیک",
+                      "name": "رایانه و الکترونیک",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Finance",
-                      "name": "Finance",
+                      "value": "دارایی، مالیه، سرمایه گذاری",
+                      "name": "دارایی، مالیه، سرمایه گذاری",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Food & Drink",
-                      "name": "Food & Drink",
+                      "value": "غذا نوشیدنی",
+                      "name": "غذا نوشیدنی",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Games",
-                      "name": "Games",
+                      "value": "بازی",
+                      "name": "بازی",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Hobbies & Leisure",
-                      "name": "Hobbies & Leisure",
+                      "value": "سرگرمی ها و اوقات فراغت",
+                      "name": "سرگرمی ها و اوقات فراغت",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Home & Garden",
-                      "name": "Home & Garden",
+                      "value": "خانه و باغ",
+                      "name": "خانه و باغ",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Internet & Telecom",
-                      "name": "Internet & Telecom",
+                      "value": "اینترنت و مخابرات",
+                      "name": "اینترنت و مخابرات",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Jobs & Education",
-                      "name": "Jobs & Education",
+                      "value": "مشاغل و تحصیلات",
+                      "name": "مشاغل و تحصیلات",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Law & Government",
-                      "name": "Law & Government",
+                      "value": "قانون و دولت",
+                      "name": "قانون و دولت",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "News",
-                      "name": "News",
+                      "value": "اخبار",
+                      "name": "اخبار",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Online Communities",
-                      "name": "Online Communities",
+                      "value": "انجمن های آنلاین",
+                      "name": "انجمن های آنلاین",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "People & Society",
-                      "name": "People & Society",
+                      "value": "مردم و جامعه",
+                      "name": "مردم و جامعه",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Pets & Animals",
-                      "name": "Pets & Animals",
+                      "value": "حیوانات خانگی و حیوانات",
+                      "name": "حیوانات خانگی و حیوانات",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Real Estate",
-                      "name": "Real Estate",
+                      "value": "مشاور املاک",
+                      "name": "مشاور املاک",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Science",
-                      "name": "Science",
+                      "value": "علوم پایه",
+                      "name": "علوم پایه",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Shopping",
-                      "name": "Shopping",
+                      "value": "فروشگاه",
+                      "name": "فروشگاه",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Sports",
-                      "name": "Sports",
+                      "value": "ورزش",
+                      "name": "ورزش",
                       "chosen": false,
                       "selected": false
                     },
                     {
-                      "value": "Travel",
-                      "name": "Travel",
+                      "value": "سفر",
+                      "name": "سفر",
                       "chosen": false,
                       "selected": false
                     }
@@ -830,7 +830,7 @@
               {
                 "type": "submitButton",
                 "payload": {
-                  "buttonName": "Submit",
+                  "buttonName": "ثبت",
                   "buttonType": "default",
                   "buttonPosition": "left",
                   "buttonIcon": "vote-yea",
@@ -848,14 +848,14 @@
             ]
           },
           {
-            "name": "Thank You",
+            "name": "ثبت",
             "type": "thankyou",
             "index": 0,
             "settings": {
-              "message": "<h1 class=\"ql-align-center\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACHFBMVEUAAAAA/4AdzKAa0Z8Zz58Zz54bzp4az58az54az58az54az54azp4X0p4A//8Zzpwazp4a0J4az54az54az54azp8azKIgv58az58az54az50azp4bz5wr1aoZ0J8a0J0az54az54az54az58Yzp4az54az54Zzp0ZzZsazp4az54az54az50bz58azp4Zzp0az54cz58Zz54a0J0czZsazJkazp4az54az54V1ZUZ0J4az54az58az58az54bz54az54Y0KAaz54bz50Aqqobz54X0aIazp4a0J0U2J0W05sazp4az54X0aIfzJkaz54b0ZsYz58bz54c0KEaz54Yzp4az54Vyp8az54az58Zzp8bz54cxqobz58az58bzp0az54Yzp0az54b0J0Z0J0a0J0az54az54az54zzJkbzp0Zz54azp4azp0az58az58k25Ib0J8bzp0a0J0bz54a0J0az54az58az54a0Z4az54a0J4c0Jwaz54a0J4a0J4b0J8az54az50azJ8X0Zsbzp0Zz54az54azp0az54a0J4az54c0Z4b0J4ZzaAazp0az50az54Yzp4az54az54b0J4azp4Z0Z8b0J0az58b0J4az54az54az54azp4X0Zwa0J4a0J8az54bzqAaz50Zz58az54dzp0a0J4azJkaz54a0Z0az54az54a0J4Av4Abz54az54az54AAABuBx9xAAAAsnRSTlMAAiNNb46twdTm7vVuIgEfWZHI9PNYHgiU29mTSwZSp/LxpVAq6+mNKUSz/sRV0lPQSrW8LgqI/PsMR+DeRf2Z1iv2YAOQC7K3DRfNyxYZ2Bwg3RvhFdUYsLRd0wmPii+6Sc5WUUa7i+oFc3m9TqS5B3JokqM8+lr4Mu1XNvDHbKyqayghXr/kY+/3djd8M3jRvj/G2kx+PaJ/canoibgsjIffQ6/J3BrXFK4nz0/nBMDlFQzb4QAAAAFiS0dEAIgFHUgAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkAx4LJyBbmdQEAAAFT0lEQVR42sWb+0NURRTHZ10Xlt1aWVzFclEQA2R1ZQ0QV/EVkPGIV2qmYohJVtgWSQ8SUiizInpRlhaUafa28xc2dx/s3d27M3ee9/vzmfmcOXPv3DMz5yLEIdca91pPSam3zOcH8PvKvKUlnkfcjwZ4+mLWuvJgxXqwVKgiuGGjUnile9NjQNHjm8OVauhVW7ZW0+gp1WyrrZKO3+55wh49pbr6Bpn0wI7GCAs+qZ1uWQ+la5eXmZ5UdLcUF9xRPryhppgwvmEPP97Qk81C+JbWvWJ8gLbgPn5+fL8o3tCBdk58ZetBGXyAyKEWHn7zYTl4Q94j7Pzy9eLcrI4+xYjv6JSJN1TfwcLvelo2H+DYM/b53T3y+QC9fXb5z3IuvTT1D9jjDw6p4QMMDdrhDyvjAzxnI2E6fkIdH+dLJ2n8fUqev6x6u8h81/Nq+QCnyOuB9PWnUPUkfrl6PsALxfnNfh0OhIp+mSpP6+ADnDhTxIFNevgAQWt+nD315lTEMkdqGdLFB9hvlSee1ccHGCnknxPOf1nUVvgmvKiTj/cL+Xy3Xj7AaC4/0KTbgfO5+8Yx3XyACzkBUJSEkdRkDkFMPx/gJZMDF51w4FiWv13bImxWJHuK43GCDzCe4Ve97IwDdZfSDmxR0v3BkldefY1sMpF2YKsK/tGw0fVaos3ldCJk8/yRjZ/+5L9OMqpJKPsMZPjoDaJZWFUmtspHbxLtJpM21PNnAT56i2jYb5isU8m/MkU2HcA2b8vmvxNe5b/7HsV2GhtNOsiHTmxVIZdviv/7V6nWM3g/LPU4jm38eJsWQGuc5AMMogmZfLb4GwpTVmvF4weYlZkLcPBxTvCBND57/LGuoVKaie/63PyHNi4OuPjwEaIl5P5zRpfd1MM7Pj5EURnF4lCq026Ko5x8uIFo1h8jOx7w8uEm+oRi8Wmm4z7CCRLP85+SH9GOBUpXuy4eA9P4P2MaP8BeqgOwQPVAgI8doE2B2QPrWeCPPxhTUEM3Intg4n/OzAcf9TU0tEiYBZH4g/Ea2joZyMbgeN5Vtnn8PnY+fEFfiokeiPLhS7sfo+ws9JliJhh/MD5Gdj/HVjEQHr9xYmk7ISn0QAIfrjPsDPNnQTz+WDGWpDQ3BjLGbySlrhCfB3L4OC1HMwz2pln4SkL8Ab7G7YMsDbIxkDF+AA/uYANTiwWpfNiFe9jI1mQxly8Sf6xho49v2NosyBs/HE52spmx1YI0fnJ3jtASa7NFSfHP3FokbOQkljEQHT/cTKQ62sbc8lvjrP870fHDrXQka9mbznz/w+02UT4spR2oqhPuikt3MofVqN4ZB35cfZsanLmwmMu+zz854cAe04IWd8KBHSYHAgJ1o7zKvbncrd+BCTPfgavbnryS37BuB+L5iYXmF+FUQWa1LL6yMmjKovR8RacDPxfytRax/GJZ0taur4znLrKU7LuTovJY81FC03roLVbKhZbl3p4UUTXh54tpDfzIGCJIQ2oyQuIj16+q+Y2UEu+uXrX8e9RKf8Vlvd00vtrC5vu/0fnOl3YjdFJRbemDAXt8hPqUPIn3frfLx++CggLrP5j+dOmQvSJFRlwsfKxa4b2vWaExRjzWEYklflGun/+c/tEJq/2ADP79u5x4rJZx4Vx5qvUMPx/rz0Yx/sVlIbyh0b/48T1xYTxW4ALnxvH839J+hb7i6E+vSTWs3GGh/zM+J87M06WJyzZPNK/eWvpXOj6pRGyyn0Z/EBxNqKGnNTDdOVOkBLN65uzYsFJ4RoH58OzKtYfR/3wh/J3x3Yg+vD0+G5vneuj+B3kSBXOWWmzmAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTAzLTMwVDExOjM5OjMyKzAwOjAwwC7YLQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0wMy0zMFQxMTozOTozMiswMDowMLFzYJEAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC\"></h1><h3 class=\"ql-align-center\">Form Submitted Successfully!</h3><p class=\"ql-align-center\">We will contact you as soon as possible.</p>",
+              "message": "<h1 class=\"ql-align-center\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACHFBMVEUAAAAA/4AdzKAa0Z8Zz58Zz54bzp4az58az54az58az54az54azp4X0p4A//8Zzpwazp4a0J4az54az54az54azp8azKIgv58az58az54az50azp4bz5wr1aoZ0J8a0J0az54az54az54az58Yzp4az54az54Zzp0ZzZsazp4az54az54az50bz58azp4Zzp0az54cz58Zz54a0J0czZsazJkazp4az54az54V1ZUZ0J4az54az58az58az54bz54az54Y0KAaz54bz50Aqqobz54X0aIazp4a0J0U2J0W05sazp4az54X0aIfzJkaz54b0ZsYz58bz54c0KEaz54Yzp4az54Vyp8az54az58Zzp8bz54cxqobz58az58bzp0az54Yzp0az54b0J0Z0J0a0J0az54az54az54zzJkbzp0Zz54azp4azp0az58az58k25Ib0J8bzp0a0J0bz54a0J0az54az58az54a0Z4az54a0J4c0Jwaz54a0J4a0J4b0J8az54az50azJ8X0Zsbzp0Zz54az54azp0az54a0J4az54c0Z4b0J4ZzaAazp0az50az54Yzp4az54az54b0J4azp4Z0Z8b0J0az58b0J4az54az54az54azp4X0Zwa0J4a0J8az54bzqAaz50Zz58az54dzp0a0J4azJkaz54a0Z0az54az54a0J4Av4Abz54az54az54AAABuBx9xAAAAsnRSTlMAAiNNb46twdTm7vVuIgEfWZHI9PNYHgiU29mTSwZSp/LxpVAq6+mNKUSz/sRV0lPQSrW8LgqI/PsMR+DeRf2Z1iv2YAOQC7K3DRfNyxYZ2Bwg3RvhFdUYsLRd0wmPii+6Sc5WUUa7i+oFc3m9TqS5B3JokqM8+lr4Mu1XNvDHbKyqayghXr/kY+/3djd8M3jRvj/G2kx+PaJ/canoibgsjIffQ6/J3BrXFK4nz0/nBMDlFQzb4QAAAAFiS0dEAIgFHUgAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkAx4LJyBbmdQEAAAFT0lEQVR42sWb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\"></h1><h3 class=\"ql-align-center\"> فرم با موفقیت ثبت شد !</h3><p class=\"ql-align-center\">در اولین فرصت با شما تماس می گیریم.</p>",
               "action": "showThankYou",
               "redirectUrl": "",
-              "successMessage": "Form Submitted Successfully!"
+              "successMessage": "فرم با موفقیت ثبت شد!"
             },
             "elements": []
           }
@@ -864,7 +864,7 @@
           {
             "type": "saveDatabase",
             "icon": "database",
-            "label": "Save to Database",
+            "label": "ذخیره در دیتابیس",
             "active": true,
             "payload": {
               "logIp": true,

@@ -1,0 +1,2975 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Magic Form\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 15:56+0000\n"
+"PO-Revision-Date: 2021-05-31 08:57+0430\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+
+#: admin/class-magicform-dashboard.php:88
+msgid "Unread Submissions"
+msgstr "ارسال های خوانده نشده"
+
+#: admin/class-magicform-dashboard.php:170
+msgid "License is free"
+msgstr "مجوز رایگان است"
+
+#: admin/class-magicform-dashboard.php:196
+#: admin/class-magicform-dashboard.php:240
+#: admin/class-magicform-dashboard.php:274
+msgid "An error occurred when reach license server!"
+msgstr "هنگام دسترسی به سرور مجوز خطائی رخ داد!"
+
+#: admin/class-magicform-dashboard.php:210
+msgid "License code is required"
+msgstr "کد مجوز لازم است"
+
+#: admin/class-magicform-dashboard.php:214
+msgid "Domain is required"
+msgstr "دامنه مورد نیاز است"
+
+#: admin/class-magicform-dashboard.php:287
+msgid "Message is required"
+msgstr "پیام لازم است"
+
+#: admin/class-magicform-dashboard.php:306
+msgid "Thank you for your feedback."
+msgstr "ممنون از نظر شما."
+
+#: admin/class-magicform-dashboard.php:311
+msgid "An error occurred when reach feedback server!"
+msgstr "هنگام دسترسی به سرور بازخورد خطایی رخ داد!"
+
+#: admin/class-magicform-forms.php:91
+msgid "You have to purchase for create limitless forms"
+msgstr "شما باید برای ایجاد فرم های نامحدود خرید کنید"
+
+#: admin/class-magicform-forms.php:98 admin/class-magicform-templates.php:75
+msgid "Form name is required"
+msgstr "نام فرم الزامی است"
+
+#: admin/class-magicform-importexport.php:128
+#: admin/views/forms/client-language.php:481
+msgid "This file type is not allowed"
+msgstr "این نوع پرونده مجاز نیست"
+
+#: admin/class-magicform-importexport.php:133
+#: admin/views/forms/client-language.php:479
+msgid "You have to add form name"
+msgstr "شما باید نام فرم را اضافه کنید"
+
+#: admin/class-magicform-importexport.php:139
+#: admin/views/forms/client-language.php:482
+msgid "Your data is not valid"
+msgstr "داده های شما معتبر نیستند"
+
+#: admin/class-magicform-settings.php:92
+msgid "Smtp host is required"
+msgstr "میزبان smtp لازم است"
+
+#: admin/class-magicform-settings.php:96
+msgid "Email is required"
+msgstr "ایمیل لازم است"
+
+#: admin/class-magicform-settings.php:100
+msgid "Password is required"
+msgstr "رمز عبور مورد نیاز است"
+
+#: admin/class-magicform-settings.php:104
+msgid "Smtp port is required"
+msgstr "پورت smtp لازم است"
+
+#: admin/class-magicform-settings.php:123
+#: admin/class-magicform-settings.php:143
+#: admin/class-magicform-settings.php:165
+#: admin/class-magicform-settings.php:196
+#: admin/class-magicform-settings.php:217
+#: admin/class-magicform-settings.php:237
+#: admin/class-magicform-settings.php:257
+msgid "Settings Saved."
+msgstr "تنظیمات ذخیره شد."
+
+#: admin/class-magicform-settings.php:134
+msgid "Google api key is required"
+msgstr "کلید api Google لازم است"
+
+#: admin/class-magicform-settings.php:177
+msgid "SendGrid api key is required"
+msgstr "کلید api SendGrid لازم است"
+
+#: admin/class-magicform-settings.php:181
+msgid "SendGrid verify from mail address is required"
+msgstr "ارسال SendGrid از طریق آدرس ایمیل مورد نیاز است"
+
+#: admin/class-magicform-settings.php:206
+msgid "Sengrid api key is required"
+msgstr "کلید api Sendgrid لازم است"
+
+#: admin/class-magicform-settings.php:228
+msgid "MailChimp api key is required"
+msgstr "کلید api MailChimp لازم است"
+
+#: admin/class-magicform-settings.php:248
+msgid "GetResponse api key is required"
+msgstr "کلید api GetResponse لازم است"
+
+#: admin/class-magicform-submissions.php:421
+msgid "Something is wrong with CSRF token"
+msgstr "مشکلی در رمز CSRF وجود ندارد"
+
+#: public/views/components/phone.php:23
+#: admin/class-magicform-submissions.php:516
+msgid "Please select a submission at least"
+msgstr "لطفا حداقل یک ارسال را انتخاب کنید"
+
+#: admin/views/components/404.php:5
+msgid "MagicForm Submissions"
+msgstr "ارسالهای MagicForm"
+
+#: admin/views/components/404.php:8
+msgid "Page not found"
+msgstr "صفحه یافت نشد"
+
+#: admin/views/components/404.php:11
+msgid "Sorry, but the page you were looking for could not be found."
+msgstr "متأسفیم ، صفحه مورد نظر شما یافت نشد."
+
+#: admin/views/components/404.php:14
+msgid "Go Back"
+msgstr "بازگشت"
+
+#: admin/views/components/header-right.php:5
+#: admin/views/dashboard/dashboard.php:24
+msgid "Documentation"
+msgstr "مستندات"
+
+#: admin/views/components/header-right.php:10
+msgid "Support"
+msgstr "حمایت کردن"
+
+#: admin/views/components/header-right.php:15
+#: admin/views/dashboard/feedback.php:8
+msgid "Feedback"
+msgstr "بازخورد"
+
+#: admin/views/components/license-check.php:6
+#: admin/views/dashboard/license.php:28
+msgid "You do not have license for this plugin."
+msgstr "شما مجوز این افزونه را ندارید."
+
+#: admin/views/components/license-check.php:9
+#, php-format
+msgid "Go to <a href='%s'>dashboard</a> and activate your plugin!"
+msgstr ""
+
+#: admin/views/dashboard/dashboard.php:25
+msgid "Read documentation to learn how to use Magic Form."
+msgstr "برای یادگیری نحوه استفاده از Magic Form مستندات را بخوانید."
+
+#: admin/views/dashboard/dashboard.php:28
+msgid "Read Documentation"
+msgstr "مستندات را بخوانید"
+
+#: admin/views/dashboard/dashboard.php:34
+msgid "Support & Help"
+msgstr "پشتیبانی و راهنما"
+
+#: admin/views/dashboard/dashboard.php:36
+msgid "Have a question? We've got answers!"
+msgstr "سوالی دارید؟ پاسخ هایی داریم!"
+
+#: admin/views/dashboard/dashboard.php:38 php-format
+msgid "You can ask every question on email %s"
+msgstr "می توانید هر سوالی را از طریق ایمیل  %s بپرسید"
+
+#: admin/views/dashboard/dashboard.php:44
+msgid "Get Support"
+msgstr "دریافت پشتیبانی"
+
+#: admin/views/dashboard/feedback.php:10
+msgid "Hi, we are thrilled you chose to purchase the magicform from us. "
+msgstr "سلام، ما بسیار خوشحالیم که شما تصمیم گرفتید شکل جادویی را از ما خریداری کنید. "
+
+#: admin/views/dashboard/feedback.php:11
+msgid "We are working hard to build a higher quality product for our customers. We would love to learn more about your opinion."
+msgstr "سلام ، ما بسیار خوشحالیم که شما تصمیم گرفتید شکل جادویی را از ما خریداری کنید."
+
+#: admin/views/dashboard/feedback.php:12
+msgid "Please give us your feedback. Thank you."
+msgstr "لطفا نظرات خود را به ما ارائه نمایید. متشکرم."
+
+#: admin/views/dashboard/feedback.php:15
+msgid "E-Mail (Optional)"
+msgstr "ایمیل (اختیاری)"
+
+#: admin/views/dashboard/feedback.php:16 admin/views/settings/settings.php:29
+msgid "Email"
+msgstr "ایمیل"
+
+#: admin/views/dashboard/feedback.php:19 admin/views/dashboard/feedback.php:20
+msgid "Message"
+msgstr "پیام"
+
+#: admin/views/dashboard/feedback.php:23
+msgid "Rating"
+msgstr "رتبه بندی"
+
+#: admin/views/dashboard/feedback.php:42
+#: admin/views/forms/client-language.php:330
+msgid "Submit"
+msgstr "ارسال"
+
+#: admin/views/dashboard/latest-submissions.php:6
+msgid "Latest 10 Submissions"
+msgstr "آخرین 10 ارسال"
+
+#: admin/views/dashboard/latest-submissions.php:10
+#: admin/views/submissions/submissions-print.php:25
+#: admin/views/submissions/submissions-print.php:75
+#: admin/views/submissions/submissions.php:51
+#: admin/views/submissions/submissions.php:122
+msgid "ID"
+msgstr "شناسه"
+
+#: admin/views/dashboard/latest-submissions.php:11
+#: admin/views/forms/client-language.php:104 admin/views/forms/modals.php:19
+#: admin/views/forms/modals.php:131
+#: admin/views/submissions/submission-print.php:151
+#: admin/views/submissions/submissions-print.php:26
+#: admin/views/submissions/submissions-print.php:76
+#: admin/views/submissions/submissions.php:52
+#: admin/views/submissions/submissions.php:123
+msgid "Form Name"
+msgstr "نام فرم"
+
+#: admin/views/dashboard/latest-submissions.php:12
+#: admin/views/submissions/submissions-print.php:77
+#: admin/views/submissions/submissions.php:124
+msgid "Form Data"
+msgstr "فرم داده"
+
+#: admin/views/dashboard/latest-submissions.php:13
+#: admin/views/submissions/submissions-print.php:27
+#: admin/views/submissions/submissions-print.php:78
+#: admin/views/submissions/submissions.php:53
+#: admin/views/submissions/submissions.php:125
+msgid "Create Date"
+msgstr "ایجاد تاریخ"
+
+#: admin/views/dashboard/latest-submissions.php:49
+#: admin/views/dashboard/stats.php:26
+msgid "See all submissions"
+msgstr "مشاهده همه موارد ارسالی"
+
+#: admin/views/dashboard/latest-submissions.php:57
+msgid "There is no submission right now."
+msgstr "در حال حاضر هیچ تسلیمی وجود ندارد."
+
+#: admin/views/dashboard/license.php:3 admin/views/settings/settings.php:23
+msgid "License"
+msgstr "مجوز"
+
+#: admin/views/dashboard/license.php:7
+msgid "You have license for this plugin."
+msgstr "شما مجوز این افزونه را دارید."
+
+#: admin/views/dashboard/license.php:10 admin/views/dashboard/license.php:32
+msgid "License Code"
+msgstr "کد مجوز"
+
+#: admin/views/dashboard/license.php:14
+msgid "Domain"
+msgstr "دامنه"
+
+#: admin/views/dashboard/license.php:21
+msgid "Deactivate Licence"
+msgstr "غیرفعال کردن مجوز"
+
+#: admin/views/dashboard/license.php:30
+msgid "If you have a license code please activate plugin"
+msgstr "اگر کد مجوز دارید ، پلاگین را فعال کنید"
+
+#: admin/views/dashboard/license.php:37
+msgid "Activate Plugin"
+msgstr "پلاگین را فعال کنید"
+
+#: admin/views/dashboard/license.php:40
+msgid "Do not have license code. Please purchase license from codecanyon to use this plugin."
+msgstr "کد مجوز ندارید لطفاً برای استفاده از این افزونه مجوز را از codecanyon خریداری کنید."
+
+#: admin/views/dashboard/license.php:43
+msgid "Purchase Plugin"
+msgstr "پلاگین خرید"
+
+#: admin/views/dashboard/stats.php:11
+msgid "Total Forms"
+msgstr "کل فرمها"
+
+#: admin/views/dashboard/stats.php:14 admin/views/forms/client-language.php:112
+msgid "Active"
+msgstr "فعال"
+
+#: admin/views/dashboard/stats.php:15
+msgid "Inactive"
+msgstr "غیر فعال"
+
+#: admin/views/dashboard/stats.php:23
+msgid "Total Submissions"
+msgstr "کل ارسال ها"
+
+#: admin/views/dashboard/stats.php:34
+msgid "New Submissions"
+msgstr "ارسال های جدید"
+
+#: admin/views/dashboard/stats.php:37
+msgid "Read Submissions"
+msgstr "مطالب ارسالی را بخوانید"
+
+#: admin/views/forms/client-language.php:3
+msgid "Build"
+msgstr "ساختن"
+
+#: admin/views/forms/client-language.php:4 admin/views/settings/settings.php:7
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: admin/views/forms/client-language.php:5
+msgid "Actions"
+msgstr "اقدامات"
+
+#: admin/views/forms/client-language.php:6
+msgid "Publish"
+msgstr "انتشار"
+
+#: admin/views/forms/client-language.php:7
+msgid "Preview"
+msgstr "پیش نمایش"
+
+#: admin/views/forms/client-language.php:8 admin/views/forms/modals.php:123
+#: admin/views/forms/modals.php:146
+#: admin/views/importexport/importexport.php:30
+msgid "Import Form"
+msgstr "فرم وارد کردن"
+
+#: admin/views/forms/client-language.php:9
+#: admin/views/importexport/form-list.php:11
+msgid "Export Form"
+msgstr "فرم صادرات"
+
+#: admin/views/forms/client-language.php:10
+msgid "Save Form"
+msgstr "فرم را ذخیره کنید"
+
+#: admin/views/forms/client-language.php:11
+msgid "Last page can not be removed!"
+msgstr "صفحه آخر قابل حذف نیست!"
+
+#: admin/views/forms/client-language.php:12
+msgid "THEME & COLORS"
+msgstr "تم و رنگ ها"
+
+#: admin/views/forms/client-language.php:13
+msgid "INPUT"
+msgstr "ورودی"
+
+#: admin/views/forms/client-language.php:14
+msgid "BUTTON"
+msgstr "دکمه"
+
+#: admin/views/forms/client-language.php:15
+msgid "FORM ID"
+msgstr "شناسه فرم"
+
+#: admin/views/forms/client-language.php:16
+msgid "PAGE"
+msgstr "صفحه"
+
+#: admin/views/forms/client-language.php:17
+msgid "About Publish"
+msgstr "درباره انتشار"
+
+#: admin/views/forms/client-language.php:18
+msgid "Magic form uses shortcode to add form to website"
+msgstr "فرم جادویی از کد کوتاه برای افزودن فرم به وب سایت استفاده می کند"
+
+#: admin/views/forms/client-language.php:19
+#, php-format
+msgid "Learn how to use shortcode from <a href='%s' target='_blank'>here</a>"
+msgstr "نحوه استفاده از کد کوتاه را از <a href='%s' target='_blank'>اینجا</a> بیاموزید"
+
+#: admin/views/forms/client-language.php:20
+#, php-format
+msgid "<a href='%s' target='_blank'>Setup GetResponse Settings</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:21
+#, php-format
+msgid "<a href='%s' target='_blank'>Setup Email Settings</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:22
+#, php-format
+msgid "<a href='%s' target='_blank'>Setup MailChimp Settings</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:23
+#, php-format
+msgid "<a href='%s' target='_blank'>Setup SendGrid Settings</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:24
+#, php-format
+msgid "<a href='%s' target='_blank'>Purchase Plugin</a>"
+msgstr ""
+
+#: admin/views/forms/client-language.php:25
+msgid "INLINE FORM"
+msgstr "فرم داخلی"
+
+#: admin/views/forms/client-language.php:26
+msgid "here"
+msgstr "اینجا"
+
+#: admin/views/forms/client-language.php:27 admin/views/forms/modals.php:79
+msgid "Insert this shortcode to display inline (Recommended)"
+msgstr "این کد کوتاه را برای نمایش درون خطی وارد کنید (توصیه می شود)"
+
+#: admin/views/forms/client-language.php:28
+msgid "Don't know how to use shortcodes"
+msgstr "نحوه استفاده از کد کوتاه را بلد نیستید"
+
+#: admin/views/forms/client-language.php:29
+msgid "Learn"
+msgstr "فرا گرفتن"
+
+#: admin/views/forms/client-language.php:30 admin/views/forms/modals.php:95
+msgid "Php usage to display form inline (Advanced Usage)"
+msgstr "استفاده از PHP برای نمایش فرم درون خطی (کاربرد پیشرفته)"
+
+#: admin/views/forms/client-language.php:31 admin/views/forms/modals.php:87
+#: admin/views/forms/modals.php:103
+msgid "Copy"
+msgstr "کپی"
+
+#: admin/views/forms/client-language.php:32
+msgid "Copied"
+msgstr "کپی شد"
+
+#: admin/views/forms/client-language.php:33
+msgid "All Actions"
+msgstr "همه اقدامات"
+
+#: admin/views/forms/client-language.php:34
+msgid "Integrations"
+msgstr "ادغام ها"
+
+#: admin/views/forms/client-language.php:35
+msgid "About Actions"
+msgstr "درباره اقدامات"
+
+#: admin/views/forms/client-language.php:36
+msgid "Actions triggered after form submit. You can add multiple actions"
+msgstr "اقدامات پس از ارسال فرم آغاز شد. شما می توانید چندین عمل اضافه کنید"
+
+#: admin/views/forms/client-language.php:37
+msgid "Want to change action settings"
+msgstr "می خواهید تنظیمات عملکرد را تغییر دهید"
+
+#: admin/views/forms/client-language.php:38
+msgid "Just click on action 😊"
+msgstr "فقط روی عمل کلیک کنید"
+
+#: admin/views/forms/client-language.php:39
+msgid "Click the switch on the right to activate action"
+msgstr "برای فعال کردن عملکرد ، روی سوییچ سمت راست کلیک کنید"
+
+#: admin/views/forms/client-language.php:40
+msgid "Add Action"
+msgstr "اقدام اضافه کنید"
+
+#: admin/views/forms/client-language.php:41
+msgid "Save to Database"
+msgstr "ذخیره در پایگاه داده"
+
+#: admin/views/forms/client-language.php:42
+msgid "test"
+msgstr "تست"
+
+#: admin/views/forms/client-language.php:43
+msgid "No action"
+msgstr "هیچ عملی"
+
+#: admin/views/forms/client-language.php:44
+msgid "All submissions will be saved to database"
+msgstr "همه موارد ارسالی در پایگاه داده ذخیره می شوند"
+
+#: admin/views/forms/client-language.php:45
+msgid "Table Name"
+msgstr "نام جدول"
+
+#: admin/views/forms/client-language.php:46
+msgid "Table name can not change"
+msgstr "نام جدول تغییر نمی کند"
+
+#: admin/views/forms/client-language.php:47
+msgid "Save IP"
+msgstr "ذخیره IP"
+
+#: admin/views/forms/client-language.php:48
+msgid "Visitor IP will be saved to database, and shown in submission detail"
+msgstr "IP بازدید کننده در پایگاه داده ذخیره می شود و با جزئیات ارسال نشان داده می شود"
+
+#: admin/views/forms/client-language.php:49
+msgid "Save User-Agent Info"
+msgstr "اطلاعات نماینده کاربر را ذخیره کنید"
+
+#: admin/views/forms/client-language.php:50
+msgid "Visitor User-Agent info like Browser, Operating System... will be saved to database, and shown in submission detail"
+msgstr "اطلاعات نماینده کاربر بازدید کننده مانند مرورگر ، سیستم عامل ... در پایگاه داده ذخیره می شود و با جزئیات ارسال نشان داده می شود"
+
+#: admin/views/forms/client-language.php:51
+msgid "Save Registered User Info"
+msgstr "اطلاعات کاربر ثبت شده را ذخیره کنید"
+
+#: admin/views/forms/client-language.php:52
+msgid "Save WordPress logged in user name and email address to database"
+msgstr "ورد پرس که نام کاربری و آدرس ایمیل وارد شده را در پایگاه داده ذخیره کنید"
+
+#: admin/views/forms/client-language.php:53
+msgid "Save"
+msgstr "صرفه جویی"
+
+#: admin/views/forms/client-language.php:54
+msgid "Delete Action"
+msgstr "اقدام را حذف کنید"
+
+#: admin/views/forms/client-language.php:55
+msgid "Send Email"
+msgstr "ایمیل بفرست"
+
+#: admin/views/forms/client-language.php:56
+msgid "All submissions will be emailed to email address"
+msgstr "همه موارد ارسالی به آدرس ایمیل ارسال می شوند"
+
+#: admin/views/forms/client-language.php:57
+msgid "Auto Responder"
+msgstr "پاسخگو خودکار"
+
+#: admin/views/forms/client-language.php:58
+msgid "An auto responder email will sent to user"
+msgstr "ایمیل پاسخ دهنده خودکار برای کاربر ارسال می شود"
+
+#: admin/views/forms/client-language.php:59
+msgid "See All Integrations"
+msgstr "مشاهده تمام ادغام ها"
+
+#: admin/views/forms/client-language.php:60
+#: admin/views/forms/client-language.php:61
+#: admin/views/forms/client-language.php:62
+msgid "You can add contacts to MailChimp lists"
+msgstr "می توانید مخاطبین را به لیست های MailChimp اضافه کنید"
+
+#: admin/views/forms/client-language.php:63
+msgid "You can add contacts to MailChimp audience list"
+msgstr "می توانید مخاطبین را به لیست مخاطبان MailChimp اضافه کنید"
+
+#: admin/views/forms/client-language.php:64
+msgid "You can add contacts to SendGrid marketing campaign contact"
+msgstr "می توانید مخاطبین را به مخاطبان کمپین بازاریابی SendGrid اضافه کنید"
+
+#: admin/views/forms/client-language.php:65
+msgid "You can add contacts to Get Response lists"
+msgstr "می توانید مخاطبین را به لیست های دریافت پاسخ اضافه کنید"
+
+#: admin/views/forms/client-language.php:66
+msgid "You can protect your form from spam"
+msgstr "می توانید فرم خود را در برابر هرزنامه محافظت کنید"
+
+#: admin/views/forms/client-language.php:67
+msgid "Add recaptcha to your form in build section by choosing \"Add Element\""
+msgstr "با انتخاب \"افزودن عنصر\" recaptcha را به بخش خود در فرم build اضافه کنید"
+
+#: admin/views/forms/client-language.php:68
+msgid "You can add google maps share location"
+msgstr "می توانید مکان اشتراک گذاری نقشه های گوگل را اضافه کنید"
+
+#: admin/views/forms/client-language.php:69
+msgid "Add google maps to your form in build section by choosing \"Add Element\""
+msgstr "با انتخاب \"افزودن عنصر\" نقشه های گوگل را در بخش ساخت به فرم خود اضافه کنید"
+
+#: admin/views/forms/client-language.php:70
+msgid "Please input sender email"
+msgstr "لطفا ایمیل فرستنده را وارد کنید"
+
+#: admin/views/forms/client-language.php:71
+msgid "API Key Invalid"
+msgstr "کلید API نامعتبر است"
+
+#: admin/views/forms/client-language.php:72
+msgid "Loading GetResponse"
+msgstr "در حال بارگیری GetResponse"
+
+#: admin/views/forms/client-language.php:73
+msgid "Your API key may be invalid"
+msgstr "ممکن است کلید API شما نامعتبر باشد"
+
+#: admin/views/forms/client-language.php:74
+msgid "Setup Settings"
+msgstr "تنظیمات نصب"
+
+#: admin/views/forms/client-language.php:75
+msgid "Sender"
+msgstr "فرستنده"
+
+#: admin/views/forms/client-language.php:76
+msgid "GetResponse Settings Required"
+msgstr "تنظیمات GetResponse لازم است"
+
+#: admin/views/forms/client-language.php:77
+msgid "Reply-To Email"
+msgstr "پاسخ به ایمیل"
+
+#: admin/views/forms/client-language.php:78
+msgid "Please input send to"
+msgstr "لطفا ورودی را به ارسال کنید"
+
+#: admin/views/forms/client-language.php:79
+msgid "Please input email"
+msgstr "لطفا ایمیل وارد کنید"
+
+#: admin/views/forms/client-language.php:80
+msgid "Email Settings Required"
+msgstr "تنظیمات ایمیل لازم است"
+
+#: admin/views/forms/client-language.php:81
+msgid "Please setup smtp settings in Settings"
+msgstr "لطفاً تنظیمات smtp را در تنظیمات تنظیم کنید"
+
+#: admin/views/forms/client-language.php:82
+msgid "Please setup sendgrid settings in Settings"
+msgstr "لطفاً تنظیمات sendgrid را در تنظیمات تنظیم کنید"
+
+#: admin/views/forms/client-language.php:83
+msgid "Please input email subject"
+msgstr "لطفاً موضوع ایمیل را وارد کنید"
+
+#: admin/views/forms/client-language.php:84
+msgid "Replies to the submission email will go here"
+msgstr "پاسخ به ایمیل ارسال به اینجا می رسد"
+
+#: admin/views/forms/client-language.php:85
+msgid "Email Subject"
+msgstr "موضوع نامه الکترونیکی"
+
+#: admin/views/forms/client-language.php:86
+msgid "Send To"
+msgstr "فرستادن به"
+
+#: admin/views/forms/client-language.php:88
+#: public/views/components/countryList.php:14
+#: public/views/components/sub-components/countries.php:6
+#: public/views/components/sub-components/countryCodes.php:2
+#: admin/views/forms/client-language.php:599
+#: public\views\components\sub-components\countryCodes.php:2
+msgid "Please Select"
+msgstr "لطفا انتخاب کنید"
+
+#: admin/views/forms/client-language.php:88
+msgid "Loading"
+msgstr "بارگذاری"
+
+#: admin/views/forms/client-language.php:89
+msgid "Loading MailChimp"
+msgstr "در حال بارگیری MailChimp"
+
+#: admin/views/forms/client-language.php:90
+msgid "Mail List"
+msgstr "لیست نامه"
+
+#: admin/views/forms/client-language.php:91
+msgid "Email Field"
+msgstr "قسمت ایمیل"
+
+#: admin/views/forms/client-language.php:92
+msgid "You have to select mail list"
+msgstr "شما باید لیست نامه را انتخاب کنید"
+
+#: admin/views/forms/client-language.php:93
+msgid "You have to email field"
+msgstr "شما باید فیلد را ایمیل کنید"
+
+#: admin/views/forms/client-language.php:94
+msgid "Getresponse Setting Required"
+msgstr "تنظیم پاسخ دهی الزامی است"
+
+#: admin/views/forms/client-language.php:95
+msgid "Please setup GetResponse settings in Settings"
+msgstr "لطفاً تنظیمات GetResponse را در تنظیمات تنظیم کنید"
+
+#: admin/views/forms/client-language.php:96
+msgid "First Name"
+msgstr "نام کوچک"
+
+#: admin/views/forms/client-language.php:97
+#: admin/views/forms/client-language.php:245
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: admin/views/forms/client-language.php:98
+msgid "Form Elements"
+msgstr "عناصر فرم"
+
+#: admin/views/forms/client-language.php:99
+msgid "To"
+msgstr "به"
+
+#: admin/views/forms/client-language.php:100
+msgid "Attach Uploaded Files"
+msgstr "فایلهای بارگذاری شده را پیوست کنید"
+
+#: admin/views/forms/client-language.php:101
+msgid "You can add multiple email address by splitting with comma (,)"
+msgstr "با تقسیم با ویرگول می توانید چندین آدرس ایمیل اضافه کنید (،)"
+
+#: admin/views/forms/client-language.php:102
+msgid "Advanced Settings"
+msgstr "تنظیمات پیشرفته"
+
+#: admin/views/forms/client-language.php:103
+msgid "Form Settings"
+msgstr "تنظیمات فرم"
+
+#: admin/views/forms/client-language.php:105
+msgid "Max 50 characters"
+msgstr "حداکثر 50 حرف"
+
+#: admin/views/forms/client-language.php:106
+msgid "Form Title"
+msgstr "عنوان فرم"
+
+#: admin/views/forms/client-language.php:107
+msgid "Visible"
+msgstr "قابل رویت"
+
+#: admin/views/forms/client-language.php:108
+msgid "Hidden"
+msgstr "پنهان"
+
+#: admin/views/forms/client-language.php:109
+msgid "Title"
+msgstr "عنوان"
+
+#: admin/views/forms/client-language.php:110
+msgid "Form Description"
+msgstr "توضیحات فرم"
+
+#: admin/views/forms/client-language.php:111
+msgid "Select Language"
+msgstr "زبان را انتخاب کنید"
+
+#: admin/views/forms/client-language.php:113
+msgid "In the active state, the form appears on the interface"
+msgstr "در حالت فعال ، فرم در رابط ظاهر می شود"
+
+#: admin/views/forms/client-language.php:115
+msgid "Conditional Logic"
+msgstr "منطق شرطی"
+
+#: admin/views/forms/client-language.php:115
+msgid "Add Rule"
+msgstr "قانون را اضافه کنید"
+
+#: admin/views/forms/client-language.php:116
+msgid "No rule in this form"
+msgstr "هیچ قانونی به این شکل وجود ندارد"
+
+#: admin/views/forms/client-language.php:117
+msgid "Advanced Mode"
+msgstr "حالت پیشرفته"
+
+#: admin/views/forms/client-language.php:118
+msgid "Rule"
+msgstr "قانون"
+
+#: admin/views/forms/client-language.php:119
+msgid "Delete Rule"
+msgstr "حذف قانون"
+
+#: admin/views/forms/client-language.php:120
+msgid "Conditions"
+msgstr "شرایط"
+
+#: admin/views/forms/client-language.php:121
+msgid "CONDITIONS"
+msgstr "شرایط"
+
+#: admin/views/forms/client-language.php:122
+msgid "ACTIONS"
+msgstr "اقدامات"
+
+#: admin/views/forms/client-language.php:123
+msgid "Any"
+msgstr "هر"
+
+#: admin/views/forms/client-language.php:124
+#: admin/views/submissions/filter.php:31
+msgid "All"
+msgstr "همه"
+
+#: admin/views/forms/client-language.php:125
+msgid "of the following conditions"
+msgstr "از شرایط زیر"
+
+#: admin/views/forms/client-language.php:126
+msgid "Delete Condition"
+msgstr "حذف شرط"
+
+#: admin/views/forms/client-language.php:127
+msgid "when form onload"
+msgstr "وقتی فرم بارگذاری می شود"
+
+#: admin/views/forms/client-language.php:128
+msgid "Add Condition"
+msgstr "اضافه کردن شرط"
+
+#: admin/views/forms/client-language.php:129
+msgid "Show"
+msgstr "نشان دادن"
+
+#: admin/views/forms/client-language.php:130
+msgid "Hide"
+msgstr "پنهان شدن"
+
+#: admin/views/forms/client-language.php:131
+msgid "Equals"
+msgstr "برابر است"
+
+#: admin/views/forms/client-language.php:132
+msgid "Not Equals"
+msgstr "برابر نیست"
+
+#: admin/views/forms/client-language.php:133
+msgid "Greater Than"
+msgstr "بزرگتر از"
+
+#: admin/views/forms/client-language.php:134
+msgid "Less Than"
+msgstr "کمتر از"
+
+#: admin/views/forms/client-language.php:135
+#: admin/views/forms/client-language.php:365
+msgid "Contains"
+msgstr "حاوی"
+
+#: admin/views/forms/client-language.php:136
+msgid "In List"
+msgstr "در لیست"
+
+#: admin/views/forms/client-language.php:137
+msgid "Not in List"
+msgstr "در لیست نیست"
+
+#: admin/views/forms/client-language.php:138 admin/views/forms/form-list.php:63
+#: admin/views/submissions/submissions.php:16
+msgid "Submissions"
+msgstr "ارسال ها"
+
+#: admin/views/forms/client-language.php:139
+msgid "Submission Limit"
+msgstr "حد تسلیم"
+
+#: admin/views/forms/client-language.php:140
+msgid "The form is displayed until the reach submission limit"
+msgstr "فرم تا حد تحویل رسیدن نمایش داده می شود"
+
+#: admin/views/forms/client-language.php:141
+msgid "Zero means you can get unlimited submissions"
+msgstr "صفر یعنی شما می توانید ارسال های نامحدود دریافت کنید"
+
+#: admin/views/forms/client-language.php:142
+msgid "Submission end of date"
+msgstr "تاریخ ارسال تاریخ"
+
+#: admin/views/forms/client-language.php:143
+msgid "The form is displayed until the selected date"
+msgstr "فرم تا تاریخ انتخاب شده نمایش داده می شود"
+
+#: admin/views/forms/client-language.php:144
+msgid "Select Date"
+msgstr ""
+
+#: admin/views/forms/client-language.php:145
+msgid "Privacy"
+msgstr "حریم خصوصی"
+
+#: admin/views/forms/client-language.php:146
+msgid "Enable GDPR compliance checkbox"
+msgstr "کادر تأیید GDPR را فعال کنید"
+
+#: admin/views/forms/client-language.php:147
+msgid "Yes"
+msgstr "آره"
+
+#: admin/views/forms/client-language.php:148
+msgid "No"
+msgstr "نه"
+
+#: admin/views/forms/client-language.php:149
+msgid "GDPR compliance message"
+msgstr "پیام انطباق با GDPR"
+
+#: admin/views/forms/client-language.php:150
+msgid "This text will be used for GDPR compliance checkbox"
+msgstr "از این متن برای کادر تأیید GDPR استفاده می شود"
+
+#: admin/views/forms/client-language.php:151
+msgid "Enable CSRF Token"
+msgstr "رمز CSRF را فعال کنید"
+
+#: admin/views/forms/client-language.php:152
+msgid "Privacy policy is provided by WordPress"
+msgstr "سیاست حفظ حریم خصوصی توسط وردپرس ارائه شده است"
+
+#: admin/views/forms/client-language.php:153
+msgid "You can change it"
+msgstr "می توانید آن را تغییر دهید"
+
+#: admin/views/forms/client-language.php:154
+#: public/views/components/sub-components/gdpr.php:8
+msgid "Privacy Policy"
+msgstr "سیاست حفظ حریم خصوصی"
+
+#: admin/views/forms/client-language.php:155
+msgid "Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform"
+msgstr "جعل درخواست از طریق سایت (همچنین به عنوان CSRF شناخته می شود) یک آسیب پذیری در امنیت وب است که به یک مهاجم اجازه می دهد تا کاربران را وادار به انجام کارهایی کند که قصد انجام آنها را ندارند"
+
+#: admin/views/forms/client-language.php:156
+msgid "Required Error"
+msgstr "خطای مورد نیاز"
+
+#: admin/views/forms/client-language.php:157
+msgid "Confirm Error"
+msgstr "تأیید خطا"
+
+#: admin/views/forms/client-language.php:158
+msgid "Next Button"
+msgstr "دکمه بعدی"
+
+#: public/views/form-view/page.php:27 admin/views/forms/client-language.php:159
+msgid "Previous Button"
+msgstr "دکمه قبلی"
+
+#: admin/views/forms/client-language.php:160
+#: public/views/components/fileUpload.php:23
+msgid "Max File Size"
+msgstr "حداکثر اندازه پرونده"
+
+#: admin/views/forms/client-language.php:161
+#: public/views/components/fileUpload.php:23
+msgid "Allowed File Types"
+msgstr "انواع پرونده مجاز"
+
+#: admin/views/forms/client-language.php:162
+msgid "File Extension Error"
+msgstr "خطای پسوند پرونده"
+
+#: admin/views/forms/client-language.php:163
+msgid "File size Error"
+msgstr "خطای حجم فایل"
+
+#: admin/views/forms/client-language.php:164
+msgid "Gdpr validation message"
+msgstr "پیام اعتبار Gdpr"
+
+#: admin/views/forms/client-language.php:165
+msgid "Do you want to delete this action"
+msgstr "آیا می خواهید این اقدام را حذف کنید"
+
+#: admin/views/forms/client-language.php:166
+msgid "When clicked the OK button, system will delete this action"
+msgstr "با کلیک بر روی دکمه تأیید ، سیستم این عملکرد را حذف می کند"
+
+#: admin/views/forms/client-language.php:167
+msgid "Selected action deleted"
+msgstr "اقدام انتخاب شده حذف شد"
+
+#: admin/views/forms/client-language.php:168
+msgid "General"
+msgstr "عمومی"
+
+#: admin/views/forms/client-language.php:169
+msgid "Translations"
+msgstr "ترجمه ها"
+
+#: admin/views/forms/client-language.php:170
+msgid "Width"
+msgstr "عرض"
+
+#: admin/views/forms/client-language.php:171
+msgid "Enter pixel. want to 100px, enter 100"
+msgstr "پیکسل را وارد کنید. می خواهید 100 پیکسل وارد کنید ، 100 را وارد کنید"
+
+#: admin/views/forms/client-language.php:172
+msgid "View Hide Icon"
+msgstr "نمایش مخفی کردن نماد"
+
+#: admin/views/forms/client-language.php:173
+msgid "Checkbox Label"
+msgstr "جعبه تأیید"
+
+#: admin/views/forms/client-language.php:174
+msgid "CLOCK SETTINGS"
+msgstr "تنظیمات ساعت"
+
+#: admin/views/forms/client-language.php:175
+msgid "hour"
+msgstr "ساعت"
+
+#: admin/views/forms/client-language.php:176
+msgid "Default Value"
+msgstr "مقدار پیش فرض"
+
+#: admin/views/forms/client-language.php:177
+msgid "Quater"
+msgstr "کواتر"
+
+#: admin/views/forms/client-language.php:178
+msgid "Thirty Percent"
+msgstr "سی درصد"
+
+#: admin/views/forms/client-language.php:179
+msgid "Half"
+msgstr "نیم"
+
+#: admin/views/forms/client-language.php:180
+msgid "Time Increment"
+msgstr "افزایش زمان"
+
+#: admin/views/forms/client-language.php:181
+msgid "Text Area"
+msgstr "متن منطقه"
+
+#: admin/views/forms/client-language.php:182
+msgid "Description"
+msgstr "شرح"
+
+#: admin/views/forms/client-language.php:183
+msgid "This theme was customized"
+msgstr "این موضوع سفارشی شده است"
+
+#: admin/views/forms/client-language.php:184
+msgid "You will lose changes if change theme"
+msgstr "در صورت تغییر موضوع ، تغییرات را از دست خواهید داد"
+
+#: admin/views/forms/client-language.php:185
+msgid "Are you sure"
+msgstr "مطمئنی"
+
+#: admin/views/forms/client-language.php:186
+msgid "Customize"
+msgstr "شخصی سازی"
+
+#: admin/views/forms/client-language.php:187
+msgid "Add Option"
+msgstr "گزینه را اضافه کنید"
+
+#: admin/views/forms/client-language.php:188
+msgid "Enable Values"
+msgstr "مقادیر را فعال کنید"
+
+#: admin/views/forms/client-language.php:189
+msgid "Move"
+msgstr "حرکت"
+
+#: admin/views/forms/client-language.php:190
+#: admin/views/submissions/submissions.php:217
+#: admin\views\notifications\notifications.php:131
+#: admin\views\forms\modals.php:207
+msgid "Delete"
+msgstr "حذف"
+
+#: admin/views/forms/client-language.php:191
+msgid "Duplicate"
+msgstr "کپی کنید"
+
+#: admin/views/forms/client-language.php:192
+msgid "Name"
+msgstr "نام"
+
+#: admin/views/forms/client-language.php:193
+msgid "Value"
+msgstr "مقدار"
+
+#: admin/views/forms/client-language.php:194
+msgid "First Label"
+msgstr "اولین برچسب"
+
+#: admin/views/forms/client-language.php:195
+msgid "Last Label"
+msgstr "آخرین برچسب"
+
+#: admin/views/forms/client-language.php:196
+msgid "Required"
+msgstr "ضروری"
+
+#: admin/views/forms/client-language.php:197
+msgid "Size"
+msgstr "اندازه"
+
+#: admin/views/forms/client-language.php:198
+msgid "Normal"
+msgstr "طبیعی"
+
+#: admin/views/forms/client-language.php:199
+msgid "Compact"
+msgstr "فشرده - جمع و جور"
+
+#: admin/views/forms/client-language.php:200
+msgid "Theme"
+msgstr "موضوع"
+
+#: admin/views/forms/client-language.php:201
+msgid "Light"
+msgstr "سبک"
+
+#: admin/views/forms/client-language.php:202
+msgid "Dark"
+msgstr "تاریک"
+
+#: admin/views/forms/client-language.php:203
+msgid "ReadOnly"
+msgstr "فقط خواندنی"
+
+#: admin/views/forms/client-language.php:204
+msgid "Star Count"
+msgstr "تعداد ستاره ها"
+
+#: admin/views/forms/client-language.php:205
+msgid "Min"
+msgstr "حداقل"
+
+#: admin/views/forms/client-language.php:206
+msgid "Max"
+msgstr "حداکثر"
+
+#: admin/views/forms/client-language.php:207
+msgid "Step"
+msgstr "گام"
+
+#: admin/views/forms/client-language.php:208
+msgid "Value Label"
+msgstr "برچسب ارزش"
+
+#: admin/views/forms/client-language.php:209
+msgid "Value Position"
+msgstr "موقعیت ارزش"
+
+#: admin/views/forms/client-language.php:210
+msgid "Inherit"
+msgstr "به ارث می برند"
+
+#: admin/views/forms/client-language.php:211
+msgid "Inline"
+msgstr "خطی"
+
+#: admin/views/forms/client-language.php:212
+msgid "Inline Left"
+msgstr "درون خطی"
+
+#: admin/views/forms/client-language.php:213
+msgid "Left"
+msgstr "ترک کرد"
+
+#: admin/views/forms/client-language.php:214
+msgid "Center"
+msgstr "مرکز"
+
+#: admin/views/forms/client-language.php:215
+msgid "Right"
+msgstr "درست"
+
+#: admin/views/forms/client-language.php:216
+msgid "PROGRESS BAR"
+msgstr "نوار پیشرفت"
+
+#: admin/views/forms/client-language.php:217
+msgid "Show Progress Bar"
+msgstr "نمایش نوار پیشرفت"
+
+#: admin/views/forms/client-language.php:218
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: admin/views/forms/client-language.php:219
+msgid "Striped"
+msgstr "راه راه"
+
+#: admin/views/forms/client-language.php:220
+msgid "Animate"
+msgstr "جان بخشیدن"
+
+#: admin/views/forms/client-language.php:221
+msgid "Position"
+msgstr "موقعیت"
+
+#: admin/views/forms/client-language.php:222
+msgid "Top"
+msgstr "بالا"
+
+#: admin/views/forms/client-language.php:223
+msgid "Bottom"
+msgstr "پایین"
+
+#: admin/views/forms/client-language.php:224
+msgid "Bar Color"
+msgstr "رنگ نوار"
+
+#: admin/views/forms/client-language.php:225
+msgid "Bar Background Color"
+msgstr "رنگ پس زمینه نوار"
+
+#: admin/views/forms/client-language.php:226
+msgid "Show Percent"
+msgstr "نمایش درصد"
+
+#: admin/views/forms/client-language.php:227
+msgid "Bar Height"
+msgstr "ارتفاع میله"
+
+#: admin/views/forms/client-language.php:228
+msgid "Placeholder"
+msgstr "محل نگهدارنده"
+
+#: admin/views/forms/client-language.php:229
+msgid "Control"
+msgstr "کنترل"
+
+#: admin/views/forms/client-language.php:230
+msgid "Check"
+msgstr "بررسی"
+
+#: admin/views/forms/client-language.php:231
+msgid "Uncheck"
+msgstr "علامت را بردارید"
+
+#: admin/views/forms/client-language.php:232
+msgid "Search Country"
+msgstr "کشور را جستجو کنید"
+
+#: admin/views/forms/client-language.php:233
+msgid "Show Page Title"
+msgstr "نمایش عنوان صفحه"
+
+#: admin/views/forms/client-language.php:234
+msgid "Page Title"
+msgstr "عنوان صفحه"
+
+#: admin/views/forms/client-language.php:235
+msgid "Page Subtitle"
+msgstr "عنوان صفحه"
+
+#: admin/views/forms/client-language.php:236
+msgid "Other"
+msgstr "دیگر"
+
+#: admin/views/forms/client-language.php:237
+msgid "Label"
+msgstr "برچسب"
+
+#: admin/views/forms/client-language.php:238
+msgid "Options Display"
+msgstr "گزینه های نمایش"
+
+#: admin/views/forms/client-language.php:239
+msgid "One Item per row"
+msgstr "در هر ردیف یک مورد"
+
+#: admin/views/forms/client-language.php:240
+msgid "Columns"
+msgstr "ستون ها"
+
+#: admin/views/forms/client-language.php:241
+msgid "Fields"
+msgstr "زمینه های"
+
+#: admin/views/forms/client-language.php:242
+msgid "PLACEHOLDERS"
+msgstr "دارندگان مکان"
+
+#: admin/views/forms/client-language.php:243
+msgid "Middle Name"
+msgstr "دارندگان مکان"
+
+#: admin/views/forms/client-language.php:244
+msgid "Middle"
+msgstr "وسط"
+
+#: admin/views/forms/client-language.php:246
+msgid "Surname"
+msgstr "نام خانوادگی"
+
+#: admin/views/forms/client-language.php:247
+msgid "Header Theme"
+msgstr "طرح زمینه سربرگ"
+
+#: admin/views/forms/client-language.php:248
+msgid "Style"
+msgstr "سبک"
+
+#: admin/views/forms/client-language.php:249
+msgid "Show Multi-Step Header"
+msgstr "نمایش سرصفحه چند مرحله ای"
+
+#: admin/views/forms/client-language.php:250
+msgid "Header Type"
+msgstr "نوع سربرگ"
+
+#: admin/views/forms/client-language.php:251
+msgid "Numbers"
+msgstr "شماره"
+
+#: admin/views/forms/client-language.php:252
+msgid "Icons"
+msgstr "نمادها"
+
+#: admin/views/forms/client-language.php:253
+msgid "Buttons Placement"
+msgstr "قرار دادن دکمه ها"
+
+#: admin/views/forms/client-language.php:254
+msgid "Both"
+msgstr "هر دو"
+
+#: admin/views/forms/client-language.php:255
+msgid "and"
+msgstr "و"
+
+#: admin/views/forms/client-language.php:256
+#: admin/views/submissions/submission-detail.php:33
+msgid "Back"
+msgstr "بازگشت"
+
+#: admin/views/forms/client-language.php:257
+msgid "Multi Step Settings"
+msgstr "تنظیمات چند مرحله ای"
+
+#: admin/views/forms/client-language.php:258
+msgid "STEP SETTINGS"
+msgstr "تنظیمات مرحله"
+
+#: admin/views/forms/client-language.php:259
+msgid "Limit Character Length"
+msgstr "محدود کردن طول نویسه"
+
+#: admin/views/forms/client-language.php:260
+msgid "Longitude"
+msgstr "عرض جغرافیایی"
+
+#: admin/views/forms/client-language.php:261
+msgid "Latitude"
+msgstr "عرض جغرافیایی"
+
+#: admin/views/forms/client-language.php:262
+msgid "Zoom"
+msgstr "بزرگنمایی"
+
+#: admin/views/forms/client-language.php:263
+msgid "Marker Text"
+msgstr "متن نشانگر"
+
+#: admin/views/forms/client-language.php:264
+#: admin/views/forms/client-language.php:489
+msgid "Select"
+msgstr "انتخاب کنید"
+
+#: admin/views/forms/client-language.php:265
+msgid "FIELD ID"
+msgstr "شناسه FIELD"
+
+#: admin/views/forms/client-language.php:266
+msgid "Also used for input names"
+msgstr "برای نام های ورودی نیز استفاده می شود"
+
+#: admin/views/forms/client-language.php:267
+msgid "Remove"
+msgstr "برداشتن"
+
+#: admin/views/forms/client-language.php:268
+msgid "Search Icon"
+msgstr "نماد جستجو"
+
+#: admin/views/forms/client-language.php:269
+msgid "Icon List"
+msgstr "فهرست نمادها"
+
+#: admin/views/forms/client-language.php:270
+msgid "Content"
+msgstr "محتوا"
+
+#: admin/views/forms/client-language.php:271
+msgid "Height"
+msgstr "قد"
+
+#: admin/views/forms/client-language.php:272
+msgid "Form Horizontal Padding"
+msgstr "بالشتک افقی را تشکیل دهید"
+
+#: admin/views/forms/client-language.php:273
+msgid "This value will be change padding left and right"
+msgstr "این مقدار تغییر بالشتک به چپ و راست خواهد بود"
+
+#: admin/views/forms/client-language.php:274
+msgid "Vertical Element Spacing"
+msgstr "فاصله عناصر عمودی"
+
+#: admin/views/forms/client-language.php:275
+msgid "LOADING SETTINGS"
+msgstr "تنظیمات بارگیری"
+
+#: admin/views/forms/client-language.php:276
+msgid "Inside Button"
+msgstr "داخل دکمه"
+
+#: admin/views/forms/client-language.php:277
+msgid "Whole Form"
+msgstr "فرم کامل"
+
+#: admin/views/forms/client-language.php:278
+msgid "Loading Bar"
+msgstr "نوار بارگیری"
+
+#: admin/views/forms/client-language.php:279
+msgid "Icon Color"
+msgstr "رنگ نماد"
+
+#: admin/views/forms/client-language.php:280
+msgid "Loading Text"
+msgstr "بارگیری متن"
+
+#: admin/views/forms/client-language.php:281
+msgid "Loading Icon"
+msgstr "در حال بارگیری نماد"
+
+#: admin/views/forms/client-language.php:282
+msgid "Font Family"
+msgstr "خانواده قلم"
+
+#: admin/views/forms/client-language.php:283
+msgid "System Font"
+msgstr "قلم سیستم"
+
+#: admin/views/forms/client-language.php:284
+msgid "File Size Limit"
+msgstr "محدودیت اندازه پرونده"
+
+#: admin/views/forms/client-language.php:285
+msgid "Kilobyte"
+msgstr "کیلوبایت"
+
+#: admin/views/forms/client-language.php:286
+msgid "Megabyte"
+msgstr "مگابایت"
+
+#: admin/views/forms/client-language.php:287
+msgid "Gigabyte"
+msgstr "گیگابایت"
+
+#: admin/views/forms/client-language.php:288
+msgid "Field Width"
+msgstr "عرض میدان"
+
+#: admin/views/forms/client-language.php:289
+msgid "Tiny"
+msgstr "ریز"
+
+#: admin/views/forms/client-language.php:290
+msgid "Small"
+msgstr "کم اهمیت"
+
+#: admin/views/forms/client-language.php:291
+msgid "Medium"
+msgstr "کم خاص"
+
+#: admin/views/forms/client-language.php:292
+msgid "Large"
+msgstr "بزرگ"
+
+#: admin/views/forms/client-language.php:293
+msgid "Default"
+msgstr "پیش فرض"
+
+#: admin/views/forms/client-language.php:294
+msgid "Field Size"
+msgstr "اندازه میدان"
+
+#: admin/views/forms/client-language.php:295
+msgid "Disabled"
+msgstr "معلول"
+
+#: admin/views/forms/client-language.php:296
+msgid "DESCRIPTION"
+msgstr "شرح"
+
+#: admin/views/forms/client-language.php:297
+msgid "Use get variables or post variables. Ex. {name} or {description}"
+msgstr "از متغیرهای دریافت یا متغیرهای ارسال استفاده کنید. سابق. {name} یا {description}"
+
+#: admin/views/forms/client-language.php:298
+msgid "Default Rating"
+msgstr "امتیاز پیش فرض"
+
+#: admin/views/forms/client-language.php:299
+msgid "Min-Max Date"
+msgstr "تاریخ حداکثر"
+
+#: admin/views/forms/client-language.php:300
+msgid "Date Format"
+msgstr "فرمت تاریخ"
+
+#: admin/views/forms/client-language.php:301
+msgid "Time Picker"
+msgstr "انتخاب زمان"
+
+#: admin/views/forms/client-language.php:302
+msgid "Minute"
+msgstr "دقیقه"
+
+#: admin/views/forms/client-language.php:303
+msgid "Minutes"
+msgstr "دقایق"
+
+#: admin/views/forms/client-language.php:304
+msgid "Time Interval"
+msgstr "فاصله زمانی"
+
+#: admin/views/forms/client-language.php:305
+msgid "COLORS"
+msgstr "رنگها"
+
+#: admin/views/forms/client-language.php:306
+msgid "Customize Theme"
+msgstr "تم را سفارشی کنید"
+
+#: admin/views/forms/client-language.php:307
+msgid "Primary Color"
+msgstr "رنگ اصلی"
+
+#: admin/views/forms/client-language.php:308
+msgid "Hover"
+msgstr "شناور"
+
+#: admin/views/forms/client-language.php:309
+msgid "Focus"
+msgstr "تمرکز"
+
+#: admin/views/forms/client-language.php:310
+msgid "Background Color"
+msgstr "رنگ پس زمینه"
+
+#: admin/views/forms/client-language.php:311
+#: admin/views/forms/client-language.php:328
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: admin/views/forms/client-language.php:312
+msgid "Border Color"
+msgstr "رنگ لبه"
+
+#: admin/views/forms/client-language.php:313
+msgid "Border Width"
+msgstr "عرض حاشیه"
+
+#: admin/views/forms/client-language.php:314
+msgid "Box Shadow"
+msgstr "سایه جعبه"
+
+#: admin/views/forms/client-language.php:315
+msgid "Placeholder Color"
+msgstr "نگهدارنده رنگ"
+
+#: admin/views/forms/client-language.php:316
+msgid "Border Style"
+msgstr "سبک حاشیه"
+
+#: admin/views/forms/client-language.php:317
+#: admin/views/settings/sub-pages/email-settings.php:52
+msgid "None"
+msgstr "هیچ یک"
+
+#: admin/views/forms/client-language.php:318
+msgid "Solid"
+msgstr "جامد"
+
+#: admin/views/forms/client-language.php:319
+msgid "Dotted"
+msgstr "خط چین"
+
+#: admin/views/forms/client-language.php:320
+msgid "Dashed"
+msgstr "نقطه چین"
+
+#: admin/views/forms/client-language.php:321
+msgid "Font Size"
+msgstr "اندازه فونت"
+
+#: admin/views/forms/client-language.php:322
+msgid "Font Weight"
+msgstr "وزن قلم"
+
+#: admin/views/forms/client-language.php:323
+msgid "Regular"
+msgstr "منظم"
+
+#: admin/views/forms/client-language.php:324
+msgid "Bold"
+msgstr "پررنگ"
+
+#: admin/views/forms/client-language.php:325
+msgid "Border Radius"
+msgstr "شعاع حاشیه"
+
+#: admin/views/forms/client-language.php:326
+msgid "Padding"
+msgstr "لایه گذاری"
+
+#: admin/views/forms/client-language.php:327
+msgid "Margin"
+msgstr "لبه"
+
+#: admin/views/forms/client-language.php:329
+msgid "BUTTON STYLES"
+msgstr "سبک های دکمه ای"
+
+#: admin/views/forms/client-language.php:331
+msgid "CUSTOM CSS"
+msgstr "CSS سفارشی"
+
+#: admin/views/forms/client-language.php:332
+msgid "Additional Css Classes"
+msgstr "کلاسهای اضافی Css"
+
+#: admin/views/forms/client-language.php:333
+msgid "Add Class"
+msgstr "کلاس اضافه کنید"
+
+#: admin/views/forms/client-language.php:334
+msgid "Show Confirm Input"
+msgstr "نمایش تأیید ورودی"
+
+#: admin/views/forms/client-language.php:335
+msgid "Color Scheme"
+msgstr "طرح رنگی"
+
+#: admin/views/forms/client-language.php:336
+msgid "Mark Color Plattte"
+msgstr "پالت رنگ را علامت گذاری کنید"
+
+#: admin/views/forms/client-language.php:337
+msgid "CheckBox Position"
+msgstr "موقعیت جعبه تأیید"
+
+#: admin/views/forms/client-language.php:338
+msgid "CheckBox Label Position"
+msgstr "موقعیت برچسب CheckBox"
+
+#: admin/views/forms/client-language.php:339
+msgid "Button Width"
+msgstr "عرض دکمه"
+
+#: admin/views/forms/client-language.php:340
+msgid "Auto (Default)"
+msgstr "خودکار (پیش فرض)"
+
+#: admin/views/forms/client-language.php:341
+msgid "Button Type"
+msgstr "نوع دکمه"
+
+#: admin/views/forms/client-language.php:342
+msgid "Theme Default"
+msgstr "قالب پیش فرض"
+
+#: admin/views/forms/client-language.php:343
+msgid "Secondary"
+msgstr "ثانوی"
+
+#: admin/views/forms/client-language.php:344
+msgid "Success"
+msgstr "موفقیت"
+
+#: admin/views/forms/client-language.php:345
+msgid "Danger"
+msgstr "خطر"
+
+#: admin/views/forms/client-language.php:346
+msgid "Warning"
+msgstr "هشدار"
+
+#: admin/views/forms/client-language.php:347
+msgid "Info"
+msgstr "اطلاعات"
+
+#: admin/views/forms/client-language.php:348
+msgid "Outline"
+msgstr "طرح کلی"
+
+#: admin/views/forms/client-language.php:349
+msgid "Button Size"
+msgstr "اندازه دکمه"
+
+#: admin/views/forms/client-language.php:350
+msgid "Button Position"
+msgstr "موقعیت دکمه"
+
+#: admin/views/forms/client-language.php:352
+msgid "Button Onclick or Href"
+msgstr "دکمه Onclick یا Href"
+
+#: admin/views/forms/client-language.php:353
+msgid "Link"
+msgstr "ارتباط دادن"
+
+#: admin/views/forms/client-language.php:354
+msgid "Link Forwarding"
+msgstr "حمل و نقل لینک"
+
+#: admin/views/forms/client-language.php:355
+msgid "This Tab"
+msgstr "این برگه"
+
+#: admin/views/forms/client-language.php:356
+msgid "New Tab"
+msgstr "برگه جدید"
+
+#: admin/views/forms/client-language.php:357
+msgid "Button Label"
+msgstr "برچسب دکمه"
+
+#: admin/views/forms/client-language.php:358
+msgid "Form Background Color"
+msgstr "رنگ پس زمینه فرم"
+
+#: admin/views/forms/client-language.php:359
+msgid "Address"
+msgstr "نشانی"
+
+#: admin/views/forms/client-language.php:360
+msgid "City"
+msgstr "شهر"
+
+#: admin/views/forms/client-language.php:361
+msgid "Country"
+msgstr "کشور"
+
+#: admin/views/forms/client-language.php:362
+msgid "State"
+msgstr "دولت"
+
+#: admin/views/forms/client-language.php:363
+msgid "Zip"
+msgstr "زیپ کنید"
+
+#: admin/views/forms/client-language.php:364
+msgid "Allow Whitespace"
+msgstr "فضای سفید را مجاز کنید"
+
+#: admin/views/forms/client-language.php:365
+msgid "Contain Items"
+msgstr "شامل موارد باشد"
+
+#: admin/views/forms/client-language.php:367
+msgid "Not Contains"
+msgstr "شامل نمی شود"
+
+#: admin/views/forms/client-language.php:368
+msgid "Error Message"
+msgstr "پیغام خطا"
+
+#: admin/views/forms/client-language.php:369
+msgid "You can use variable like {value}"
+msgstr "می توانید از متغیری مانند {value} استفاده کنید"
+
+#: admin/views/forms/client-language.php:370
+msgid "Value that user entered"
+msgstr "ارزشی که کاربر وارد کرده است"
+
+#: admin/views/forms/client-language.php:371
+msgid "Input Value"
+msgstr "مقدار ورودی"
+
+#: admin/views/forms/client-language.php:372
+msgid "Equal"
+msgstr "برابر"
+
+#: admin/views/forms/client-language.php:373
+msgid "VALIDATIONS"
+msgstr "اعتبارسنجی ها"
+
+#: admin/views/forms/client-language.php:374
+msgid "Add Validation"
+msgstr "اعتبار سنجی را اضافه کنید"
+
+#: admin/views/forms/client-language.php:375
+msgid "No Validation"
+msgstr "بدون اعتبار سنجی"
+
+#: admin/views/forms/client-language.php:376
+msgid "Validation Deleted"
+msgstr "اعتبار سنجی حذف شد"
+
+#: admin/views/forms/client-language.php:377
+msgid "List Items"
+msgstr "موارد را لیست کنید"
+
+#: admin/views/forms/client-language.php:378
+msgid "White List"
+msgstr "لیست سفید"
+
+#: admin/views/forms/client-language.php:379
+msgid "Black List"
+msgstr "لیست سیاه"
+
+#: admin/views/forms/client-language.php:380
+msgid "Select Color"
+msgstr "رنگ را انتخاب کنید"
+
+#: admin/views/forms/client-language.php:381
+msgid "All Form Data"
+msgstr "تمام داده های فرم"
+
+#: admin/views/forms/client-language.php:382
+msgid "Page"
+msgstr "صفحه"
+
+#: admin/views/forms/client-language.php:383
+msgid "Page Url"
+msgstr "آدرس اینترنتی صفحه"
+
+#: admin/views/forms/client-language.php:384
+msgid "User"
+msgstr "کاربر"
+
+#: admin/views/forms/client-language.php:385
+#: admin/views/submissions/submission-print.php:157
+msgid "User Name"
+msgstr "نام کاربری"
+
+#: admin/views/forms/client-language.php:386
+#: admin/views/submissions/submission-print.php:156
+msgid "User Id"
+msgstr "شناسه کاربری"
+
+#: admin/views/forms/client-language.php:387
+#: admin/views/submissions/submission-print.php:158
+msgid "User Email"
+msgstr "ایمیل کاربر"
+
+#: admin/views/forms/client-language.php:388
+#: admin/views/submissions/submission-print.php:169
+msgid "User Agent"
+msgstr "عامل کاربر"
+
+#: admin/views/forms/client-language.php:389
+msgid "Address Label"
+msgstr "برچسب آدرس"
+
+#: admin/views/forms/client-language.php:390
+msgid "City Label"
+msgstr "برچسب شهر"
+
+#: admin/views/forms/client-language.php:391
+msgid "Country Label"
+msgstr "برچسب کشور"
+
+#: admin/views/forms/client-language.php:392
+msgid "State Label"
+msgstr "برچسب ایالت"
+
+#: admin/views/forms/client-language.php:393
+msgid "Zip Label"
+msgstr "برچسب زیپ"
+
+#: admin/views/forms/client-language.php:394
+msgid "OTHER OPTION"
+msgstr "گزینه دیگر"
+
+#: admin/views/forms/client-language.php:395
+msgid "OPTIONS"
+msgstr "گزینه ها"
+
+#: admin/views/forms/client-language.php:396
+msgid "Input Icon"
+msgstr "نماد ورودی"
+
+#: admin/views/forms/client-language.php:397
+msgid "COUNTRY LIST"
+msgstr "لیست کشورها"
+
+#: admin/views/forms/client-language.php:398
+msgid "CONFIGURATIONS"
+msgstr "پیکربندی"
+
+#: admin/views/forms/client-language.php:399
+msgid "Validations"
+msgstr "اعتبارسنجی ها"
+
+#: admin/views/forms/client-language.php:400
+msgid "You have to set the api key"
+msgstr "شما باید کلید api را تنظیم کنید"
+
+#: admin/views/forms/client-language.php:401
+msgid "Settings Page"
+msgstr "صفحه تنظیمات"
+
+#: admin/views/forms/client-language.php:402
+msgid "MAP CONFIGURATION"
+msgstr "پیکربندی نقشه"
+
+#: admin/views/forms/client-language.php:403
+msgid "You can add maximum 4 columns"
+msgstr "حداکثر می توانید 4 ستون اضافه کنید"
+
+#: admin/views/forms/client-language.php:404
+msgid "You can not delete last column"
+msgstr "نمی توانید ستون آخر را حذف کنید"
+
+#: admin/views/forms/client-language.php:405
+msgid "Grid"
+msgstr "توری"
+
+#: admin/views/forms/client-language.php:406
+msgid "Group"
+msgstr "گروه"
+
+#: admin/views/forms/client-language.php:407
+msgid "Hidden Input"
+msgstr "ورودی پنهان"
+
+#: admin/views/forms/client-language.php:408
+msgid "Please add some elements"
+msgstr "لطفا برخی از عناصر را اضافه کنید"
+
+#: admin/views/forms/client-language.php:409
+msgid "Mr"
+msgstr "آقا"
+
+#: admin/views/forms/client-language.php:410
+msgid "Ms"
+msgstr "خانم"
+
+#: admin/views/forms/client-language.php:411
+msgid "Mrs"
+msgstr "خانم"
+
+#: admin/views/forms/client-language.php:412
+msgid "Miss"
+msgstr "از دست دادن"
+
+#: admin/views/forms/client-language.php:413
+msgid "CONFIRM"
+msgstr "تایید"
+
+#: admin/views/forms/client-language.php:414
+msgid "PHONE CODES"
+msgstr "کدهای تلفن"
+
+#: admin/views/forms/client-language.php:415
+msgid "You have to set V2 api key"
+msgstr "شما باید کلید api V2 را تنظیم کنید"
+
+#: admin/views/forms/client-language.php:416
+msgid "ReCaptcha V3 Active"
+msgstr "ReCaptcha V3 فعال است"
+
+#: admin/views/forms/client-language.php:417
+msgid "You have to set V3 api key"
+msgstr "شما باید کلید api V3 را تنظیم کنید"
+
+#: admin/views/forms/client-language.php:418
+msgid "Pen Color"
+msgstr "رنگ قلم"
+
+#: admin/views/forms/client-language.php:419
+msgid "Button Icon"
+msgstr "نماد دکمه"
+
+#: admin/views/forms/client-language.php:420
+msgid "Collapse"
+msgstr "سقوط - فروپاشی"
+
+#: admin/views/forms/client-language.php:421
+msgid "Are you sure delete this element"
+msgstr "آیا مطمئن هستید که این عنصر را حذف کنید"
+
+#: admin/views/forms/client-language.php:422
+msgid "Form Styles"
+msgstr "سبک های فرم"
+
+#: admin/views/forms/client-language.php:423
+msgid "INPUT STYLES"
+msgstr "سبک های ورودی"
+
+#: admin/views/forms/client-language.php:424
+msgid "LABEL STYLES"
+msgstr "سبک های برچسب"
+
+#: public/views/form-view/page.php:31 admin/views/forms/client-language.php:425
+msgid "Next"
+msgstr "بعد"
+
+#: public/views/form-view/page.php:27
+msgid "Previous"
+msgstr "قبل"
+
+#: admin\views\forms\client-language.php:426
+msgid "Page Settings"
+msgstr "تنظیمات صفحه"
+
+#: admin/views/forms/client-language.php:427
+msgid "Are you sure duplicate this page"
+msgstr "آیا مطمئن هستید که این صفحه را کپی می کنید"
+
+#: admin/views/forms/client-language.php:428
+msgid "Duplicate Page"
+msgstr "صفحه تکراری"
+
+#: admin/views/forms/client-language.php:429
+msgid "Delete Page"
+msgstr "صفحه را حذف کنید"
+
+#: admin/views/forms/client-language.php:430
+msgid "Add New Page"
+msgstr "افزودن صفحه جدید"
+
+#: admin/views/forms/client-language.php:432
+msgid "Single Line Text"
+msgstr "متن تک خط"
+
+#: admin/views/forms/client-language.php:432
+msgid "Paragraph Text"
+msgstr "متن پاراگراف"
+
+#: admin/views/forms/client-language.php:433
+msgid "E-Mail"
+msgstr "پست الکترونیک"
+
+#: admin/views/forms/client-language.php:434
+msgid "Select list"
+msgstr "لیست را انتخاب کنید"
+
+#: admin/views/forms/client-language.php:435
+msgid "Radio"
+msgstr "رادیو"
+
+#: admin/views/forms/client-language.php:436
+msgid "Check Box"
+msgstr "جعبه را علامت بزنید"
+
+#: admin/views/forms/client-language.php:437
+msgid "Phone"
+msgstr "تلفن"
+
+#: admin/views/forms/client-language.php:438
+msgid "Date Picker"
+msgstr "جمع کننده تاریخ"
+
+#: admin/views/forms/client-language.php:439
+msgid "File Upload"
+msgstr "بارگذاری پرونده"
+
+#: admin/views/forms/client-language.php:440
+msgid "Number Input"
+msgstr "ورودی شماره"
+
+#: admin/views/forms/client-language.php:441
+#: admin/views/settings/sub-pages/email-settings.php:35
+#: admin/views/settings/sub-pages/email-settings.php:37
+msgid "Password"
+msgstr "کلمه عبور"
+
+#: admin/views/forms/client-language.php:442
+msgid "Country List"
+msgstr "لیست کشورها"
+
+#: admin/views/forms/client-language.php:443
+msgid "Range Slider"
+msgstr "کشویی محدوده"
+
+#: admin/views/forms/client-language.php:444
+msgid "Custom Html"
+msgstr "HTML سفارشی"
+
+#: admin/views/forms/client-language.php:445
+msgid "Terms Of Use"
+msgstr "شرایط استفاده"
+
+#: admin/views/forms/client-language.php:446
+msgid "Button"
+msgstr "دکمه"
+
+#: admin/views/forms/client-language.php:447
+msgid "Submit Button"
+msgstr "دکمه ارسال"
+
+#: admin/views/forms/client-language.php:448
+msgid "Star Rating"
+msgstr "رتبه بندی ستاره ای"
+
+#: admin/views/forms/client-language.php:449
+msgid "Scale Rating"
+msgstr "رتبه بندی مقیاس"
+
+#: admin/views/forms/client-language.php:450
+msgid "Signature"
+msgstr "امضا"
+
+#: admin/views/forms/client-language.php:451
+msgid "Add Element"
+msgstr "عنصر را اضافه کنید"
+
+#: admin/views/forms/client-language.php:452
+msgid "Add Page"
+msgstr "اضافه کردن صفحه"
+
+#: admin/views/forms/client-language.php:453
+msgid "Hidden Page Title and Sub Title"
+msgstr "عنوان صفحه مخفی و عنوان فرعی"
+
+#: admin/views/forms/client-language.php:454
+msgid "Page Name"
+msgstr "نام صفحه"
+
+#: admin/views/forms/client-language.php:455
+msgid "Page Sub Title"
+msgstr "عنوان فرعی صفحه"
+
+#: admin/views/forms/client-language.php:456
+msgid "No form element in this page"
+msgstr "در این صفحه هیچ عنصری وجود ندارد"
+
+#: admin/views/forms/client-language.php:457
+msgid "Action after submit form"
+msgstr "اقدام پس از ارسال فرم"
+
+#: admin/views/forms/client-language.php:458
+msgid "Show Thank You Page"
+msgstr "نمایش صفحه تشکر"
+
+#: admin/views/forms/client-language.php:459
+msgid "Redirect Page to a spesific url"
+msgstr "صفحه را به یک آدرس اینترنتی خاص هدایت کنید"
+
+#: admin/views/forms/client-language.php:460
+msgid "Stay on form and show only success message"
+msgstr "در فرم باقی بمانید و فقط پیام موفقیت را نشان دهید"
+
+#: admin/views/forms/client-language.php:461
+msgid "You can use variables below"
+msgstr "در زیر می توانید از متغیرها استفاده کنید"
+
+#: admin/views/forms/client-language.php:462
+msgid "Redirect Url"
+msgstr "تغییر مسیر آدرس"
+
+#: admin/views/forms/client-language.php:463
+msgid "Success Message"
+msgstr "پیام موفقیت آمیز"
+
+#: admin/views/forms/client-language.php:464
+msgid "Redirect Url like"
+msgstr "تغییر مسیر آدرس مانند"
+
+#: admin/views/forms/client-language.php:465
+msgid "Step Title"
+msgstr "عنوان مرحله"
+
+#: admin/views/forms/client-language.php:466
+msgid "Step Description"
+msgstr "شرح مرحله"
+
+#: admin/views/forms/client-language.php:467
+msgid "Hidden Multi-Step Header"
+msgstr "سرصفحه چند مرحله ای پنهان"
+
+#: admin\views\forms\client-language.php:468
+msgid "reCaptcha"
+msgstr "reCaptcha"
+
+#: admin/views/forms/client-language.php:470
+msgid "Next Button Icon"
+msgstr "نماد دکمه بعدی"
+
+#: admin/views/forms/client-language.php:471
+msgid "Back Button Icon"
+msgstr "نماد دکمه برگشت"
+
+#: admin/views/forms/client-language.php:472
+msgid "Next / Preview Buttons Placement"
+msgstr "قرار دادن دکمه های بعدی / پیش نمایش"
+
+#: admin/views/forms/client-language.php:473
+msgid "Both Right"
+msgstr "هر دو درسته"
+
+#: admin/views/forms/client-language.php:474
+msgid "Both Left"
+msgstr "هر دو چپ"
+
+#: admin/views/forms/client-language.php:475
+msgid "Left and Right"
+msgstr "چپ و راست"
+
+#: admin/views/forms/client-language.php:476
+msgid "Label Icon"
+msgstr "نماد برچسب"
+
+#: admin/views/forms/client-language.php:477
+msgid "Uncheck All"
+msgstr "همه موارد را از حالت انتخاب خارج کنید"
+
+#: admin/views/forms/client-language.php:478
+msgid "Form Limit Message"
+msgstr "پیام محدود را فرم دهید"
+
+#: admin/views/forms/client-language.php:479
+msgid "Show / Hide"
+msgstr "نمایش / پنهان کردن"
+
+#: admin/views/forms/client-language.php:481
+msgid "You have to select file"
+msgstr "شما باید پرونده را انتخاب کنید"
+
+#: admin/views/forms/client-language.php:484
+msgid "You must enter purchase code if you want use this feature"
+msgstr "اگر می خواهید از این ویژگی استفاده کنید باید کد خرید را وارد کنید"
+
+#: admin/views/forms/client-language.php:485
+msgid "Generate Pdf"
+msgstr "تولید پی دی اف"
+
+#: admin/views/forms/client-language.php:486
+msgid "Generates pdf file with submission data"
+msgstr "فایل pdf را با داده های ارسال ایجاد می کند"
+
+#: admin/views/forms/client-language.php:487
+msgid "Limit of Select Count"
+msgstr "محدودیت تعداد انتخاب"
+
+#: admin/views/forms/client-language.php:488
+msgid "Condition Type"
+msgstr "نوع شرایط"
+
+#: admin/views/forms/client-language.php:489
+msgid "Browsing Media"
+msgstr "در حال مرور رسانه ها"
+
+#: admin/views/forms/client-language.php:491
+msgid "Upload Image"
+msgstr "بارگذاری تصویر"
+
+#: admin/views/forms/client-language.php:492
+msgid "Header"
+msgstr "سرتیتر"
+
+#: admin/views/forms/client-language.php:493
+msgid "Footer"
+msgstr "پاورقی"
+
+#: admin/views/forms/client-language.php:494
+msgid "Logo"
+msgstr "لوگو"
+
+#: admin/views/forms/client-language.php:495
+msgid "This section is located above the pdf"
+msgstr "این بخش در بالای pdf واقع شده است"
+
+#: admin/views/forms/client-language.php:496
+msgid "This section is located below the pdf"
+msgstr "این بخش در زیر pdf قرار دارد"
+
+#: admin/views/forms/client-language.php:497
+msgid "Attach Submission PDF"
+msgstr "پیوست PDF را پیوست کنید"
+
+#: admin/views/forms/client-language.php:498
+msgid "Image"
+msgstr "تصویر"
+
+#: admin/views/forms/client-language.php:499
+msgid "ATTRIBUTES"
+msgstr "ویژگی های"
+
+#: admin/views/forms/client-language.php:500
+msgid "Pdf Error"
+msgstr "خطای پی دی اف"
+
+#: admin/views/forms/client-language.php:501
+msgid "You have to add Generate Pdf action"
+msgstr "شما باید اقدام تولید Pdf را اضافه کنید"
+
+#: admin/views/forms/client-language.php:520
+msgid "Purchase code is not valid"
+msgstr "کد خرید معتبر نیست"
+
+#: admin/views/forms/client-language.php:521
+msgid "License Error"
+msgstr "خطای مجوز"
+
+#: admin/views/forms/client-language.php:522
+msgid "theme is pro feature"
+msgstr "تم از ویژگی های حرفه ای است"
+
+#: admin/views/forms/client-language.php:523
+msgid "Theme customize is pro feature"
+msgstr "تم سفارشی از ویژگی های حرفه ای است"
+
+#: admin/views/forms/client-language.php:524
+msgid "Trigger events on Google Analytics with custom events"
+msgstr "رویدادها را در Google Analytics با رویدادهای سفارشی راه اندازی کنید"
+
+#: admin/views/forms/client-language.php:525
+msgid "Type"
+msgstr "نوع"
+
+#: admin/views/forms/client-language.php:526
+msgid "Event"
+msgstr "رویداد"
+
+#: admin/views/forms/client-language.php:527
+msgid "Event Action"
+msgstr "اکشن رویداد"
+
+#: admin/views/forms/client-language.php:528
+msgid "Event Label"
+msgstr "برچسب رویداد"
+
+#: admin/views/forms/client-language.php:529
+msgid "Event Value"
+msgstr "ارزش رویداد"
+
+#: admin/views/forms/client-language.php:530
+msgid "PROPERTIES"
+msgstr "املاک"
+
+#: admin/views/forms/client-language.php:531
+msgid "You can add variable like {Email|email_1_1}"
+msgstr "می توانید متغیری مانند {Email | email_1_1} اضافه کنید"
+
+#: admin/views/forms/form-list.php:2 admin/views/forms/left-nav.php:2
+msgid "My Forms"
+msgstr "فرم های من"
+
+#: admin/views/forms/form-list.php:6
+msgid "Search Forms"
+msgstr "فرم های جستجو"
+
+#: admin/views/forms/form-list.php:15 admin/views/forms/modals.php:11
+#: admin/views/forms/modals.php:28
+msgid "Create Form"
+msgstr "فرم ایجاد کنید"
+
+#: admin/views/forms/form-list.php:20 admin/views/importexport/form-list.php:3
+msgid "There is no form"
+msgstr "هیچ شکلی وجود ندارد"
+
+#: admin/views/forms/form-list.php:35
+msgid "Edit Form"
+msgstr "فرم را ویرایش کنید"
+
+#: admin/views/forms/form-list.php:39
+msgid "View Submissions"
+msgstr "ارسالی ها را مشاهده کنید"
+
+#: admin/views/forms/form-list.php:43
+msgid "Copy ShortCode"
+msgstr "کپی کوتاه"
+
+#: admin/views/forms/form-list.php:47
+msgid "Clone Form"
+msgstr "فرم کلون"
+
+#: admin/views/forms/form-list.php:52 admin/views/forms/modals.php:44
+msgid "Archive Form"
+msgstr "فرم بایگانی"
+
+#: admin/views/forms/form-list.php:67
+msgid "Views"
+msgstr "بازدیدها"
+
+#: admin/views/forms/form-list.php:72
+msgid "Conversion"
+msgstr "تبدیل"
+
+#: admin/views/forms/left-nav.php:7
+msgid "Active Forms"
+msgstr "فرمهای فعال"
+
+#: admin/views/forms/left-nav.php:12
+msgid "Inactive Forms"
+msgstr "فرمهای غیرفعال"
+
+#: admin/views/forms/left-nav.php:17
+msgid "Archived Forms"
+msgstr "فرم های بایگانی شده"
+
+#: admin/views/forms/modals.php:12 admin/views/forms/modals.php:73
+#: admin/views/forms/modals.php:124
+msgid "Close"
+msgstr "بستن"
+
+#: admin/views/forms/modals.php:20 admin/views/forms/modals.php:132
+msgid "e.g Contact Form"
+msgstr "به عنوان مثال فرم تماس"
+
+#: admin/views/forms/modals.php:21 admin/views/forms/modals.php:133
+msgid "Max 50 chars"
+msgstr "حداکثر 50 کاراکتر"
+
+#: admin/views/forms/modals.php:47
+#, php-format
+msgid "Are you sure to archive %s"
+msgstr "آیا مطمئن هستید که %s را بایگانی می کنید"
+
+#: admin/views/forms/modals.php:52 admin/views/submissions/submissions.php:214
+msgid "Cancel"
+msgstr "لغو"
+
+#: admin/views/forms/modals.php:56
+msgid "Archive"
+msgstr "بایگانی"
+
+#: admin/views/forms/modals.php:72
+msgid "Short Code"
+msgstr "کد کوتاه"
+
+#: admin/views/forms/modals.php:92
+msgid "Don't know how to use shortcodes? Learn <a target='_blank' href='https://www.wpbeginner.com/wp-tutorials/how-to-add-a-shortcode-in-wordpress/'>here</a>"
+msgstr "نمی دانید چگونه از کد کوتاه استفاده کنید؟ <a target='_blank' href='https://www.wpbeginner.com/wp-tutorials/how-to-add-a-shortcode-in-wordpress/'> اینجا را بیاموزید </a>"
+
+#: admin/views/forms/modals.php:138
+msgid "Choose File"
+msgstr "انتخاب فایل"
+
+#: admin/views/importexport/left-nav.php:4
+msgid "Import"
+msgstr "وارد كردن"
+
+#: admin/views/importexport/left-nav.php:9
+msgid "Export"
+msgstr "صادرات"
+
+#: admin/views/settings/settings.php:35
+#: admin/views/settings/sub-pages/email-settings.php:13
+msgid "SendGrid"
+msgstr "SendGrid"
+
+#: admin/views/settings/settings.php:41
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: admin/views/settings/settings.php:47
+msgid "GetResponse"
+msgstr "GetResponse"
+
+#: admin/views/settings/settings.php:59
+msgid "Recaptcha"
+msgstr "Recaptcha"
+
+#: admin/views/submissions/filter.php:4
+msgid "Filter Submissions"
+msgstr "موارد ارسالی فیلتر شده"
+
+#: admin/views/submissions/filter.php:17
+msgid "Form"
+msgstr "فرم"
+
+#: admin/views/submissions/filter.php:20
+msgid "All Forms"
+msgstr "همه فرمها"
+
+#: admin/views/submissions/filter.php:29
+msgid "Status"
+msgstr "وضعیت"
+
+#: admin/views/submissions/filter.php:32
+msgid "Read"
+msgstr "خواندن"
+
+#: admin/views/submissions/filter.php:33
+msgid "Unread"
+msgstr "خوانده نشده"
+
+#: admin/views/submissions/filter.php:37
+msgid "Search"
+msgstr "جستجو کردن"
+
+#: admin/views/submissions/filter.php:38
+msgid "Query"
+msgstr "پرس و جو"
+
+#: admin/views/submissions/filter.php:42
+msgid "Filter"
+msgstr "فیلتر"
+
+#: admin/views/submissions/submission-detail.php:23
+msgid "Submission Detail"
+msgstr "جزئیات ارسال"
+
+#: admin/views/submissions/submission-detail.php:37
+msgid "FORM"
+msgstr "فرم"
+
+#: admin/views/submissions/submission-detail.php:41
+msgid "DATE"
+msgstr "تاریخ"
+
+#: admin/views/submissions/submission-detail.php:45
+#: admin/views/submissions/submission-print.php:153
+msgid "IP"
+msgstr "IP"
+
+#: admin/views/submissions/submission-detail.php:49
+msgid "USER ID"
+msgstr "شناسه کاربری"
+
+#: admin/views/submissions/submission-detail.php:53
+msgid "USER NAME"
+msgstr "نام کاربری"
+
+#: admin/views/submissions/submission-detail.php:57
+msgid "USER EMAIL"
+msgstr "ایمیل کاربر"
+
+#: admin/views/submissions/submission-detail.php:61
+msgid "BROWSER"
+msgstr "مرورگر"
+
+#: admin/views/submissions/submission-detail.php:65
+msgid "DEVICE"
+msgstr "دستگاه"
+
+#: admin/views/submissions/submission-detail.php:69
+#: admin/views/submissions/submission-print.php:165
+msgid "OS"
+msgstr "سیستم عامل"
+
+#: admin/views/submissions/submission-detail.php:73
+#: admin/views/submissions/submission-print.php:168
+msgid "GDPR"
+msgstr "GDPR"
+
+#: admin/views/submissions/submission-detail.php:77
+msgid "USER AGENT"
+msgstr "عامل کاربر"
+
+#: admin/views/submissions/submission-detail.php:87
+#: admin/views/submissions/submission-print.php:94
+msgid "Submission Data"
+msgstr "ارسال اطلاعات"
+
+#: admin/views/submissions/submission-detail.php:88
+#: admin/views/submissions/submission-print.php:95
+msgid "Submission Id"
+msgstr "شناسه ارسال"
+
+#: admin/views/submissions/submission-detail.php:92
+#: admin/views/submissions/submissions.php:31
+msgid "Print"
+msgstr "چاپ"
+
+#: admin/views/submissions/submission-detail.php:96
+#: admin/views/submissions/submissions.php:35
+msgid "Export to Excel"
+msgstr "صادرات به اکسل"
+
+#: admin/views/submissions/submission-detail.php:109
+#: admin/views/submissions/submission-print.php:108
+msgid "Csrf Token"
+msgstr "نشانه Csrf"
+
+#: admin/views/submissions/submission-detail.php:112
+#: admin/views/submissions/submission-print.php:111
+msgid "Referer"
+msgstr "مراجعه کننده"
+
+#: admin/views/submissions/submission-detail.php:141
+#: admin/views/submissions/submission-print.php:141
+msgid "Coordinates"
+msgstr "مختصات"
+
+#: admin/views/submissions/submission-print.php:152
+msgid "Date"
+msgstr "تاریخ"
+
+#: admin/views/submissions/submission-print.php:163
+msgid "Browser"
+msgstr "مرورگر"
+
+#: admin/views/submissions/submission-print.php:164
+msgid "Device"
+msgstr "دستگاه"
+
+#: admin/views/submissions/submissions-print.php:115
+#: admin/views/submissions/submissions.php:186
+#, php-format
+msgid "Total %d Submissions"
+msgstr "مجموع%dارسال"
+
+#: admin/views/submissions/submissions-print.php:117
+#: admin/views/submissions/submissions.php:191
+msgid "There is no submission now."
+msgstr "اکنون تسلیمی وجود ندارد."
+
+#: admin/views/submissions/submissions.php:183
+msgid "Select Action"
+msgstr "اقدام را انتخاب کنید"
+
+#: admin/views/submissions/submissions.php:184
+msgid "Delete Selected"
+msgstr "انتخاب شده را پاک کن"
+
+#: admin/views/submissions/submissions.php:208
+msgid "Delete Submissions"
+msgstr "موارد ارسالی را حذف کنید"
+
+#: admin\views\notifications\notifications.php:125
+#: admin/views/submissions/submissions.php:211
+#, php-format
+msgid "Are you sure to delete %s submission(s)?"
+msgstr "آیا مطمئن هستید که%sارسال ها را حذف می کنید؟"
+
+#: admin/views/templates/left-nav.php:4
+#: admin/views/templates/template-list.php:2
+msgid "Templates"
+msgstr "الگوها"
+
+#: admin/views/templates/template-list.php:6
+msgid "There is no template"
+msgstr "هیچ الگویی وجود ندارد"
+
+#: admin/views/templates/template-list.php:18
+msgid "Import Template"
+msgstr "الگوی واردات"
+
+#: public/views/components/reCaptcha.php:30
+msgid "You have to set recaptcha api keys"
+msgstr "شما باید کلیدهای api recaptcha را تنظیم کنید"
+
+#: admin/views/settings/sub-pages/email-settings.php:1
+msgid "Email Settings"
+msgstr "تنظیمات ایمیل"
+
+#: admin/views/settings/sub-pages/email-settings.php:6
+msgid "Select E-Mail System"
+msgstr "سیستم پست الکترونیکی را انتخاب کنید"
+
+#: admin/views/settings/sub-pages/email-settings.php:9
+msgid "SMTP"
+msgstr "SMTP"
+
+#: admin/views/settings/sub-pages/email-settings.php:19
+msgid "Smtp Settings"
+msgstr "تنظیمات Smtp"
+
+#: admin/views/settings/sub-pages/email-settings.php:23
+msgid "Server Address"
+msgstr "آدرس سرور"
+
+#: admin/views/settings/sub-pages/email-settings.php:29
+msgid "Email Address"
+msgstr "آدرس ایمیل"
+
+#: admin/views/settings/sub-pages/email-settings.php:41
+#: admin/views/settings/sub-pages/email-settings.php:43
+msgid "Port"
+msgstr "درگاه"
+
+#: admin/views/settings/sub-pages/email-settings.php:44
+msgid "usually 587 (alternatives: 465 and 25)"
+msgstr "معمولاً 587 (گزینه های 465 و 25)"
+
+#: admin/views/settings/sub-pages/email-settings.php:48
+msgid "Encryption"
+msgstr "رمزگذاری"
+
+#: admin/views/settings/sub-pages/email-settings.php:56
+msgid "SSL"
+msgstr "SSL"
+
+#: admin/views/settings/sub-pages/email-settings.php:60
+msgid "TLS"
+msgstr "TLS"
+
+#: admin/views/settings/sub-pages/email-settings.php:67
+#: admin/views/settings/sub-pages/email-settings.php:94
+#: admin/views/settings/sub-pages/getresponse-settings.php:23
+#: admin/views/settings/sub-pages/google-settings.php:24
+#: admin/views/settings/sub-pages/mailchimp-settings.php:23
+#: admin/views/settings/sub-pages/recaptcha-settings.php:42
+#: admin/views/settings/sub-pages/sendgrid-settings.php:15
+msgid "Save Settings"
+msgstr "تنظیمات را ذخیره کن"
+
+#: admin/views/settings/sub-pages/email-settings.php:73
+#: admin/views/settings/sub-pages/sendgrid-settings.php:2
+msgid "SendGrid Settings"
+msgstr "تنظیمات SendGrid"
+
+#: admin/views/settings/sub-pages/email-settings.php:77
+#: admin/views/settings/sub-pages/sendgrid-settings.php:6
+msgid "SendGrid Api Key"
+msgstr "SendGrid Api Key"
+
+#: admin/views/settings/sub-pages/email-settings.php:79
+msgid "SenGrid Api Key"
+msgstr "SendGrid Api Key"
+
+#: admin/views/settings/sub-pages/email-settings.php:83
+#: admin/views/settings/sub-pages/email-settings.php:85
+msgid "Verify From Mail Address"
+msgstr "تأیید از آدرس ایمیل"
+
+#: admin/views/settings/sub-pages/email-settings.php:87
+msgid "Your submission emails are sent via this email address. This mail address is your sendgrid verified address."
+msgstr "ایمیل های ارسالی شما از طریق این آدرس ایمیل ارسال می شود. این آدرس پست الکترونیکی آدرس تأیید شده شبکه شما است."
+
+#: admin/views/settings/sub-pages/getresponse-settings.php:2
+msgid "GetResponse Settings"
+msgstr "تنظیمات GetResponse"
+
+#: admin/views/settings/sub-pages/getresponse-settings.php:6
+msgid "GetResponse Api Key"
+msgstr "کلید API GetResponse"
+
+#: admin/views/settings/sub-pages/getresponse-settings.php:8
+#: admin/views/settings/sub-pages/google-settings.php:8
+#: admin/views/settings/sub-pages/mailchimp-settings.php:8
+#: admin/views/settings/sub-pages/sendgrid-settings.php:7
+msgid "Api Key"
+msgstr "کلید ای پی ای"
+
+#: admin/views/settings/sub-pages/getresponse-settings.php:12
+#: admin/views/settings/sub-pages/mailchimp-settings.php:12
+#: admin/views/settings/sub-pages/recaptcha-settings.php:11
+#: admin/views/settings/sub-pages/recaptcha-settings.php:28
+#: admin/views/settings/sub-pages/sendgrid-settings.php:9
+#, php-format
+msgid "You can get api key from <a href='%s' target='_blank'>here</a>"
+msgstr "می توانید کلید api را از <a href='%s' target='_blank'> اینجا </a> دریافت کنید"
+
+#: admin/views/settings/sub-pages/google-settings.php:2
+msgid "Google Map"
+msgstr "نقشه گوگل"
+
+#: admin/views/settings/sub-pages/google-settings.php:6
+msgid "Google Api Key"
+msgstr "Google Api Key"
+
+#: admin/views/settings/sub-pages/google-settings.php:12
+#, php-format
+msgid "You can get api key from <a href='%s' target='_blank'>Google Map</a>"
+msgstr "می توانید کلید api را از <a href='%s' target='_blank'> Google Map </a> دریافت کنید"
+
+#: admin/views/settings/sub-pages/license.php:1
+msgid "License Activation"
+msgstr "فعال سازی مجوز"
+
+#: admin/views/settings/sub-pages/mailchimp-settings.php:2
+msgid "MailChimp Settings"
+msgstr "تنظیمات MailChimp"
+
+#: admin/views/settings/sub-pages/mailchimp-settings.php:6
+msgid "MailChimp Api Key"
+msgstr "کلید MailChimp Api"
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:2
+msgid "Recaptcha Settings"
+msgstr "تنظیمات Recaptcha"
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:6
+msgid "v2 Site Key"
+msgstr "v2 کلید سایت"
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:7
+msgid "Recapthca V2 Site Key"
+msgstr "کلید سایت Recapthca V2"
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:19
+msgid "v2 Secret Key"
+msgstr "v2 رمز مخفی"
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:20
+msgid "Recapthca V2 Secret Key"
+msgstr "کلید مخفی Recapthca V2"
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:23
+msgid "v3 Site Key"
+msgstr "v3 کلید سایت"
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:24
+msgid "Recapthca V3 Site Key"
+msgstr "کلید سایت Recapthca V3"
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:36
+msgid "v3 Secret Key"
+msgstr "v3 رمز مخفی"
+
+#: admin/views/settings/sub-pages/recaptcha-settings.php:37
+msgid "Recapthca V3 Secret Key"
+msgstr "کلید مخفی Recapthca V3"
+
+#. Name of the plugin
+#. admin\class-magicform-dashboard.php:62
+#. admin\class-magicform-dashboard.php:72
+msgid "Magic Form"
+msgstr "فرم جادویی"
+
+#. Description of the plugin
+msgid "With the Magic Form Form Builder that has lots of features, you can create forms in a fast and easy way."
+msgstr "با استفاده از Magic Form Form Builder که دارای ویژگی های بسیاری است ، می توانید فرم ها را به روشی سریع و آسان ایجاد کنید."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://magicform3.com"
+msgstr "https://magicform3.com"
+
+#. Author of the plugin
+msgid "MagicLabs"
+msgstr "MagicLabs"
+
+#. admin\class-magicform-dashboard.php:78
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#. admin\class-magicform-forms.php:64
+msgid "Forms"
+msgstr "فرم ها"
+
+#. admin\class-magicform-importexport.php:63
+msgid "Import / Export"
+msgstr "درون ریزی / برون بری"
+
+#: admin/views/submissions/submissions.php:36
+msgid "Exports"
+msgstr "خروجی"
+
+#: admin\views\settings\sub-pages\email-settings.php:153
+#: admin\views\settings\sub-pages\email-settings.php:161
+msgid "Email Test"
+msgstr "تست ایمیل"
+
+#: admin\views\settings\settings.php:26
+msgid "Free"
+msgstr "آزاد"
+
+#: admin\views\components\upgrade.php:3
+msgid "You have to purchase license to use pro features"
+msgstr "برای استفاده از ویژگی های حرفه ای باید مجوز را خریداری کنید"
+
+#: admin\views\components\upgrade.php:5
+msgid "Strong support that solves your problem."
+msgstr "پشتیبانی قوی که مشکل شما را حل می کند."
+
+#: admin\views\components\upgrade.php:6
+msgid "Get updates lifetime"
+msgstr "به روزرسانی ها را در طول عمر دریافت کنید"
+
+#: admin\views\components\upgrade.php:7
+msgid "Actions: Form to Post, Generate PDF, Auto Responder and smart integrations"
+msgstr "اقدامات: فرم برای ارسال ، ایجاد PDF ، پاسخگوی خودکار و ادغام های هوشمند"
+
+#: admin\views\components\upgrade.php:8
+msgid "Unlimited forms"
+msgstr "فرم های نامحدود"
+
+#: admin\views\components\upgrade.php:9
+msgid "All themes and customize form design"
+msgstr "همه مضامین و طراحی فرم را سفارشی کنید"
+
+#: admin\views\components\upgrade.php:10
+msgid "Pre-defined Templates"
+msgstr "الگوهای از پیش تعریف شده"
+
+#: admin\views\components\upgrade.php:12
+msgid "We offer our Pro version includes our best features for only $25. Upgrade today and increase your customer interactions."
+msgstr "ما ارائه می دهیم نسخه Pro ما شامل بهترین ویژگی های ما فقط با 25 دلار است. امروز ارتقا دهید و تعاملات مشتری خود را افزایش دهید."
+
+#: admin\views\components\upgrade.php:15
+msgid "Purchase Plugin (Only $25)"
+msgstr "پلاگین خرید (فقط 25 دلار)"
+
+#: admin\views\dashboard\license.php:42
+msgid "MagicForm Version: "
+msgstr "فرم جادویی نسخه: "
+
+#: includes/class-magicform-validation.php:23
+#: includes/class-magicform-validation.php:49
+#: includes/class-magicform-validation.php:74
+#: public/class-magicform-viewer.php:170
+#: admin\views\forms\empty-form-data.php:334
+msgid "This field is required"
+msgstr "این فیلد الزامی است"
+
+#: admin/views/forms/form-list.php:52 admin\views\forms\modals.php:195
+msgid "Delete Form"
+msgstr "پاک کردن فرم"
+
+#: admin\views\forms\modals.php:48
+msgid "If you delete the form, the submissions of the form will also be deleted."
+msgstr "اگر فرم را حذف کنید ، موارد ارسالی فرم نیز حذف می شود."
+
+#: admin\views\forms\modals.php:198
+msgid "Are you sure to delete %s If you delete the form, the submissions of the form will also be deleted."
+msgstr "آیا مطمئن هستید که s% را حذف کنید اگر فرم را حذف کنید ، موارد ارسالی فرم نیز حذف می شود."
+
+#: admin\views\forms\empty-form-data.php:430
+msgid "Form Submitted Successfully!"
+msgstr "فرم با موفقیت ثبت شد!"
+
+#: admin\views\forms\client-language.php:577
+msgid "Thumbnail Selector"
+msgstr "انتخاب تصویر بند انگشتی"
+
+#: admin\views\forms\client-language.php:612
+msgid "Product List"
+msgstr "لیست محصولات"
+
+#: admin\views\forms\client-language.php:613
+msgid "Products"
+msgstr "محصولات"
+
+#: admin\views\forms\client-language.php:562
+msgid "Multi Select"
+msgstr "چند انتخاب"
+
+#: admin\views\forms\client-language.php:597
+msgid "Calculate Field"
+msgstr "فیلد محاسبه"
+
+#: admin\views\forms\client-language.php:596
+msgid "Calculate Values"
+msgstr "محاسبه مقادیر"
+
+#: admin\views\forms\client-language.php:557
+msgid "Heading"
+msgstr "سربرگ"
+
+#: admin\views\forms\client-language.php:555
+msgid "Heading Size"
+msgstr "اندازه سربرگ"
+
+#: admin\views\forms\client-language.php:556
+msgid "ELEMENTS"
+msgstr "المان ها"
+
+#: admin/views/settings/settings.php:53
+#: admin/views/forms/client-language.php:469
+msgid "Google Maps"
+msgstr "نقشه های گوگل"

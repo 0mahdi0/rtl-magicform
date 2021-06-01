@@ -189,6 +189,7 @@ class MagicForm_Viewer
         wp_enqueue_style("font-awesome-5");
         wp_enqueue_style("jquery-datepicker");
         wp_enqueue_style("magicform-general");
+        wp_enqueue_style("magicform-rtl");
         wp_enqueue_style("magicform-theme");       
     }
 

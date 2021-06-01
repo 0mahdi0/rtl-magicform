@@ -28,6 +28,7 @@ class MagicForm_Public
 		wp_register_style('font-awesome-5', MAGICFORM_URL . 'assets/css/font-awesome.css', array(), "5.2.0");
 		wp_register_style('jquery-datepicker', MAGICFORM_URL . 'assets/css/datepicker.min.css', array(), $this->version);
 		wp_register_style('magicform-general', MAGICFORM_URL . 'assets/css/general.css', array(), $this->version);
+		wp_register_style('magicform-rtl', MAGICFORM_URL . 'assets/css/assets-rtl.css', array(), $this->version);
 		wp_register_style('magicform-theme', MAGICFORM_URL . 'assets/css/theme.css', array(), $this->version);
 	}
 

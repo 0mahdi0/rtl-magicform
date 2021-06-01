@@ -39,6 +39,6 @@
             </p>
             <?php require_once(MAGICFORM_PATH."/admin/views/components/upgrade.php"); ?>
         <?php endif; ?>
-        <p style="padding-top:10px;"> <?php echo esc_html("MagicForm Version: ","magicform") . MAGICFORM_VERSION;  ?> </p>
+        <p style="padding-top:10px;"> <?php echo esc_html_e("MagicForm Version: ","magicform") . MAGICFORM_VERSION;  ?> </p>
     </div>
 </div>

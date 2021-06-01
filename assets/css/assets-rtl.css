@@ -1,0 +1,89 @@
+/*
+tagirat mahdi hosseini
+*/
+
+@font-face {
+    font-family: 'Yekan';
+    src: url(fonts/Yekan.eot);
+    src: url(fonts/Yekan.eot?#iefix) format('embedded-opentype'),
+         url(fonts/Yekan.woff) format('woff'),
+         url(fonts/Yekan.woff2) format('woff2');
+}  
+
+body{
+    overflow-x: hidden ;
+}
+h1,h2,h4,h3,h5,h6,p,label,form,select,ul,li,a,button,input,.mf-p-20,div,small,option,label{
+    font-family: Yekan , Arial, Helvetica, sans-serif !important;
+}
+.mf-page,.mf-page-0.ant-col,.mf-part-item,.mf-formElementsContainer,.card,.mf-forms-left,.dropdown-item,.mf-admin-form-control,.mf-settings-left,.mf-settings-right,.wp-submenu,.wp-menu-name,.mf-forms-leftant-radio-group,.ant-radio-group-outline,.mf-formElementsContainerInner h6{
+    text-align: right ;
+}
+.ql-toolbar,.ql-snow,.mf-card-body,.mf-p-20,.mf-forms-right{
+    text-align: center ;
+}
+#wpbody-content{
+    margin-right: -10px ;
+}
+.mf-mainContainer{
+    display: contents ;
+    margin-left: 0px ;
+}
+.mf-forms-right-header{
+    display:flow-root ;
+}
+.mf-forms-right-header h1{
+    float: right ;
+}
+.mf-forms-search{
+    float: left ;
+}
+.mf-forms-left-nav>li>ul{
+    padding-right:25px ; 
+    padding-left:0px ; 
+}
+.ant-radio-group,.ant-radio-group-outline{
+    display: block;
+}
+.fa,.fa-search,.form-control-feedback{
+    left: 40px;
+    margin: 2px;
+}
+.mf-form-name{
+    width: 100px ;
+}
+.mf-header-right button{
+    margin: 0px 5px;
+}
+.mf-input-group{
+    direction:ltr;
+}
+select.mf-form-control,select.mf-phone-element{
+    direction:rtl;
+}
+.mf-custom-file{
+    text-align: left;
+    direction: ltr;
+}
+.mf-formElementOptions,.ant-input-suffix{
+    right: auto;
+    left: 10px;
+}
+.ant-btn,.ant-btn-primary{
+    margin-left: 50px;
+}
+.mf-back-btn,.mf-back-btn{
+    margin: 10px 0px;
+}
+input[type=text],input[type=textarea]{
+    direction: rtl;
+}
+.mf-button-placement-leftright{
+    display: block;
+}
+.mf-custom-file-label{
+    text-align: left;
+}
+.mf-submit-btn>i{
+    margin-left:6px;
+}

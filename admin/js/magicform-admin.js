@@ -160,11 +160,11 @@
 
 			if(action == "magicform_delete_form"){
 				$(".mf-delete-message").css("display","block")
-				$(".modal-title").text('Delete Form')
-				$(".mf-delete-form-btn").html("<i class='fas fa-trash-alt'></i> Delete")
-				modal.find("b.formName").text("delete "+itemName);
+				$(".modal-title").text('پاک کردن فرم')
+				$(".mf-delete-form-btn").html("<i class='fas fa-trash-alt'></i> حذف")
+				modal.find("b.formName").text(""+itemName);
 			}else 
-				modal.find("b.formName").text("archive "+itemName);
+				modal.find("b.formName").text(""+itemName);
 				
 			var formId = $(this).closest(".mf-card").attr("data-id");
 			modal.find("input[name='action']").val(action);
@@ -201,7 +201,7 @@
 		 */
 		$("#mf-copy-shortcode1, #mf-copy-shortcode2").on("click", function () {
 			copyInput($(this).attr("data-href"));
-			$(this).html('<i class="fas fa-copy"></i>Copied!');
+			$(this).html('<i class="fas fa-copy"></i>کپی شد!');
 		});
 
 		/**
